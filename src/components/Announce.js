@@ -24,6 +24,7 @@ const Floating = styled.div`
   }
 
   @media (min-width: 1024px) {
+    z-index: 0;
     position: absolute;
     margin-top: -150px;
     -webkit-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
