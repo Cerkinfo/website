@@ -60,7 +60,7 @@ export default () => {
             </Center>
           </Col>
           <Col lg="6" >
-            <Map style={{zIndex: 0, width: "100%", height: "400px"}} center={position} zoom={16} zoomControl={false} attributionControl={false}>
+            <Map style={{zIndex: -1, width: "100%", height: "400px"}} center={position} zoom={16} zoomControl={false} attributionControl={false}>
               <TileLayer
                 url="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
               />
