@@ -4,7 +4,7 @@ import {
   Card,
   CardTitle,
   CardText,
-  CardImg,
+  CardLink,
   Container,
   Row,
   Col,
@@ -24,7 +24,6 @@ const Floating = styled.div`
   }
 
   @media (min-width: 1024px) {
-    z-index: 0;
     position: absolute;
     margin-top: -150px;
     -webkit-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
@@ -54,7 +53,9 @@ export default () => {
             </Col>
           </Row>
         </CardText>
-        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSe_QIafRtkXuzgfCBS_rVDQD2_rYNfM3dV2KDE-ScZzbH4A3g/viewform?fbclid=IwAR2IFavPX5S6HiWxhvzqY8Ft0xeg31sXrYpcL_CPhP_zQLnUGSTLS6QY_9E">Plus d'infos</Button>
+        <CardLink href="https://docs.google.com/forms/d/e/1FAIpQLSe_QIafRtkXuzgfCBS_rVDQD2_rYNfM3dV2KDE-ScZzbH4A3g/viewform?fbclid=IwAR2IFavPX5S6HiWxhvzqY8Ft0xeg31sXrYpcL_CPhP_zQLnUGSTLS6QY_9E" >
+          <Button block>Plus d'infos</Button>
+        </CardLink>
       </Card>
     </Floating>
   );
