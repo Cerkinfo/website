@@ -17,6 +17,7 @@
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
     "react-headroom": "^3.0.0",
+    "react-helmet": "^5.2.1",
     "react-leaflet": "^2.6.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.1",
@@ -26,6 +27,7 @@
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "processmd": "^4.5.0",
     "sass-extract": "^2.1.0",

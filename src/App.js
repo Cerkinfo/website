@@ -9,7 +9,10 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
+import Helmet from 'react-helmet';
 import { Landing, NotFound, Post } from './routes';
+
+import SETTINGS from './settings.json';
 
 import './assets/css/style.scss';
 import "slick-carousel/slick/slick.css";
@@ -20,10 +23,18 @@ library.add(fas)
 
 const theme = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!./assets/css/variables.scss'); // eslint-disable-line
 
-function App() {
+export default () => {
   return (
     <Router>
       <ThemeProvider theme={theme}>
+
+        <Helmet>
+          <title>{SETTINGS.title}</title>
+          <meta
+            name="description"
+            content={SETTINGS.description}
+          />
+        </Helmet>
           <Navbar/>
 
           <Switch>
@@ -43,5 +54,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;

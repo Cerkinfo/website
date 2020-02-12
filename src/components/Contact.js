@@ -8,7 +8,8 @@ import {
   Row
 } from 'reactstrap';
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import SETTINGS from '../settings.json';
 
 const Center = styled.div`
   padding-top: 50px;
@@ -37,7 +38,7 @@ export default () => {
           <Col lg="6">
             <Container style={{padding:"50px 150px"}}>
               <Form
-                action="https://formspree.io/myywndvq"
+                action={SETTINGS.contact.formspree}
                 method="POST"
               >
                 <FormGroup>
