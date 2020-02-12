@@ -52,7 +52,7 @@ export default () => {
                 <FormGroup>
                   <Input type="textarea" name="text" id="contentArea" placeholder="Contenu"/>
                 </FormGroup>
-                <Button>Envoyer</Button>
+                <Button block>Envoyer</Button>
               </Form>
             </Container>
           </Col>
