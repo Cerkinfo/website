@@ -1,0 +1,37 @@
+/* @import 'colors.scss'; */
+@import "variables.scss";
+@import "~bootstrap/scss/bootstrap";
+@import "theme.scss";
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+}
+
+.color-main {
+  background-color: #6BBDAC;
+}
+
+.color-normal {
+  background-color: #f0cf85;
+}
+
+.color-lightest {
+  background-color: #e7f0c3;
+}
+
+.font-lightest {
+  color: #e7f0c3;
+}
+
+.color-light {
+  background-color: #a4d4ae;
+}
+
+.headroom--unfixed {
+  background-color: #6BBDAC;
+}
+
+.headroom--pinned {
+  background-color: #f0cf85;
+}
