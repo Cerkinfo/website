@@ -1,17 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Announce, Contact, Footer, Landing, Navbar, Map } from "./components/";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import './assets/css/style.scss';
+import { Footer, Navbar } from './components/';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 import { ThemeProvider } from 'styled-components';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
-} from "react-router-dom";
+  Route
+} from 'react-router-dom';
+import { Landing, NotFound, Post } from './routes';
+
+import './assets/css/style.scss';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 library.add(fab)
 library.add(fas)
@@ -25,12 +27,15 @@ function App() {
           <Navbar/>
 
           <Switch>
-            <Route path="/">
+            <Route path="/" exact>
               <Landing/>
-              <Announce/>
-              <Map/>
-              <Contact />
             </Route>
+            <Route path="/posts/:article">
+              <Post/>
+            </Route>
+            <Route>
+              <NotFound/>
+            </Route >
           </Switch>
 
           <Footer/>

@@ -30,12 +30,10 @@ export default () => {
         id="navbar-main"
       >
         <NavbarBrand to="/">
-          <Link to="/">
-            <img
-              alt="Réseau Atlas"
-              src={require("../assets/img/logo.png")}
-            />
-          </Link>
+          <img
+            alt="Réseau Atlas"
+            src={require("../assets/img/logo.png")}
+          />
         </NavbarBrand>
         <button className="navbar-toggler" id="navbar_global">
           <span className="navbar-toggler-icon" />
