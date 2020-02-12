@@ -33,5 +33,6 @@
 }
 
 .headroom--pinned {
+  z-index: 2 !important;
   background-color: $secondary;
 }
