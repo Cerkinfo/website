@@ -1,15 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { H3, Text } from './Titles.js';
 import {
   Button,
-  Card,
-  CardTitle,
-  CardText,
   Container,
   Col,
-  Form, FormGroup, Label, Input, FormText,
+  Form, FormGroup, Input,
   Row
-} from "reactstrap";
+} from 'reactstrap';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
