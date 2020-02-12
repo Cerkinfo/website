@@ -14,6 +14,7 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet'
 import L from 'leaflet';
+import SETTINGS from '../settings.json';
 import 'leaflet/dist/leaflet.css'
 
 const Center = styled.div`
@@ -29,8 +30,6 @@ L.Icon.Default.mergeOptions({
     iconUrl: require('leaflet/dist/images/marker-icon.png'),
     shadowUrl: require('leaflet/dist/images/marker-shadow.png')
 });
-
-const position = [50.8768091, 4.340018]
 
 const MarkerIcon =L.icon({
     iconUrl: require('../assets/img/marker.png'),
@@ -52,19 +51,27 @@ export default () => {
               <H3><FontAwesomeIcon icon={['fas', 'map-marker-alt']} /> Où nous trouver </H3>
               <Text>
                 <ul style={{listStyleType: "none"}}>
-                  <li><FontAwesomeIcon icon={['fas', 'address-book']} /> <a href="https://www.facebook.com/1Boiler/">Le Boiler</a></li>
-                  <li><FontAwesomeIcon icon={['fas', 'road']} /> 299 Rue Léopold 1er</li>
-                  <li><FontAwesomeIcon icon={['fas', 'street-view']} /> 1020 Leaken</li>
+                  {SETTINGS.location.entreprise ?
+                    <li>
+                      <FontAwesomeIcon icon={['fas', 'address-book']} />
+                      {SETTINGS.location.entreprise.url
+                        ? <a href={SETTINGS.location.entreprise.url}> {SETTINGS.location.entreprise.name}</a>
+                        : SETTINGS.location.entreprise}
+                    </li>
+                    : null
+                  }
+                  <li><FontAwesomeIcon icon={['fas', 'road']} />{` ${SETTINGS.location.number} ${SETTINGS.location.street}`}</li>
+                  <li><FontAwesomeIcon icon={['fas', 'street-view']} />{` ${SETTINGS.location.CP} ${SETTINGS.location.town}`}</li>
                 </ul>
               </Text>
             </Center>
           </Col>
           <Col lg="6" >
-            <Map style={{zIndex: -1, width: "100%", height: "400px"}} center={position} zoom={16} zoomControl={false} attributionControl={false}>
+            <Map style={{zIndex: -1, width: "100%", height: "400px"}} center={SETTINGS.location.position} zoom={16} zoomControl={false} attributionControl={false}>
               <TileLayer
                 url="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
               />
-              <Marker position={position} icon={MarkerIcon}/>
+              <Marker position={SETTINGS.location.position} icon={MarkerIcon}/>
             </Map>
           </Col>
         </Row>

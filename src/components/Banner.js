@@ -10,6 +10,7 @@ import {
   Row
 } from "reactstrap";
 import styled from 'styled-components';
+import SETTINGS from '../settings.json';
 
 const Skew = styled.img`
   width: 100%;
@@ -44,12 +45,12 @@ export default () => {
       <div className="h-100">
         <Row className="align-items-center">
           <Col lg="6">
-              <H1>Réseau Atlas</H1>
-              <Subtitle className="text-center">A.S.B.L</Subtitle>
+              <H1>{SETTINGS.title}</H1>
+              <Subtitle className="text-center">{SETTINGS.subtitle}</Subtitle>
           </Col>
           <Col lg="6">
             <Gradient>
-              <Skew src={require("../assets/img/atlas.png")}/>
+              <Skew src={require("../assets/img/banner.png")}/>
             </Gradient>
           </Col>
         </Row>
