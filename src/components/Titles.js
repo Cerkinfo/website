@@ -9,7 +9,6 @@ export const H1 = styled.h1`
 `;
 
 export const Subtitle = styled.h6`
-  text-align: center;
   font-family: 'Fjalla One', sans-serif;
   font-weight: 200;
   opacity: 0.7;

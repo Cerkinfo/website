@@ -13,7 +13,6 @@
     "bootstrap": "^4.4.1",
     "headroom.js": "^0.11.0",
     "leaflet": "^1.6.0",
-    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
@@ -21,15 +20,23 @@
     "react-leaflet": "^2.6.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.1",
+    "react-slick": "^0.25.2",
     "reactstrap": "^8.4.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "processmd": "^4.5.0",
     "sass-extract": "^2.1.0",
     "sass-extract-js": "^0.4.0",
-    "sass-extract-loader": "^1.1.0",
-    "styled-components": "^5.0.1"
+    "sass-extract-loader": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:content": "processmd src/assets/posts/**/*.md --outputDir src/assets/posts --preview 110 --summaryOutput src/assets/posts/summary.json",
+    "build:content:watch": "processmd src/assets/posts/**/*.md --outputDir src/assets/posts --preview 110 --summaryOutput src/assets/posts/summary.json --watch",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -45,7 +45,7 @@ export default () => {
         <Row className="align-items-center">
           <Col lg="6">
               <H1>Réseau Atlas</H1>
-              <Subtitle>A.S.B.L</Subtitle>
+              <Subtitle className="text-center">A.S.B.L</Subtitle>
           </Col>
           <Col lg="6">
             <Gradient>
