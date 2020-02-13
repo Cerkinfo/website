@@ -43,7 +43,7 @@ const MarkerIcon =L.icon({
 
 export default () => {
   return (
-    <section className="section section-lg section-shaped pg-250">
+    <section className="section section-lg section-shaped pg-250" id="#map">
       <div className="h-100">
         <Row className="align-items-center">
           <Col lg="6">

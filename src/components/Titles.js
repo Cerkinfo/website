@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 export const H1 = styled.h1`
@@ -32,3 +31,34 @@ export const H3 = styled.h3`
   font-family: 'Fjalla One', sans-serif;
   font-weight: 400;
 `;
+
+export const Center = styled.div`
+  padding-top: 50px;
+  width: 50%;
+  margin: auto;
+`;
+
+export const Quote = styled.p`
+  padding: 0 15px;
+  text-align: right;
+  font-family: 'Fjalla One', sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  color: ${props => props.theme.dark};
+  background-color: ${props => props.theme.primary};
+
+  &:before {
+    content: "«";
+  }
+
+  &:after {
+    content: "»";
+  }
+`;
+
+export const Cite = styled.p`
+  text-align: right;
+  font-family: 'Fjalla One', sans-serif;
+  font-style: normal;
+  color: ${props => props.theme.primary};
+`

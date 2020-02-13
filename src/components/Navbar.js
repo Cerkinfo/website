@@ -38,6 +38,12 @@ export default () => {
         <UncontrolledCollapse navbar toggler="#navbar_global">
           <Nav className="align-items-lg-center ml-lg-auto" navbar>
             <NavItem>
+              <NavLink href="/#what">Quoi ?</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/#project">Projet</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="/#contact">Contacter</NavLink>
             </NavItem>
             <NavItem>
