@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import { Banner, Announce, Contact, Map, Preview } from '../components/';
 import { H3, Text, Center, Quote, Cite } from '../components/Titles';
 import { Overlay, Floating } from '../components/Images';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { filterPosts } from '../utils/content'
 import {
   Button,
@@ -150,7 +151,28 @@ export default () => {
         </div>
       </section>
       <Map/>
-      <Contact />
+      <section className="section section-lg section-shaped pg-250 color-main">
+        <div id="contact" className="h-100">
+          <Row className="align-items-center">
+            <Col lg="6">
+              <Center>
+                <H3><FontAwesomeIcon icon={['fas', 'address-card']} /> Nous contacter</H3>
+                <Text>
+                  Pour toutes vos questions sur ..
+                  <ul style={{listStyleType: "none"}}>
+                    <li>le Réseaux Atlas <FontAwesomeIcon icon={['fas', 'globe']} /></li>
+                    <li>Les commandes <FontAwesomeIcon icon={['fas', 'truck']} /></li>
+                    <li>Nos projets <FontAwesomeIcon icon={['fas', 'file']} /></li>
+                  </ul>
+                </Text>
+              </Center>
+            </Col>
+            <Col lg="6">
+              <Contact />
+            </Col>
+          </Row>
+        </div>
+      </section>
       <Slider infinite={true} slidesToShow={posts.length > 3 ? 3 : posts.length} dots={true}>
         {posts.map(post => <Preview {...post}/>)}
       </Slider>
