@@ -5,7 +5,7 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import SETTINGS from '../settings.json';
+import SETTINGS from '../settings';
 
 export default () => (
   <>

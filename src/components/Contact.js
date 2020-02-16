@@ -9,7 +9,7 @@ import {
 } from 'reactstrap';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import SETTINGS from '../settings.json';
+import SETTINGS from '../settings';
 
 const Center = styled.div`
   padding-top: 50px;

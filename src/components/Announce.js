@@ -20,7 +20,7 @@ const Floating = styled.div`
   margin-left: calc(50% - 190px);
 
   @media (max-width: 1024px) {
-    margin-top: 50px;
+    margin: 50px 0;
   }
 
   @media (min-width: 1024px) {
