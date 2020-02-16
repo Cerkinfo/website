@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { H3, Text } from './Titles.js';
+import { Center, H3, Text } from './Titles.js';
 import {
   Button,
   Card,
@@ -16,12 +16,6 @@ import { Map, Marker, Popup, TileLayer } from 'react-leaflet'
 import L from 'leaflet';
 import SETTINGS from '../settings';
 import 'leaflet/dist/leaflet.css'
-
-const Center = styled.div`
-  padding-top: 50px;
-  width: 25%;
-  margin: auto;
-`;
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -67,7 +61,7 @@ export default () => {
             </Center>
           </Col>
           <Col lg="6" >
-            <Map style={{zIndex: -1, width: "100%", height: "400px"}} center={SETTINGS.location.position} zoom={16} zoomControl={false} attributionControl={false}>
+            <Map style={{zIndex: -1, width: "100%", height: "500px"}} center={SETTINGS.location.position} zoom={16} zoomControl={false} attributionControl={false}>
               <TileLayer
                 url="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
               />
