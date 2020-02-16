@@ -12,7 +12,7 @@ import {
 import Helmet from 'react-helmet';
 import { Landing, NotFound, Post } from './routes';
 
-import SETTINGS from './settings.json';
+import SETTINGS from './settings';
 
 import './assets/css/style.scss';
 import "slick-carousel/slick/slick.css";
@@ -27,29 +27,24 @@ export default () => {
   return (
     <Router>
       <ThemeProvider theme={theme}>
-
         <Helmet>
-          <title>{SETTINGS.title}</title>
-          <meta
-            name="description"
-            content={SETTINGS.description}
-          />
         </Helmet>
-          <Navbar/>
 
-          <Switch>
-            <Route path="/" exact>
-              <Landing/>
-            </Route>
-            <Route path="/posts/:article">
-              <Post/>
-            </Route>
-            <Route>
-              <NotFound/>
-            </Route >
-          </Switch>
+        <Navbar/>
 
-          <Footer/>
+        <Switch>
+          <Route path="/" exact>
+            <Landing/>
+          </Route>
+          <Route path="/posts/:article">
+            <Post/>
+          </Route>
+          <Route>
+            <NotFound/>
+          </Route >
+        </Switch>
+
+        <Footer/>
       </ThemeProvider>
     </Router>
   );

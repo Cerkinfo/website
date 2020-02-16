@@ -14,7 +14,7 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet'
 import L from 'leaflet';
-import SETTINGS from '../settings.json';
+import SETTINGS from '../settings';
 import 'leaflet/dist/leaflet.css'
 
 const Center = styled.div`

@@ -16,7 +16,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 import NavSocial from './NavSocial';
-import SETTINGS from '../settings.json';
+import SETTINGS from '../settings';
 
 export default () => {
   return (

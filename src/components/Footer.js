@@ -11,7 +11,7 @@ import {
 } from "reactstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import NavSocial from './NavSocial';
-import SETTINGS from '../settings.json';
+import SETTINGS from '../settings';
 
 export default () => {
   return (

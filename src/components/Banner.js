@@ -10,7 +10,7 @@ import {
   Col,
   Row
 } from "reactstrap";
-import SETTINGS from '../settings.json';
+import SETTINGS from '../settings';
 
 export default () => {
   return (
