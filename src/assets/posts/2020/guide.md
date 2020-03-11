@@ -135,7 +135,7 @@ L’ULB est une université qui est principalement distribuée sur 3 campus de g
 *   le campus du Solbosch où quelques cours du bachelier sont donnés dont le cours de math de première année.
 *   le campus d’Erasme où tu ne mettras pas les pieds pour le cursus d’informatique
 
-Il arrive fréquemment que, sur une même journée, les cours soient donnés sur le campus de la Plaine et du Solbosch. Cela oblige les étudiants à se déplacer d'un campus à l'autre, situés à une distance de </span>[environ 1km ](https://www.google.fr/maps/dir/50.8137593,4.3843003/50.8181703,4.3959757/@50.8140809,4.3881009,16z?hl=fr). En temps normal, les bus 71 et 72 assurent le trajet.
+Il arrive fréquemment que, sur une même journée, les cours soient donnés sur le campus de la Plaine et du Solbosch. Cela oblige les étudiants à se déplacer d'un campus à l'autre, situés à une distance de [environ 1km ](https://www.google.fr/maps/dir/50.8137593,4.3843003/50.8181703,4.3959757/@50.8140809,4.3881009,16z?hl=fr). En temps normal, les bus 71 et 72 assurent le trajet.
 
 **Petits conseils :**
 
@@ -150,8 +150,6 @@ Il arrive fréquemment que, sur une même journée, les cours soient donnés sur
 
 
 Les projets sont souvent à remettre sous format papier dans le bureau de la secrétaire au NO8 afin que les assistants puissent annoter et commenter ton travail.
-
-Pour imprimer rapidement le mieux c'est directement en salle machine du NO ([mode d'emploi](http://www.ulb.ac.be//di/info-f101/ModeEmploi_2010-2011.pdf)). Deux imprimantes sont disponibles pour les étudiants. L’une se trouve au quatrième étage (son nom est dilp0), l’autre au troisième (dilp1). Chaque étudiant peut charger son crédit d’impression en s’adressant au secrétariat étudiant, bureau N8.104, moyennant 2€. Chaque feuille imprimée lui sera facturée 0.05€. Il est toujours possible par la suite de recharger son crédit d’impression au secrétariat étudiant. On peut consulter son quota d’impression en visitant la page web [http://di-net.ulb.ac.be](http://di-net.ulb.ac.be), puis en cliquant sur les quotas d’impression dans Aide et support.
 
 Pour imprimer pas cher le mieux c'est le [Crazy Copy Center](http://www.crazycopy.be/fr/index.php) à la VUB qui pratique un [tarif dégressif](http://www.crazycopy.be/downloads/prijslijst.pdf) fonction de la quantité (jusqu'à 0.031€ par feuille en n&b). Voir le plan sur la [page d'accueil](http://www.crazycopy.be/nl/index.php) en néerlandais > plan Crazy Copy VUB.
 
