@@ -96,7 +96,7 @@ export default () => {
               <Floating>
                 <Container>
                 <Quote>
-                  Des vies fauchées trop tôt, en partie car certaines mesures structurelles ne sont pas décidées ou appliquées
+                  LE site pour partager ses notes de cours, de tp, ses corrections d'examens et bien plus !
                 </Quote>
                 </Container>
               </Floating>
