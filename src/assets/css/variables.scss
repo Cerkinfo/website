@@ -53,6 +53,7 @@ $border-radius-sm:            0px !default;
 
 // Fonts
 $font-family-sans-serif:      "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-size-sm: 10;
 
 $text-muted:                  rgba(255,255,255,.4) !default;
 
@@ -79,6 +80,7 @@ $input-group-addon-color:           $body-color !default;
 
 $custom-file-button-color:          $white !default;
 $custom-file-border-color:          $gray-200 !default;
+$enable-gradients: true;
 
 // Dropdowns
 
