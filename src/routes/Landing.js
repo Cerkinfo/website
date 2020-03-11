@@ -15,6 +15,7 @@ import {
   Form, FormGroup, Label, Input, FormText,
   Row
 } from "reactstrap";
+import SETTINGS from '../settings';
 try {
   var SUMMARY_JSON = require('../assets/posts/summary.json');
 } catch (e) {
@@ -149,11 +150,13 @@ export default () => {
         <div id="contact" className="h-100">
           <Row className="align-items-center">
             <Col lg="6">
-              <Center>
-                <H3><FontAwesomeIcon icon={['fas', 'address-card']} /> Nous contacter</H3>
+              <Center className="font-white">
+                <H3 className="text-center"><FontAwesomeIcon icon={['fas', 'address-card']} /> Nous contacter</H3>
                 <Text>
-                  Pour toutes vos questions sur ..
                   <ul style={{listStyleType: "none"}}>
+                    <li>Pour toutes vos questions sur ..</li>
+                  </ul>
+                  <ul>
                     <li>le Cercle Informatique</li>
                     <li>Nos activités</li>
                     <li>Nos projets </li>
