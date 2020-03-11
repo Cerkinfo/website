@@ -37,8 +37,10 @@ export default () => {
               <Floating>
                 <Container>
                 <Quote>
-                  Des vies fauchées trop tôt, en partie car certaines mesures structurelles ne sont pas décidées ou appliquées
                 </Quote>
+                <Cite>
+                  UrLab
+                </Cite>
                 </Container>
               </Floating>
               <Overlay>
@@ -47,7 +49,7 @@ export default () => {
             </Col>
             <Col lg="6">
               <Center>
-                <H3>Urlab: Le Hackerspace de l'ULB</H3>
+                <H3>Le Cercle Informatique c'est quoi ?</H3>
                 <Text>
                   <p>
                   </p>
@@ -64,20 +66,20 @@ export default () => {
               <Floating>
                 <Container>
                 <Quote>
-                  Des vies fauchées trop tôt, en partie car certaines mesures structurelles ne sont pas décidées ou appliquées
+                  Des projets et du partage de connaissances autours de l'informatique
                 </Quote>
                 <Cite>
-                  Collectif Morts de la Rue
+                  UrLab
                 </Cite>
                 </Container>
               </Floating>
               <Overlay>
-                <img src={require("../assets/img/landing1.jpg")} style={{width: "100%"}}/>
+                <img src={require("../assets/img/UrLab.jpg")} style={{width: "100%"}}/>
               </Overlay>
             </Col>
             <Col lg="6">
               <Center>
-                <H3>Le Cercle Informatique c'est quoi ?</H3>
+                <H3>Urlab: Le Hackerspace de l'ULB</H3>
                 <Text>
                   <p>
                   </p>
