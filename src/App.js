@@ -4,9 +4,9 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { ThemeProvider } from "styled-components";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Helmet from "react-helmet";
-import { Landing, NotFound, Post } from "./routes";
+import { Landing, History, NotFound, Post } from "./routes";
 
 import "./assets/css/style.scss";
 import "slick-carousel/slick/slick.css";
@@ -19,7 +19,7 @@ const theme = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!./as
 
 export default () => {
   return (
-    <Router basename="/">
+    <Router basename="/website">
       <ThemeProvider theme={theme}>
         <Helmet></Helmet>
 
@@ -28,6 +28,9 @@ export default () => {
         <Switch>
           <Route path="/" exact>
             <Landing />
+          </Route>
+          <Route path="/history" exact>
+            <History />
           </Route>
           <Route path="/posts/:article">
             <Post />

@@ -46,6 +46,13 @@ export default () => {
             </NavItem>
             <NavItem>
               <NavLink>
+                <NavHashLink className="font-white" to="/history">
+                  Historique
+                </NavHashLink>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink>
                 <NavHashLink className="font-white" smooth to="/#contact">
                   Contacter
                 </NavHashLink>
