@@ -37,16 +37,16 @@ export default () => {
         <button className="navbar-toggler" id="navbar_global">
           <span className="navbar-toggler-icon" />
         </button>
-        <UncontrolledCollapse navbar toggler="#navbar_global">
+        <UncontrolledCollapse navbar toggler="#navbar_global" >
           <Nav className="align-items-lg-center ml-lg-auto" navbar>
             <NavItem>
-              <NavLink href="/#news">News</NavLink>
+              <NavLink className="font-white" href="/#news">News</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#cercle">Le Cercle</NavLink>
+              <NavLink className="font-white" href="/#cercle">Le Cercle</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#contact">Contacter</NavLink>
+              <NavLink className="font-white" href="/#contact">Contacter</NavLink>
             </NavItem>
             <NavSocial/>
           </Nav>
