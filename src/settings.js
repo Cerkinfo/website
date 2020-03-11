@@ -20,7 +20,7 @@ export default {
     additional: "Notre local est situé sur le <i>Campus de la Plaine</i>, à deux pas de tes salles de cours et de la Jefke. Il se trouve en <i>dessous des forums</i>. En te penchant par la rambarde devant l'entrée de la cafétéria, tu peux apercevoir la porte d'entrée, plus communément appelée la <i>porte jaune</i>."
   },
   contact: {
-    formspree: "https://formspree.io/xgekdvdb",
+    formspree: "https://formspree.io/maybwabo",
     facebook: "https://www.facebook.com/cerkinfo",
     instagram: "https://www.instagram.com/cercleinformatique/",
     email: "contact@cercle-informatique.be"
