@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import {
+  Col,
   Container,
+  Row,
   Spinner
 } from "reactstrap";
 import { H3, Subtitle } from '../components/Titles';
@@ -23,11 +25,19 @@ export default withRouter((props) => {
 
   if (page) {
     return (
-      <Container>
-        <H3>{page.title}</H3>
-        <Subtitle>{formatDate(page.date)}</Subtitle>
-        <div dangerouslySetInnerHTML={{ __html: page.bodyHtml }}></div>
-      </Container>
+      <div className="h-100">
+        <Row className="w-100">
+          <Col style={{paddingTop: "300px", paddingBottom: "100px"}}lg="4" className="text-center color-main font-white">
+            <H3>{page.title}</H3>
+            <Subtitle>{formatDate(page.date)}</Subtitle>
+          </Col>
+          <Col style={{marginTop: "100px"}} lg="8">
+            <Container>
+              <div dangerouslySetInnerHTML={{ __html: page.bodyHtml }}></div>
+            </Container>
+          </Col>
+        </Row>
+      </div>
     );
   } else {
     return (
