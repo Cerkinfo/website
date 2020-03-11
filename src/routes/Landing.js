@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from "react-slick";
-import { Banner, Announce, Contact, Map, Preview } from '../components/';
+import { Banner, Contact, Map, Preview } from '../components/';
 import { H3, Text, Center, Quote, Cite } from '../components/Titles';
 import { Overlay, Floating } from '../components/Images';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
