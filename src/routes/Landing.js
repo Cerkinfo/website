@@ -37,37 +37,9 @@ export default () => {
               <Floating>
                 <Container>
                 <Quote>
-                  Des vies fauchées trop tôt, en partie car certaines mesures structurelles ne sont pas décidées ou appliquées
-                </Quote>
-                </Container>
-              </Floating>
-              <Overlay>
-                <img src={require("../assets/img/landing1.jpg")} style={{width: "100%"}}/>
-              </Overlay>
-            </Col>
-            <Col lg="6">
-              <Center>
-                <H3>Urlab: Le Hackerspace de l'ULB</H3>
-                <Text>
-                  <p>
-                  </p>
-                </Text>
-              </Center>
-            </Col>
-          </Row>
-        </div>
-      </section>
-      <section className="section section-lg section-shaped pg-250" id="what">
-        <div className="h-100">
-          <Row className="align-items-center">
-            <Col lg="6" >
-              <Floating>
-                <Container>
-                <Quote>
-                  Des vies fauchées trop tôt, en partie car certaines mesures structurelles ne sont pas décidées ou appliquées
                 </Quote>
                 <Cite>
-                  Collectif Morts de la Rue
+                  UrLab
                 </Cite>
                 </Container>
               </Floating>
@@ -94,7 +66,37 @@ export default () => {
               <Floating>
                 <Container>
                 <Quote>
-                  Des vies fauchées trop tôt, en partie car certaines mesures structurelles ne sont pas décidées ou appliquées
+                  Des projets et du partage de connaissances autours de l'informatique
+                </Quote>
+                <Cite>
+                  UrLab
+                </Cite>
+                </Container>
+              </Floating>
+              <Overlay>
+                <img src={require("../assets/img/UrLab.jpg")} style={{width: "100%"}}/>
+              </Overlay>
+            </Col>
+            <Col lg="6">
+              <Center>
+                <H3>Urlab: Le Hackerspace de l'ULB</H3>
+                <Text>
+                  <p>
+                  </p>
+                </Text>
+              </Center>
+            </Col>
+          </Row>
+        </div>
+      </section>
+      <section className="section section-lg section-shaped pg-250" id="what">
+        <div className="h-100">
+          <Row className="align-items-center">
+            <Col lg="6" >
+              <Floating>
+                <Container>
+                <Quote>
+                  LE site pour partager ses notes de cours, de tp, ses corrections d'examens et bien plus !
                 </Quote>
                 </Container>
               </Floating>
