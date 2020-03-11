@@ -26,7 +26,7 @@
 }
 
 .font-white {
-  color: $white;
+  color: $color-white;
 }
 
 
@@ -40,5 +40,5 @@
 
 .headroom--pinned {
   z-index: 2 !important;
-  background-color: $light;
+  background-color: $primary;
 }

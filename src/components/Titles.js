@@ -44,8 +44,8 @@ export const Quote = styled.p`
   font-family: 'Fjalla One', sans-serif;
   font-style: italic;
   font-weight: 200;
-  color: ${props => props.theme.dark};
-  background-color: ${props => props.theme.primary};
+  color: ${props => props.theme.white};
+  background-color: ${props => props.theme.light};
 
   &:before {
     content: "«";
@@ -60,5 +60,5 @@ export const Cite = styled.p`
   text-align: right;
   font-family: 'Fjalla One', sans-serif;
   font-style: normal;
-  color: ${props => props.theme.primary};
+  color: ${props => props.theme.white};
 `
