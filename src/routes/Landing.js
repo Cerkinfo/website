@@ -30,12 +30,14 @@ export default () => {
     <span>
       <Banner/>
       <Separator title={"News"}/>
-      <Slider infinite={true} slidesToShow={posts.length > 3 ? 3 : posts.length} dots={true}>
-        {posts.map(post => <Preview {...post}/>)}
-      </Slider>
+      <div id="news">
+        <Slider infinite={true} slidesToShow={posts.length > 3 ? 3 : posts.length} dots={true}>
+          {posts.map(post => <Preview {...post}/>)}
+        </Slider>
+      </div>
       <Separator title={"Le Cercle"}/>
-      <section className="section section-lg section-shaped pg-250" id="what">
-        <div className="h-100">
+      <section className="section section-lg section-shaped pg-250">
+        <div className="h-100" id="cercle">
           <Row className="align-items-center">
             <Col lg="6" >
               <Overlay>
@@ -64,8 +66,8 @@ export default () => {
           </Row>
         </div>
       </section>
-      <section className="section section-lg section-shaped pg-250" id="project">
-        <div className="h-100">
+      <section className="section section-lg section-shaped pg-250">
+        <div className="h-100" id="project">
           <Row className="align-items-center">
             <Col lg="6">
               <Center>
