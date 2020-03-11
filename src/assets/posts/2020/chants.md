@@ -1,7 +1,10 @@
 ---
 title: Les chants du Cercle Informatique
 date: 2020-02-01
+<<<<<<< HEAD
 brief: La liste des chants et cris propres au Cercle Informatique
+=======
+>>>>>>> 410b11a750e7798f11e731df0aa1a09334ca525f
 page: post
 ---
 
