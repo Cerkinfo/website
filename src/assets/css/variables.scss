@@ -2,6 +2,8 @@
 // Color system
 //
 
+@import "colors.scss";
+
 $white:    #fff !default;
 $gray-100: #EBEBEB !default;
 $gray-200: #4E5D6C !default;
@@ -25,8 +27,8 @@ $green:   #5cb85c !default;
 $teal:    #20c997 !default;
 $cyan:    #5bc0de !default;
 
-$primary:       #6BBDAC !default;
-$secondary:     #f0cf85 !default;
+$primary:       $color-main !default;
+$secondary:     $color-secondary !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;

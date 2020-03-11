@@ -7,18 +7,18 @@ export default {
   url: process.env.REACT_APP_WEBSITE_URL,
   location: {
     entreprise: {
-      name: "Le Boiler",
-      url: "https://www.facebook.com/1Boiler/"
+      name: "Cercle Informatique",
+      url: "https://www.facebook.com/cerkinfo/"
     },
-    number: "299",
-    street: "Rue Léopold 1er",
-    CP: "1020",
-    town: "Laeken",
-    position: [50.8768091, 4.340018]
+    number: "CP 206",
+    street: "Boulevard du Triomphe",
+    CP: "1050",
+    town: "Ixelles",
+    position: [50.8198763, 4.3990723]
   },
   contact: {
     formspree: "https://formspree.io/xgekdvdb",
-    facebook: "https://www.facebook.com/reseauatlas",
-    email: "reseaux.atlas@gmail.com"
+    facebook: "https://www.facebook.com/cerkinfo",
+    email: "contact@cercle-informatique.be"
   }
 }
