@@ -1,22 +1,16 @@
-import React, { useEffect } from 'react';
+import React from "react";
 import Headroom from "react-headroom";
 import {
-  Button,
   UncontrolledCollapse,
   NavbarBrand,
   Navbar,
   NavItem,
-  NavLink,
   Nav,
-  Container,
-  Row,
-  Col,
-  UncontrolledTooltip
+  NavLink
 } from "reactstrap";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from "react-router-dom";
-import NavSocial from './NavSocial';
-import SETTINGS from '../settings';
+import { NavHashLink } from "react-router-hash-link";
+import NavSocial from "./NavSocial";
+import SETTINGS from "../settings";
 
 export default () => {
   return (
@@ -28,30 +22,39 @@ export default () => {
       >
         <NavbarBrand to="/">
           <a href="/">
-            <img
-              alt={SETTINGS.title}
-              src={require("../assets/img/logo.png")}
-            />
+            <img alt={SETTINGS.title} src={require("../assets/img/logo.png")} />
           </a>
         </NavbarBrand>
         <button className="navbar-toggler" id="navbar_global">
           <span className="navbar-toggler-icon" />
         </button>
-        <UncontrolledCollapse navbar toggler="#navbar_global" >
+        <UncontrolledCollapse navbar toggler="#navbar_global">
           <Nav className="align-items-lg-center ml-lg-auto" navbar>
             <NavItem>
-              <NavLink className="font-white" href="/#news">News</NavLink>
+              <NavLink>
+                <NavHashLink className="font-white" smooth to="/#news">
+                  News
+                </NavHashLink>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="font-white" href="/#cercle">Le Cercle</NavLink>
+              <NavLink>
+                <NavHashLink className="font-white" smooth to="/#cercle">
+                  Le Cercle
+                </NavHashLink>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="font-white" href="/#contact">Contacter</NavLink>
+              <NavLink>
+                <NavHashLink className="font-white" smooth to="/#contact">
+                  Contacter
+                </NavHashLink>
+              </NavLink>
             </NavItem>
-            <NavSocial/>
+            <NavSocial />
           </Nav>
         </UncontrolledCollapse>
       </Navbar>
     </Headroom>
   );
-}
+};
