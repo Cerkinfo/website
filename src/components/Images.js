@@ -30,6 +30,7 @@ export const Gradient = styled.div`
 export const Overlay = styled.span`
   position: relative;
   display: inline-block;
+  width: 100%;
 
   &:after {
     content:'';

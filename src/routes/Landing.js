@@ -94,9 +94,7 @@ export default () => {
                     Tous les premiers lundi de chaque mois, UrLab propose le Smartmonday. Il s'agit d'une soirée
                     où 3 conférences liées à l'informatique sont proposées. Ces évènements sont gratuits et en français!
                   </p>
-                  <p>
-                    Plus d'info sur <a href="https://urlab.be" target="_blank">leur site</a>.
-                  </p>
+                  <Button href="https://urlab.be" block>Leur site</Button>
                 </Text>
               </Center>
             </Col>
@@ -172,6 +170,41 @@ export default () => {
           </Row>
         </div>
       </section>
+      <section className="section section-lg section-shaped pg-250" id="project">
+        <div className="h-100">
+          <Row className="align-items-center">
+            <Col lg="6" >
+              <Floating>
+                <Container>
+                <Quote>
+                </Quote>
+                </Container>
+              </Floating>
+              <Overlay>
+                <img src={require("../assets/img/manneken.jpg")} style={{width: "100%"}}/>
+              </Overlay>
+            </Col>
+            <Col lg="6">
+              <Center>
+                <H3>Babbage</H3>
+                <Text>
+                  <p>
+                    L’Ordre de Babbage est l’association des anciens étudiants du Département d’Informatique de la Faculté des Sciences de l’Université libre de Bruxelles.
+                  </p>
+                  <p>
+                    L’Ordre de Babbage organise des activités à destination des anciens étudiants, décerne son double prix Babbage, et s'occupe aussi des archives du département.
+                  </p>
+                  <p>
+                    L’Ordre de Babbage décerne aussi des décorations appelées « vleks » aux étudiants ou anciens étudiants en sciences informatiques qui ont eu un rôle d’exception dans l’organisation du Cercle ou au sein du Département d’Informatique.
+                  </p>
+                  <Button href="http://babbage.ulb.be/" block>Leur site</Button>
+                </Text>
+              </Center>
+            </Col>
+          </Row>
+        </div>
+      </section>
+
 
       <Map/>
       <section className="section section-lg section-shaped pg-250 color-main">
