@@ -42,7 +42,7 @@ export default () => {
         <Row className="align-items-center">
           <Col lg="6">
             <Center>
-              <H3><FontAwesomeIcon icon={['fas', 'map-marker-alt']} /> Où nous trouver </H3>
+              <H3 className="text-center"><FontAwesomeIcon icon={['fas', 'map-marker-alt']} /> Où nous trouver </H3>
               <Text>
                 <ul style={{listStyleType: "none"}}>
                   {SETTINGS.location.entreprise ?
@@ -58,6 +58,14 @@ export default () => {
                   <li><FontAwesomeIcon icon={['fas', 'street-view']} />{` ${SETTINGS.location.CP} ${SETTINGS.location.town}`}</li>
                 </ul>
               </Text>
+              {SETTINGS.location.additional ? (
+                  <Card body >
+                    <CardText>
+                      <Text><span dangerouslySetInnerHTML={{ __html: SETTINGS.location.additional }}></span></Text>
+                    </CardText>
+                  </Card>
+                ) : null
+              }
             </Center>
           </Col>
           <Col lg="6" >

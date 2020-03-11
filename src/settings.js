@@ -14,7 +14,8 @@ export default {
     street: "Boulevard du Triomphe",
     CP: "1050",
     town: "Ixelles",
-    position: [50.8198763, 4.3990723]
+    position: [50.8198763, 4.3990723],
+    additional: "Notre local est situé sur le <i>Campus de la Plaine</i>, à deux pas de tes salles de cours et de la Jefke. Il se trouve en <i>dessous des forums</i>. En te penchant par la rambarde devant l'entrée de la cafétéria, tu peux apercevoir la porte d'entrée, plus communément appelée la <i>porte jaune</i>."
   },
   contact: {
     formspree: "https://formspree.io/xgekdvdb",
