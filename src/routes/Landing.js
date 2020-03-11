@@ -45,7 +45,7 @@ export default () => {
                 </Container>
               </Floating>
               <Overlay>
-                <img src={require("../assets/img/landing1.jpg")} style={{width: "100%"}}/>
+                <img src={require("../assets/img/landing1.png")} style={{width: "100%"}}/>
               </Overlay>
             </Col>
             <Col lg="6">
@@ -56,12 +56,12 @@ export default () => {
                     Le cercle est une asbl qui a pour but de promouvoir le <b>folklore</b> et l'informatique auprès des étudiant.e.s.
                   </p>
                   <p>
-                    Il organise diverses soirées (dont les fameux TDs) permettant de rencontrer d'autres étudiants ainsi qu'un <b>baptême</b>. 
+                    Il organise diverses soirées (dont les fameux TDs) permettant de rencontrer d'autres étudiants ainsi qu'un <b>baptême</b>.
                     Ce dernier, entouré de mystères, permet de créer des liens forts entre les étudiant.e.s y participant et de
                     découvrir le folklore estudiantin!
                   </p>
                   <p>
-                    Le cercle participe à l'organisation du <a href="https://fosdem.org/" target="_blank">FOSDEM</a>, 
+                    Le cercle participe à l'organisation du <a href="https://fosdem.org/" target="_blank">FOSDEM</a>,
                     le plus grand évènement dédié au logiciel libre et gratuit en Europe.
                   </p>
                 </Text>
@@ -73,21 +73,6 @@ export default () => {
       <section className="section section-lg section-shaped pg-250" id="project">
         <div className="h-100">
           <Row className="align-items-center">
-            <Col lg="6" >
-              <Floating>
-                <Container>
-                <Quote>
-                  Des projets et du partage de connaissances autours de l'informatique!
-                </Quote>
-                <Cite>
-                  UrLab
-                </Cite>
-                </Container>
-              </Floating>
-              <Overlay>
-                <img src={require("../assets/img/UrLab.jpg")} style={{width: "100%"}}/>
-              </Overlay>
-            </Col>
             <Col lg="6">
               <Center>
                 <H3>
@@ -95,8 +80,8 @@ export default () => {
                 </H3>
                 <Text>
                   <p>
-                    Le hackerspace est un laboratoire où les étudiant.e.s intéressé.e.s par l'informatique et 
-                    les nouvelles technologies peuvent se retrouver pour travailler ensemble sur des projets et 
+                    Le hackerspace est un laboratoire où les étudiant.e.s intéressé.e.s par l'informatique et
+                    les nouvelles technologies peuvent se retrouver pour travailler ensemble sur des projets et
                     partager leurs connaissances.
                   </p>
                   <p>
@@ -113,6 +98,21 @@ export default () => {
                 </Text>
               </Center>
             </Col>
+            <Col lg="6" >
+              <Floating>
+                <Container>
+                <Quote>
+                  Des projets et du partage de connaissances autours de l'informatique!
+                </Quote>
+                <Cite>
+                  UrLab
+                </Cite>
+                </Container>
+              </Floating>
+              <Overlay>
+                <img src={require("../assets/img/UrLab.jpg")} style={{width: "100%"}}/>
+              </Overlay>
+            </Col>
           </Row>
         </div>
       </section>
@@ -128,7 +128,7 @@ export default () => {
                 </Container>
               </Floating>
               <Overlay>
-                <img src={require("../assets/img/landing1.jpg")} style={{width: "100%"}}/>
+                <img src={require("../assets/img/landing1.png")} style={{width: "100%"}}/>
               </Overlay>
             </Col>
             <Col lg="6">
@@ -146,6 +146,15 @@ export default () => {
       <section className="section section-lg section-shaped pg-250" id="project">
         <div className="h-100">
           <Row className="align-items-center">
+            <Col lg="6">
+              <Center>
+                <H3>La Guilde Gate</H3>
+                <Text>
+                  <p>
+                  </p>
+                </Text>
+              </Center>
+            </Col>
             <Col lg="6" >
               <Floating>
                 <Container>
@@ -155,17 +164,8 @@ export default () => {
                 </Container>
               </Floating>
               <Overlay>
-                <img src={require("../assets/img/landing1.jpg")} style={{width: "100%"}}/>
+                <img src={require("../assets/img/landing1.png")} style={{width: "100%"}}/>
               </Overlay>
-            </Col>
-            <Col lg="6">
-              <Center>
-                <H3>La Guilde Gate</H3>
-                <Text>
-                  <p>
-                  </p>
-                </Text>
-              </Center>
             </Col>
           </Row>
         </div>
