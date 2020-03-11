@@ -56,6 +56,14 @@ export default () => {
                   }
                   <li><FontAwesomeIcon icon={['fas', 'road']} />{` ${SETTINGS.location.number} ${SETTINGS.location.street}`}</li>
                   <li><FontAwesomeIcon icon={['fas', 'street-view']} />{` ${SETTINGS.location.CP} ${SETTINGS.location.town}`}</li>
+                  {SETTINGS.location.phone ? (
+                    <li><FontAwesomeIcon icon={['fas', 'phone']} />{` ${SETTINGS.location.phone}`}</li>
+                    ) : null
+                  }
+                  {SETTINGS.location.bank ? (
+                    <li><FontAwesomeIcon icon={['fas', 'wallet']} />{` ${SETTINGS.location.bank}`}</li>
+                    ) : null
+                  }
                 </ul>
               </Text>
               {SETTINGS.location.additional ? (
