@@ -27,7 +27,36 @@ export default () => {
   return (
     <span>
       <Banner/>
-      <Announce/>
+      <Slider infinite={true} slidesToShow={posts.length > 3 ? 3 : posts.length} dots={true}>
+        {posts.map(post => <Preview {...post}/>)}
+      </Slider>
+      <section className="section section-lg section-shaped pg-250" id="what">
+        <div className="h-100">
+          <Row className="align-items-center">
+            <Col lg="6" >
+              <Floating>
+                <Container>
+                <Quote>
+                  Des vies fauchées trop tôt, en partie car certaines mesures structurelles ne sont pas décidées ou appliquées
+                </Quote>
+                </Container>
+              </Floating>
+              <Overlay>
+                <img src={require("../assets/img/landing1.jpg")} style={{width: "100%"}}/>
+              </Overlay>
+            </Col>
+            <Col lg="6">
+              <Center>
+                <H3>Urlab: Le Hackerspace de l'ULB</H3>
+                <Text>
+                  <p>
+                  </p>
+                </Text>
+              </Center>
+            </Col>
+          </Row>
+        </div>
+      </section>
       <section className="section section-lg section-shaped pg-250" id="what">
         <div className="h-100">
           <Row className="align-items-center">
@@ -48,22 +77,9 @@ export default () => {
             </Col>
             <Col lg="6">
               <Center>
-                <H3>Réseaux Atlas c'est quoi ?</H3>
+                <H3>Le Cercle Informatique c'est quoi ?</H3>
                 <Text>
                   <p>
-                  Notre mission est de fournir des <it>informations</it> et
-                  des <it>solutions</it> innovantes pour aider à la crise
-                  des sans-abris, migrants,
-                  sans-papiers et réfugiés en Belgique. Nous mettons l'accent
-                  sur leurs droits, l'accès à un logement et à de la nourriture
-                  ainsi qu'à leur intégration sociale.
-                  </p>
-                  <p>
-                  Nous voulons sensibiliser et mettre en lumière les morts de
-                  la rue, que l'on compte tout au long de l'année sur nos
-                  trottoirs, à travers différentes campagnes et événements afin
-                  de rapprocher les citoyens bruxellois et
-                  les personnes sans abrix.
                   </p>
                 </Text>
               </Center>
@@ -71,85 +87,61 @@ export default () => {
           </Row>
         </div>
       </section>
-      <section className="section section-lg section-shaped pg-250" id="project">
-        <div className="h-100">
-          <Row className="align-items-center">
-            <Col lg="6">
-              <Center>
-                <H3>Notre projet</H3>
-                <Text>
-                  <p>
-                    Notre idée est de faire brasser une bière dont les bénéfices
-                    sont versés au <a href="">Collectif Morts de la Rue</a> et
-                    ainsi atteindre notre objectif de 5000€ cette année.
-                  </p>
-                  <p>
-                    Vous pouvez commandez dés maintenant des cartons de bière
-                    spéciale «Zinnebir», de la Brasserie de la Senne, étiquetée
-                    au soutien du Collectif Morts de la Rue.
-                  </p>
-                  <Button href="https://frama.link/ebrzmRwV" block>Commander</Button>
-                </Text>
-              </Center>
-            </Col>
-            <Col lg="6" >
-              <Floating>
-                <Container>
-                <Quote>
-                  Avant le collectif, les personnes sans-abris ne mourraient pas, elle disparaissaient simplement.
-                </Quote>
-                <Cite>
-                  Collectif Morts de la Rue
-                </Cite>
-                </Container>
-              </Floating>
-              <Overlay>
-                <img src={require("../assets/img/landing4.jpg")} style={{width: "100%"}}/>
-              </Overlay>
-            </Col>
-          </Row>
-        </div>
-      </section>
-      <section className="section section-lg section-shaped pg-250" id="mdr">
+      <section className="section section-lg section-shaped pg-250" id="what">
         <div className="h-100">
           <Row className="align-items-center">
             <Col lg="6" >
               <Floating>
                 <Container>
                 <Quote>
-                  Agir pour un adieu digne pour les habitants de la rue en région bruxelloise
+                  Des vies fauchées trop tôt, en partie car certaines mesures structurelles ne sont pas décidées ou appliquées
                 </Quote>
-                <Cite>
-                  Collectif Morts de la Rue
-                </Cite>
                 </Container>
               </Floating>
               <Overlay>
-                <img src={require("../assets/img/landing3.jpg")} style={{width: "100%"}}/>
+                <img src={require("../assets/img/landing1.jpg")} style={{width: "100%"}}/>
               </Overlay>
             </Col>
             <Col lg="6">
               <Center>
-                <H3>Collectif Morts de la Rue</H3>
+                <H3>Dochub</H3>
                 <Text>
                   <p>
-                    Nous avons choisis avec ce projet de bière solidaire de mettre
-                    en lumière le travail d'un collectif bruxellois qui mène des actions
-                    pour:
                   </p>
-                  <ul>
-                    <li>Offrir des funérailles dignes aux morts de la rue</li>
-                    <li>Accompagner les proches en deuil</li>
-                    <li>Dénoncer et communiquer autour des causes de mortalité</li>
-                    <li>Organiser des cérémonie en hommage aux morts de la rue</li>
-                  </ul>
-                  <Button href="http://mortsdelarue.brussels/" block>Plus d'infos</Button>
                 </Text>
               </Center>
             </Col>
           </Row>
         </div>
       </section>
+      <section className="section section-lg section-shaped pg-250" id="what">
+        <div className="h-100">
+          <Row className="align-items-center">
+            <Col lg="6" >
+              <Floating>
+                <Container>
+                <Quote>
+                  Des vies fauchées trop tôt, en partie car certaines mesures structurelles ne sont pas décidées ou appliquées
+                </Quote>
+                </Container>
+              </Floating>
+              <Overlay>
+                <img src={require("../assets/img/landing1.jpg")} style={{width: "100%"}}/>
+              </Overlay>
+            </Col>
+            <Col lg="6">
+              <Center>
+                <H3>La Guilde Gate</H3>
+                <Text>
+                  <p>
+                  </p>
+                </Text>
+              </Center>
+            </Col>
+          </Row>
+        </div>
+      </section>
+
       <Map/>
       <section className="section section-lg section-shaped pg-250 color-main">
         <div id="contact" className="h-100">
@@ -160,9 +152,9 @@ export default () => {
                 <Text>
                   Pour toutes vos questions sur ..
                   <ul style={{listStyleType: "none"}}>
-                    <li>le Réseaux Atlas <FontAwesomeIcon icon={['fas', 'globe']} /></li>
-                    <li>Les commandes <FontAwesomeIcon icon={['fas', 'truck']} /></li>
-                    <li>Nos projets <FontAwesomeIcon icon={['fas', 'file']} /></li>
+                    <li>le Cercle Informatique</li>
+                    <li>Nos activités</li>
+                    <li>Nos projets </li>
                   </ul>
                 </Text>
               </Center>
@@ -173,9 +165,6 @@ export default () => {
           </Row>
         </div>
       </section>
-      <Slider infinite={true} slidesToShow={posts.length > 3 ? 3 : posts.length} dots={true}>
-        {posts.map(post => <Preview {...post}/>)}
-      </Slider>
     </span>
   );
 }

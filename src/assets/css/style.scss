@@ -2,6 +2,7 @@
 @import "variables.scss";
 @import "~bootstrap/scss/bootstrap";
 @import "theme.scss";
+@import "colors.scss";
 
 * {
   font-family: 'Roboto Condensed', sans-serif;
@@ -9,23 +10,28 @@
 }
 
 .color-main {
-  background-color: #6BBDAC;
+  background-color: $color-main;
 }
 
 .color-normal {
-  background-color: #f0cf85;
+  background-color: $normal;
 }
 
 .color-lightest {
-  background-color: #e7f0c3;
+  background-color: $lightest;
 }
 
 .font-lightest {
-  color: #e7f0c3;
+  color: $lightest;
 }
 
+.font-white {
+  color: $white;
+}
+
+
 .color-light {
-  background-color: #a4d4ae;
+  background-color: $light;
 }
 
 .headroom--unfixed {
@@ -34,5 +40,5 @@
 
 .headroom--pinned {
   z-index: 2 !important;
-  background-color: $secondary;
+  background-color: $light;
 }
