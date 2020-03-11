@@ -13,28 +13,49 @@ import {
 import SETTINGS from '../settings';
 
 export default () => {
+  // return (
+  //   <section className="ui-section -hero header_container" style={{
+  //     "background-size": "cover",
+  //     "-webkit-background-size": "cover",
+  //     "-moz-background-size": "cover",
+  //     "-o-background-size": "cover",
+  //   }}>
+  //     <div className="ui-aside">
+  //       <h1 className="ui-heading">
+  //         <span className="ui-heading-inner">
+  //           <span>Cercle</span>
+  //           <span>Informatique</span>
+  //           <span>ULB</span>
+  //         </span>
+  //       </h1>
+  //     </div>
+  //     <div className="ui-content">
+  //         <img className="header img-responsive" src={require("../assets/img/cerkinfo_logo.png")}/>
+  //     </div>
+  //   </section>
+  // );
+
   return (
-    <section className="section section-lg section-shaped pg-250 color-main">
-      <div className="h-100">
-        <Row className="align-items-center">
+    <section className="ui-section  -hero section section-lg section-shaped pg-250 color-main" style={{
+      "background-size": "cover",
+      "-webkit-background-size": "cover",
+      "-moz-background-size": "cover",
+      "-o-background-size": "cover",
+    }}>
+        <Row className="align-items-center h-100 color-main">
           <Col lg="6">
-            <div class="ui-aside">
-              <h1 class="ui-heading">
-                <span class="ui-heading-inner">
-                  <span>{SETTINGS.title}</span>
+            <div className="ui-aside">
+              <h1 className="ui-heading">
+                <span className="ui-heading-inner">
+                  <H1>{SETTINGS.title}</H1>
                 </span>
               </h1>
             </div>
-              
-              <Subtitle className="text-center">{SETTINGS.subtitle}</Subtitle>
           </Col>
-          <Col lg="6">
-            <Gradient>
-              <Skew src={require("../assets/img/banner.png")}/>
-            </Gradient>
+          <Col lg="6" className="w-100 text-center">
+            <img className="img-fluid fade-in" style={{padding: "0 50px", maxWidth: "80%"}} src={require("../assets/img/cerkinfo_logo.png")}/>
           </Col>
         </Row>
-      </div>
     </section>
   );
 }
