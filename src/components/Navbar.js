@@ -27,10 +27,12 @@ export default () => {
         id="navbar-main"
       >
         <NavbarBrand to="/">
-          <img
-            alt={SETTINGS.title}
-            src={require("../assets/img/logo.png")}
-          />
+          <a href="/">
+            <img
+              alt={SETTINGS.title}
+              src={require("../assets/img/logo.png")}
+            />
+          </a>
         </NavbarBrand>
         <button className="navbar-toggler" id="navbar_global">
           <span className="navbar-toggler-icon" />
