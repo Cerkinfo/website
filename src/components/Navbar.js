@@ -40,10 +40,10 @@ export default () => {
         <UncontrolledCollapse navbar toggler="#navbar_global">
           <Nav className="align-items-lg-center ml-lg-auto" navbar>
             <NavItem>
-              <NavLink href="/#what">Quoi ?</NavLink>
+              <NavLink href="/#news">News</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#project">Projets</NavLink>
+              <NavLink href="/#cercle">Le Cercle</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/#contact">Contacter</NavLink>
