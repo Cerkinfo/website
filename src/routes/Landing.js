@@ -38,14 +38,6 @@ export default () => {
         <div className="h-100">
           <Row className="align-items-center">
             <Col lg="6" >
-              <Floating>
-                <Container>
-                <Quote>
-                </Quote>
-                <Cite>
-                </Cite>
-                </Container>
-              </Floating>
               <Overlay>
                 <img src={require("../assets/img/landing1.png")} style={{width: "100%"}}/>
               </Overlay>
@@ -55,7 +47,7 @@ export default () => {
                 <H3>Le Cercle Informatique c'est quoi ?</H3>
                 <Text>
                   <p>
-                    Le cercle est une asbl qui a pour but de promouvoir le <b>folklore</b> et l'informatique auprès des étudiant.e.s.
+                    Le Cercle est une <i>ASBL</i> qui a pour but de promouvoir le <b>folklore</b> et l'informatique auprès des étudiant.e.s.
                   </p>
                   <p>
                     Il organise diverses soirées (dont les fameux TDs) permettant de rencontrer d'autres étudiants ainsi qu'un <b>baptême</b>.
@@ -137,6 +129,7 @@ export default () => {
                 <Text>
                   <p>
                   </p>
+                  <Button href="http://dochub.be/" block>Leur site</Button>
                 </Text>
               </Center>
             </Col>
@@ -159,7 +152,7 @@ export default () => {
               <Floating>
                 <Container>
                 <Quote>
-                  Des vies fauchées trop tôt, en partie car certaines mesures structurelles ne sont pas décidées ou appliquées
+                  Le folklore chantant a aussi sa place au CI
                 </Quote>
                 </Container>
               </Floating>
@@ -174,12 +167,6 @@ export default () => {
         <div className="h-100">
           <Row className="align-items-center">
             <Col lg="6" >
-              <Floating>
-                <Container>
-                <Quote>
-                </Quote>
-                </Container>
-              </Floating>
               <Overlay>
                 <img src={require("../assets/img/manneken.jpg")} style={{width: "100%"}}/>
               </Overlay>
