@@ -1,6 +1,7 @@
 ---
 title: Guide de l'étudiant
 date: 2020-01-01
+brief: Ce guide a pour but de t'aider à atterrir dans ce monde nouveau qu'est l'ULB. Il a été fait par des étudiants, pour des étudiants. Il contient les infos qui peuvent servir à n'importe quel moment dans ton cursus et s'adresse à tous les étudiants en informatique qui veulent s'intégrer.
 page: post
 ---
 

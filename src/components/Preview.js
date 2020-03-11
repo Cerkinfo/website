@@ -23,14 +23,9 @@ export default (props) => {
   return (
     <Card body >
       <CardTitle className="text-center"><H2>{props.title}</H2></CardTitle>
-      <CardSubtitle>
-        <Subtitle>
-          {formatDate(props.date)}
-        </Subtitle>
-      </CardSubtitle>
       <CardText>
         <Text>
-          {props.preview}
+          {props.brief}
         </Text>
       </CardText>
       <CardLink>

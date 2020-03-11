@@ -29,7 +29,6 @@ export default withRouter((props) => {
         <Row className="w-100">
           <Col style={{paddingTop: "300px", paddingBottom: "100px"}}lg="4" className="text-center color-main font-white">
             <H3>{page.title}</H3>
-            <Subtitle>{formatDate(page.date)}</Subtitle>
           </Col>
           <Col style={{marginTop: "100px"}} lg="8">
             <Container>
