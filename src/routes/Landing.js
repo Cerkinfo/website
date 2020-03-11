@@ -59,7 +59,7 @@ export default () => {
           </Row>
         </div>
       </section>
-      <section className="section section-lg section-shaped pg-250" id="what">
+      <section className="section section-lg section-shaped pg-250" id="project">
         <div className="h-100">
           <Row className="align-items-center">
             <Col lg="6" >
@@ -89,7 +89,7 @@ export default () => {
           </Row>
         </div>
       </section>
-      <section className="section section-lg section-shaped pg-250" id="what">
+      <section className="section section-lg section-shaped pg-250" id="project">
         <div className="h-100">
           <Row className="align-items-center">
             <Col lg="6" >
@@ -116,7 +116,7 @@ export default () => {
           </Row>
         </div>
       </section>
-      <section className="section section-lg section-shaped pg-250" id="what">
+      <section className="section section-lg section-shaped pg-250" id="project">
         <div className="h-100">
           <Row className="align-items-center">
             <Col lg="6" >
