@@ -18,7 +18,14 @@ export default () => {
       <div className="h-100">
         <Row className="align-items-center">
           <Col lg="6">
-              <H1>{SETTINGS.title}</H1>
+            <div class="ui-aside">
+              <h1 class="ui-heading">
+                <span class="ui-heading-inner">
+                  <span>{SETTINGS.title}</span>
+                </span>
+              </h1>
+            </div>
+              
               <Subtitle className="text-center">{SETTINGS.subtitle}</Subtitle>
           </Col>
           <Col lg="6">
