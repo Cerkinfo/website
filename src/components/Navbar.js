@@ -53,6 +53,13 @@ export default () => {
             </NavItem>
             <NavItem>
               <NavLink>
+                <NavHashLink className="font-white" to="/pv">
+                  PV
+                </NavHashLink>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink>
                 <NavHashLink className="font-white" smooth to="/#contact">
                   Contacter
                 </NavHashLink>
