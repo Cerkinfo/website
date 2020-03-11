@@ -27,6 +27,24 @@ export default () => (
         </UncontrolledTooltip>
       </NavItem>
     )}
+    {SETTINGS.contact.instagram && (
+      <NavItem>
+        <NavLink
+          className="nav-link-icon"
+          href={SETTINGS.contact.instagram}
+          id="instagramtooltip"
+          target="_blank"
+        >
+          <FontAwesomeIcon icon={['fab', 'instagram']} />
+          <span className="nav-link-inner--text d-lg-none ml-2">
+            Instagram
+          </span>
+        </NavLink>
+        <UncontrolledTooltip delay={0} target="instagramtooltip">
+          Suivez nous sur Instagram
+        </UncontrolledTooltip>
+      </NavItem>
+    )}
     {SETTINGS.contact.email && (
       <NavItem>
         <NavLink
