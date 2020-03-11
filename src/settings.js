@@ -2,7 +2,7 @@
 export default {
   title: process.env.REACT_APP_WEBSITE_TITLE,
   short_title: process.env.REACT_APP_WEBSITE_SHORT_TITLE,
-  subtitle: "",
+  subtitle: "Sex & Choppes",
   description: process.env.REACT_APP_WEBSITE_DESC,
   url: process.env.REACT_APP_WEBSITE_URL,
   location: {
