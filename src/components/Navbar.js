@@ -41,13 +41,10 @@ export default () => {
               <NavLink href="/#what">Quoi ?</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#project">Projet</NavLink>
+              <NavLink href="/#project">Projets</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/#contact">Contacter</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://docs.google.com/forms/d/e/1FAIpQLSe_QIafRtkXuzgfCBS_rVDQD2_rYNfM3dV2KDE-ScZzbH4A3g/viewform?fbclid=IwAR2IFavPX5S6HiWxhvzqY8Ft0xeg31sXrYpcL_CPhP_zQLnUGSTLS6QY_9E">Commander</NavLink>
             </NavItem>
             <NavSocial/>
           </Nav>
