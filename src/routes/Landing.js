@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from "react-slick";
-import { Banner, Contact, Map, Preview } from '../components/';
+import { Banner, Contact, Map, Preview, Separator } from '../components/';
 import { H3, Text, Center, Quote, Cite } from '../components/Titles';
 import { Overlay, Floating } from '../components/Images';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -29,9 +29,11 @@ export default () => {
   return (
     <span>
       <Banner/>
+      <Separator title={"News"}/>
       <Slider infinite={true} slidesToShow={posts.length > 3 ? 3 : posts.length} dots={true}>
         {posts.map(post => <Preview {...post}/>)}
       </Slider>
+      <Separator title={"Le Cercle"}/>
       <section className="section section-lg section-shaped pg-250" id="what">
         <div className="h-100">
           <Row className="align-items-center">
