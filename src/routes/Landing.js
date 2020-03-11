@@ -132,7 +132,7 @@ export default () => {
                   <p>
                     {"Dochub est le site de partage de document créer par le Cercle Informatique. C'est un outil indispensable a la réussite que nous développons librement."}
                   </p>
-                  <Button href="http://dochub.be/" block>Leur site</Button>
+                  <Button href="http://dochub.be/" block>Le site</Button>
                 </Text>
               </Center>
             </Col>
