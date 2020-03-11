@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a8e70a0.chunk.css",
+    "main.js": "/static/js/main.0a8b800a.chunk.js",
+    "main.js.map": "/static/js/main.0a8b800a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0b36d3b8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0b36d3b8.js.map",
+    "static/css/2.0a4410c4.chunk.css": "/static/css/2.0a4410c4.chunk.css",
+    "static/js/2.346b1261.chunk.js": "/static/js/2.346b1261.chunk.js",
+    "static/js/2.346b1261.chunk.js.map": "/static/js/2.346b1261.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a3c4d94906ecffd75db32fdfa42f3a19.js": "/precache-manifest.a3c4d94906ecffd75db32fdfa42f3a19.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.0a4410c4.chunk.css.map": "/static/css/2.0a4410c4.chunk.css.map",
+    "static/css/main.2a8e70a0.chunk.css.map": "/static/css/main.2a8e70a0.chunk.css.map",
+    "static/js/2.346b1261.chunk.js.LICENSE.txt": "/static/js/2.346b1261.chunk.js.LICENSE.txt",
+    "static/media/UrLab.jpg": "/static/media/UrLab.dd65a005.jpg",
+    "static/media/cerkinfo_logo.png": "/static/media/cerkinfo_logo.707786c2.png",
+    "static/media/landing1.png": "/static/media/landing1.199c4e3a.png",
+    "static/media/logo.png": "/static/media/logo.0588bd89.png",
+    "static/media/manneken.jpg": "/static/media/manneken.e78252df.jpg",
+    "static/media/marker.png": "/static/media/marker.0e2114d6.png",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b36d3b8.js",
+    "static/css/2.0a4410c4.chunk.css",
+    "static/js/2.346b1261.chunk.js",
+    "static/css/main.2a8e70a0.chunk.css",
+    "static/js/main.0a8b800a.chunk.js"
+  ]
+}
