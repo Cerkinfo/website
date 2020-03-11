@@ -2,7 +2,7 @@
   "name": "mdr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://reseauxatlas.be",
+  "homepage": "https://cerkinfo.github.io/website/",
   "license": "mit",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",

@@ -1,32 +1,16 @@
-import React from 'react';
-import {
-  Button,
-  Card,
-  CardTitle,
-  CardSubtitle,
-  CardText,
-  CardImg,
-  CardLink,
-  Container,
-  Row,
-  Col,
-  UncontrolledTooltip
-} from "reactstrap";
-import { Link } from 'react-router-dom';
-import { H2, Subtitle, Text } from "./Titles.js"
-import { formatDate } from "../utils/date.js"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import styled from 'styled-components';
+import React from "react";
+import { Button, Card, CardTitle, CardText, CardLink } from "reactstrap";
+import { Link } from "react-router-dom";
+import { H2, Text } from "./Titles.js";
 
-
-export default (props) => {
+export default props => {
   return (
-    <Card body >
-      <CardTitle className="text-center"><H2>{props.title}</H2></CardTitle>
+    <Card body>
+      <CardTitle className="text-center">
+        <H2>{props.title}</H2>
+      </CardTitle>
       <CardText>
-        <Text>
-          {props.brief}
-        </Text>
+        <Text>{props.brief}</Text>
       </CardText>
       <CardLink>
         <Link to={props.href}>
@@ -35,4 +19,4 @@ export default (props) => {
       </CardLink>
     </Card>
   );
-}
+};
