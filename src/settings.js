@@ -19,6 +19,7 @@ export default {
   contact: {
     formspree: "https://formspree.io/xgekdvdb",
     facebook: "https://www.facebook.com/cerkinfo",
+    instagram: "https://www.instagram.com/cercleinformatique/",
     email: "contact@cercle-informatique.be"
   }
 }
