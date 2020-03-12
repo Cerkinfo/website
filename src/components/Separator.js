@@ -1,16 +1,6 @@
-import React, { useEffect } from "react";
-import { H1, Subtitle } from "./Titles.js";
-import { Skew, Gradient } from "./Images.js";
-import {
-  Button,
-  Card,
-  CardTitle,
-  CardText,
-  Container,
-  Col,
-  Row
-} from "reactstrap";
-import SETTINGS from "../settings";
+import React from "react";
+import { H1 } from "./Titles.js";
+import { Row } from "reactstrap";
 import styled from "styled-components";
 
 export const Sep = styled.div`
