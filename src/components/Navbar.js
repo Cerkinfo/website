@@ -8,13 +8,23 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
-  Nav,
-  NavLink
+  Nav
 } from "reactstrap";
 import { NavHashLink } from "react-router-hash-link";
 import NavSocial from "./NavSocial";
 import SETTINGS from "../settings";
+
+const NavLink = ({ to, children }) => (
+  <NavHashLink activeClassName="" className="font-white nav-link" to={to}>
+    {children}
+  </NavHashLink>
+);
+
+const NavLinkD = ({ to, children }) => (
+  <NavHashLink activeClassName="" className="font-white dropdown-item" to={to}>
+    {children}
+  </NavHashLink>
+);
 
 export default () => {
   return (
@@ -37,43 +47,23 @@ export default () => {
             <UncontrolledDropdown>
               <DropdownToggle>Le Cercle</DropdownToggle>
               <DropdownMenu>
-                <DropdownItem className="font-white" href="/#news">
-                  News
-                </DropdownItem>
-                <DropdownItem className="font-white" href="/#cercle">
-                  {"C'est quoi"}
-                </DropdownItem>
-                <DropdownItem className="font-white" href="/#urlab">
-                  Urlab
-                </DropdownItem>
-                <DropdownItem className="font-white" href="/#dochub">
-                  Dochub
-                </DropdownItem>
-                <DropdownItem className="font-white" href="/#gates">
-                  Guilde Gates
-                </DropdownItem>
-                <DropdownItem className="font-white" href="/#babbage">
-                  Babbage
-                </DropdownItem>
-                <DropdownItem className="font-white" href="/#location">
-                  Notre Local
-                </DropdownItem>
+                <NavLinkD to="/#news">News</NavLinkD>
+                <NavLinkD to="/#cercle">{"C'est quoi"}</NavLinkD>
+                <NavLinkD to="/#urlab">Urlab</NavLinkD>
+                <NavLinkD to="/#dochub"> Dochub </NavLinkD>
+                <NavLinkD to="/#gates">Guilde Gates</NavLinkD>
+                <NavLinkD to="/#babbage">Babbage</NavLinkD>
+                <NavLinkD to="/#location">Notre Local</NavLinkD>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/history" className="font-white">
-                Historique
-              </NavLink>
+              <NavLink to="/history">Historique</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/pv" className="font-white">
-                PV
-              </NavLink>
+              <NavLink to="/pv">PV</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#contact" className="font-white">
-                Contacter
-              </NavLink>
+              <NavLink to="/#contact">Contacter</NavLink>
             </NavItem>
             <NavSocial />
           </Nav>
