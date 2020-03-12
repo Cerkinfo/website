@@ -181,7 +181,18 @@ export default () => {
               <Center>
                 <H3>La Guilde Gate</H3>
                 <Text>
-                  <p></p>
+                  <p>
+                    La Guilde Gates, fondée en 2003, est une corporation
+                    d'étudiants, anciens étudiants et amis du Cercle
+                    Informatique, organisant régulièrement des soirées appelées
+                    « CantuX » au cours desquelles les participants entonnent
+                    des chants traditionnels tout en buvant de la bière.
+                  </p>
+                  <p>
+                    Les CantuX sont cependant bien plus que de simples soirées
+                    chantantes et bibitives : ils s’inscrivent dans le cadre
+                    large et très varié du folklore estudiantin belge.
+                  </p>
                 </Text>
               </Center>
             </Col>
