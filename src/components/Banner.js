@@ -15,7 +15,7 @@ import SETTINGS from "../settings";
 export default () => {
   return (
     <section
-      className="ui-section  -hero section section-lg section-shaped pg-250 color-main"
+      className="ui-section -hero section section-lg section-shaped pg-250 color-main"
       style={{
         "background-size": "cover",
         "-webkit-background-size": "cover",
@@ -39,7 +39,7 @@ export default () => {
             </Subtitle>
           </div>
         </Col>
-        <Col lg="6" className="w-100 text-center">
+        <Col lg="6" className="w-100 text-center d-none d-sm-block">
           <img
             className="img-fluid fade-in"
             style={{ padding: "0 50px", maxWidth: "80%" }}
