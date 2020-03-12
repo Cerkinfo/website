@@ -11,6 +11,10 @@
   font-weight: 300;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 .color-main {
   background-color: $color-main;
 }
