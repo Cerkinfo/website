@@ -1,5 +1,6 @@
 # New Cerkinfo website
 
+created using [create-react-app](https://github.com/facebook/create-react-app "create react app")
 
 ### requirements
 
@@ -13,5 +14,5 @@
 5. run `npm start`
 6. It's functionnal! (if not, we are really sorry :'( )
 
-### question/problem/idea:
+### question/problem/ideas:
 contact: `webmaster@cercle-informatique.be`
