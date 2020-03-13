@@ -2,7 +2,7 @@
   "name": "mdr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://reseauxatlas.be",
+  "homepage": "https://cerkinfo.github.io/website/",
   "license": "mit",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
@@ -22,6 +22,7 @@
     "react-helmet": "^5.2.1",
     "react-leaflet": "^2.6.1",
     "react-router-dom": "^5.1.2",
+    "react-router-hash-link": "^1.2.2",
     "react-scripts": "3.3.1",
     "react-slick": "^0.25.2",
     "reactstrap": "^8.4.1",
