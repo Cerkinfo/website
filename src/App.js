@@ -6,7 +6,7 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { ThemeProvider } from "styled-components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Helmet from "react-helmet";
-import { Landing, History, Pv, NotFound, Post } from "./routes";
+import { Landing, History, Pv, NotFound, Post, Statuts } from "./routes";
 
 import "./assets/css/style.scss";
 import "slick-carousel/slick/slick.css";
@@ -37,6 +37,9 @@ export default () => {
           </Route>
           <Route path="/posts/:article">
             <Post />
+          </Route>
+          <Route path="/admin/:article">
+            <Statuts />
           </Route>
           <Route>
             <NotFound />
