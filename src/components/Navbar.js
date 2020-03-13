@@ -1,22 +1,30 @@
-import React, { useEffect } from 'react';
+import React from "react";
 import Headroom from "react-headroom";
 import {
-  Button,
   UncontrolledCollapse,
   NavbarBrand,
   Navbar,
   NavItem,
-  NavLink,
-  Nav,
-  Container,
-  Row,
-  Col,
-  UncontrolledTooltip
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  Nav
 } from "reactstrap";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from "react-router-dom";
-import NavSocial from './NavSocial';
-import SETTINGS from '../settings';
+import { NavHashLink } from "react-router-hash-link";
+import NavSocial from "./NavSocial";
+import SETTINGS from "../settings";
+
+const NavLink = ({ to, children }) => (
+  <NavHashLink activeClassName="" className="font-white nav-link" to={to}>
+    {children}
+  </NavHashLink>
+);
+
+const NavLinkD = ({ to, children }) => (
+  <NavHashLink activeClassName="" className="font-white dropdown-item" to={to}>
+    {children}
+  </NavHashLink>
+);
 
 export default () => {
   return (
@@ -28,30 +36,39 @@ export default () => {
       >
         <NavbarBrand to="/">
           <a href="/">
-            <img
-              alt={SETTINGS.title}
-              src={require("../assets/img/logo.png")}
-            />
+            <img alt={SETTINGS.title} src={require("../assets/img/logo.png")} />
           </a>
         </NavbarBrand>
         <button className="navbar-toggler" id="navbar_global">
           <span className="navbar-toggler-icon" />
         </button>
-        <UncontrolledCollapse navbar toggler="#navbar_global" >
+        <UncontrolledCollapse navbar toggler="#navbar_global">
           <Nav className="align-items-lg-center ml-lg-auto" navbar>
+            <UncontrolledDropdown>
+              <DropdownToggle>Le Cercle</DropdownToggle>
+              <DropdownMenu>
+                <NavLinkD to="/#news">News</NavLinkD>
+                <NavLinkD to="/#cercle">{"C'est quoi"}</NavLinkD>
+                <NavLinkD to="/#urlab">Urlab</NavLinkD>
+                <NavLinkD to="/#dochub"> Dochub </NavLinkD>
+                <NavLinkD to="/#gates">Guilde Gates</NavLinkD>
+                <NavLinkD to="/#babbage">Babbage</NavLinkD>
+                <NavLinkD to="/#location">Notre Local</NavLinkD>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             <NavItem>
-              <NavLink className="font-white" href="/#news">News</NavLink>
+              <NavLink to="/history">Historique</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="font-white" href="/#cercle">Le Cercle</NavLink>
+              <NavLink to="/pv">PV</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="font-white" href="/#contact">Contacter</NavLink>
+              <NavLink to="/#contact">Contacter</NavLink>
             </NavItem>
-            <NavSocial/>
+            <NavSocial />
           </Nav>
         </UncontrolledCollapse>
       </Navbar>
     </Headroom>
   );
-}
+};
