@@ -49,10 +49,10 @@ export default () => {
                 <H3>Le Cercle Informatique c'est quoi ?</H3>
                 <Text>
                   <p>
-                    Le Cercle est une <i>ASBL</i> qui a pour but de promouvoir le <b>folklore</b> et l'informatique auprès des étudiant.e.s.
+                    Le Cercle est une <i>ASBL</i> qui a pour but de promouvoir le <i>folklore</i> et l'informatique auprès des étudiant.e.s.
                   </p>
                   <p>
-                    Il organise diverses soirées (dont les fameux TDs) permettant de rencontrer d'autres étudiants ainsi qu'un <b>baptême</b>.
+                    Il organise diverses soirées (dont les fameux TDs) permettant de rencontrer d'autres étudiants ainsi qu'un <i>baptême</i>.
                     Ce dernier, entouré de mystères, permet de créer des liens forts entre les étudiant.e.s y participant et de
                     découvrir le folklore estudiantin!
                   </p>
@@ -155,7 +155,7 @@ export default () => {
               <Floating>
                 <Container>
                 <Quote>
-                  Le folklore chantant a aussi sa place au CI
+                  Le folklore chantant à aussi sa place au CI
                 </Quote>
                 </Container>
               </Floating>
@@ -179,13 +179,13 @@ export default () => {
                 <H3>Babbage</H3>
                 <Text>
                   <p>
-                    L’Ordre de Babbage est l’association des anciens étudiants du Département d’Informatique de la Faculté des Sciences de l’Université libre de Bruxelles.
+                    L’Ordre de Babbage est l’association des ancien.ne.s étudiant.e.s du Département d’Informatique de la Faculté des Sciences de l’Université libre de Bruxelles.
                   </p>
                   <p>
-                    L’Ordre de Babbage organise des activités à destination des anciens étudiants, décerne son double prix Babbage, et s'occupe aussi des archives du département.
+                    L’Ordre de Babbage organise des activités à destination des ancien.ne.s étudiant.e.s, décerne son double prix Babbage, et s'occupe aussi des archives du département.
                   </p>
                   <p>
-                    L’Ordre de Babbage décerne aussi des décorations appelées « vleks » aux étudiants ou anciens étudiants en sciences informatiques qui ont eu un rôle d’exception dans l’organisation du Cercle ou au sein du Département d’Informatique.
+                    L’Ordre de Babbage décerne aussi des décorations appelées « vleks » aux étudiant.e.s ou ancien.ne.s étudiant.e.s en sciences informatiques qui ont eu un rôle d’exception dans l’organisation du Cercle ou au sein du Département d’Informatique.
                   </p>
                   <Button href="http://babbage.ulb.be/" block>Leur site</Button>
                 </Text>
