@@ -97,9 +97,21 @@ export default () => {
               },
               {
                 date: "2012",
-                title: "Création du Hackerspace",
+                title: "Dernière édition de la MTSM"
+              },
+              {
+                date: "2012",
+                title: "Création du hackerspace",
                 content:
-                  "Le premier Hackerspace de l'ULB est créé par des étudiants du Cercle et prend place au 131 Avenue Buyl."
+                  "le premier hackerspace de l'ulb est créé par des étudiants du cercle et prend place dans un local vide du 131 avenue buyl, dans les anciens locaux du cercle des étudiants étrangers, après beaucoups de recherches. d'autres locaux notamment au no avait été trouvé mais ne convenait pas à l'usage pour un hackerspace. Dés sa création le Hackerspace offre des soirées avec des mini conférences appelées 'SmartMonday' et des 'Workshops' aux étudiants d'informatique.",
+                image: require("../assets/img/history/urlab.png")
+              },
+              {
+                date: "2018",
+                title: "Un jeu vidéo pour la StV",
+                content:
+                  "Visant à offrir une alternative aux classiques banderole et mettre en avant leur compétance en programmation le CI développe un jeu mobile pour la StV 2018 pour parler du thème de cette année: 'Librex bafoué, université engagés'.",
+                image: require("../assets/img/history/app.png")
               }
             ]}
           />
