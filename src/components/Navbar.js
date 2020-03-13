@@ -10,6 +10,7 @@ import {
   DropdownMenu,
   Nav
 } from "reactstrap";
+import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 import NavSocial from "./NavSocial";
 import SETTINGS from "../settings";
@@ -35,9 +36,9 @@ export default () => {
         id="navbar-main"
       >
         <NavbarBrand to="/">
-          <a href="/">
+          <Link to="/">
             <img alt={SETTINGS.title} src={require("../assets/img/logo.png")} />
-          </a>
+          </Link>
         </NavbarBrand>
         <button className="navbar-toggler" id="navbar_global">
           <span className="navbar-toggler-icon" />

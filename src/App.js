@@ -4,7 +4,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { ThemeProvider } from "styled-components";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Helmet from "react-helmet";
 import {
   Landing,
@@ -27,7 +27,7 @@ const theme = require('sass-extract-loader?{"plugins": ["sass-extract-js"]}!./as
 
 export default () => {
   return (
-    <Router basename="/website">
+    <Router basename="/">
       <ThemeProvider theme={theme}>
         <Helmet></Helmet>
 
