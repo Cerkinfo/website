@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6fb277852c20d905aa5be70b64412c9",
+    "revision": "2a65b29a662eac382d391976f7ad3925",
     "url": "/website/index.html"
   },
   {
-    "revision": "7ae68471b398cbded4cb",
+    "revision": "efa9c4e128f532727c09",
     "url": "/website/static/css/2.2d5719bc.chunk.css"
   },
   {
-    "revision": "8e4a51b13925b81a1356",
+    "revision": "71bacd3217ce906289b5",
     "url": "/website/static/css/main.65721679.chunk.css"
   },
   {
-    "revision": "7ae68471b398cbded4cb",
-    "url": "/website/static/js/2.b813199a.chunk.js"
+    "revision": "efa9c4e128f532727c09",
+    "url": "/website/static/js/2.6bdb4c2a.chunk.js"
   },
   {
     "revision": "c252fe9cf1ed82d21a64fae0719cd036",
-    "url": "/website/static/js/2.b813199a.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.6bdb4c2a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e4a51b13925b81a1356",
-    "url": "/website/static/js/main.1cc32aa2.chunk.js"
+    "revision": "71bacd3217ce906289b5",
+    "url": "/website/static/js/main.e2329104.chunk.js"
   },
   {
     "revision": "5497d4b079781531c0b0",
@@ -1112,8 +1112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/chants.512ab52e.md"
   },
   {
-    "revision": "7aafccd5b0132bb9f42e39da455e49e1",
-    "url": "/website/static/media/codex.7aafccd5.md"
+    "revision": "3aab6d4f5b0e96f15d7b78e316847d7f",
+    "url": "/website/static/media/codex.3aab6d4f.md"
   },
   {
     "revision": "2f92210c8c320aa2b12c66f7820713a8",
@@ -1166,6 +1166,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5f5f25ca6e6e9dc7a16687b5aa958fc0",
     "url": "/website/static/media/osdem.5f5f25ca.png"
+  },
+  {
+    "revision": "13edced589358c8edcdedd976dee5772",
+    "url": "/website/static/media/penne.13edced5.svg"
+  },
+  {
+    "revision": "d9fa6c4d8d1dcab64be13917acd03af6",
+    "url": "/website/static/media/poil.d9fa6c4d.svg"
   },
   {
     "revision": "7cc92f505e01016ea0c711c289a8c6b0",
