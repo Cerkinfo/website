@@ -1,23 +1,20 @@
-import React, { useEffect } from 'react';
-import { H1, Subtitle } from './Titles.js';
-import { Skew, Gradient } from './Images.js';
-import {
-  Button,
-  Card,
-  CardTitle,
-  CardText,
-  Container,
-  Col,
-  Row
-} from "reactstrap";
-import SETTINGS from '../settings';
-import styled from 'styled-components';
+import React from "react";
+import { H1 } from "./Titles.js";
+import { Row } from "reactstrap";
+import styled from "styled-components";
 
 export const Sep = styled.div`
-  padding: 80px 15px;
   font-weight: 200;
   color: ${props => props.theme.white};
   background-color: ${props => props.theme.light};
+
+  @media (max-width: 480px) {
+    padding: 40px 15px;
+  }
+
+  @media (min-width: 480px) {
+    padding: 80px 15px;
+  }
 `;
 
 export default ({ title }) => {
@@ -30,4 +27,4 @@ export default ({ title }) => {
       </Sep>
     </section>
   );
-}
+};
