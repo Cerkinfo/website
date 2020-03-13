@@ -176,13 +176,13 @@ Rentre dans le bâtiment qui se trouve en face de toi, par la porte se trouvant 
 ## Magasins
 
 *   Plaine
-    *   [Delhaize Shop n' Go](https://www.google.fr/maps/place/Delhaize+SHOP+METRO+DELTA+%28Oudergem%29/@50.8175793,4.4043813,17z/data=!3m1!4b1!4m2!3m1!1s0x47c3db33293f6bad:0xa411f7296d6d5cc1) dans la station de métro Delta.
+    *   [Carrefour Express](https://www.google.fr/maps/place/Delhaize+SHOP+METRO+DELTA+%28Oudergem%29/@50.8175793,4.4043813,17z/data=!3m1!4b1!4m2!3m1!1s0x47c3db33293f6bad:0xa411f7296d6d5cc1) dans la station de métro Delta.
     *   [Colruyt](https://www.google.fr/maps/place/Colruyt,+1160+Oudergem,+Belgique/@50.8250705,4.3980367,17z/data=!3m1!4b1!4m2!3m1!1s0x47c3c4c9fcac9ef9:0xa102bd2e1ec3d652) sur le boulevard du triomphe qui longe la Plaine
 *   Cimetière d'Ixelles
     *   [Carrefour Market](https://www.google.fr/maps/place/Carrefour+market+BOONDAEL+%28IXELLES%29/@50.816823,4.389189,17z/data=!3m1!4b1!4m2!3m1!1s0x47c3c4c516ebd5e7:0x4bbd9cd27acf5607) sur la chaussée de Boondael
     *   [Okay](https://www.google.fr/maps/place/Okay+Compact/@50.8150137,4.389036,18.36z/data=!4m2!3m1!1s0x47c3c4dacb604d15:0x5a527724e1792c14) sur l'avenue de l'Université
 *   Solbosch
-    *   [Shanti ](https://www.google.fr/maps/place/Shanti+-+Restaurant/@50.8169208,4.3810688,18.81z/data=!4m5!1m2!2m1!1smagasin!3m1!1s0x0000000000000000:0xe70e82779bbabf96)magasin bio sur l'avenue Buyl
+    *   [Shanti](https://www.google.fr/maps/place/Shanti+-+Restaurant/@50.8169208,4.3810688,18.81z/data=!4m5!1m2!2m1!1smagasin!3m1!1s0x0000000000000000:0xe70e82779bbabf96)magasin bio sur l'avenue Buyl
     *   [Carrefour express](https://www.google.fr/maps/place/Carrefour+express+A.+BUYL/@50.8181287,4.3796403,18.81z/data=!4m5!1m2!2m1!1smagasin!3m1!1s0x0000000000000000:0x820b1f2ee6840436) en contrebas de l'avenue Buyl
 
 Conseils :
