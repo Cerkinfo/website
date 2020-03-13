@@ -151,7 +151,7 @@ export default () => {
               </Floating>
               <Overlay>
                 <img
-                  src={require("../assets/img/landing1.png")}
+                  src={require("../assets/img/dochub.jpg")}
                   style={{ width: "100%" }}
                 />
               </Overlay>
@@ -161,12 +161,18 @@ export default () => {
                 <H3>Dochub</H3>
                 <Text>
                   <p>
-                    {
-                      "Dochub est le site de partage de document créer par le Cercle Informatique. C'est un outil indispensable a la réussite que nous développons librement."
-                    }
+                    Dochub est le site de partage de résumés, anciens examens,
+                    corrigés, ... créer par le Cercle Informatique et utiliser
+                    par plusieurs milliers d'étudiants de toutes les facultés de
+                    l'ULB.
+                  </p>
+                  <p>
+                    C'est un outil indispensable a la réussite qui est développé
+                    en accord avec nos valeurs, de manière totallement{" "}
+                    <a href="https://github.com/urlab/dochub">open source</a>.
                   </p>
                   <Button href="http://dochub.be/" block>
-                    Le site
+                    Dochub
                   </Button>
                 </Text>
               </Center>
