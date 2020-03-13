@@ -50,6 +50,18 @@ export default () => {
         <div className="h-100" id="cercle">
           <Row className="align-items-center">
             <Col lg="6">
+              <Floating className="w-100">
+                <img
+                  style={{
+                    position: "absolute",
+                    top: "50%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)"
+                  }}
+                  className="w-75"
+                  src={require("../assets/img/poil.svg")}
+                />
+              </Floating>
               <Overlay>
                 <img
                   src={require("../assets/img/landing1.png")}
