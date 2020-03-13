@@ -40,6 +40,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:admin": "processmd src/assets/admin/*.md --outputDir src/assets/admin --preview 110 --summaryOutput src/assets/admin/summary.json",
     "build:content": "processmd src/assets/posts/**/*.md --outputDir src/assets/posts --preview 110 --summaryOutput src/assets/posts/summary.json",
     "build:content:watch": "processmd src/assets/posts/**/*.md --outputDir src/assets/posts --preview 110 --summaryOutput src/assets/posts/summary.json --watch",
     "predeploy": "npm run build:content && npm run build",

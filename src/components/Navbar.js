@@ -54,6 +54,8 @@ export default () => {
                 <NavLinkD to="/#gates">Guilde Gates</NavLinkD>
                 <NavLinkD to="/#babbage">Babbage</NavLinkD>
                 <NavLinkD to="/#location">Notre Local</NavLinkD>
+                <NavLinkD to="/admin/statuts">Statuts</NavLinkD>
+                <NavLinkD to="/admin/roi">ROI</NavLinkD>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
