@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/website/static/css/main.65721679.chunk.css",
-    "main.js": "/website/static/js/main.06650c91.chunk.js",
-    "main.js.map": "/website/static/js/main.06650c91.chunk.js.map",
+    "main.js": "/website/static/js/main.4c3eb214.chunk.js",
+    "main.js.map": "/website/static/js/main.4c3eb214.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.a639dc9a.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.a639dc9a.js.map",
     "static/css/2.2d5719bc.chunk.css": "/website/static/css/2.2d5719bc.chunk.css",
-    "static/js/2.a2c4a5b4.chunk.js": "/website/static/js/2.a2c4a5b4.chunk.js",
-    "static/js/2.a2c4a5b4.chunk.js.map": "/website/static/js/2.a2c4a5b4.chunk.js.map",
+    "static/js/2.70f3a2e3.chunk.js": "/website/static/js/2.70f3a2e3.chunk.js",
+    "static/js/2.70f3a2e3.chunk.js.map": "/website/static/js/2.70f3a2e3.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.9aea108ab3b167f15ffcec2ec732be03.js": "/website/precache-manifest.9aea108ab3b167f15ffcec2ec732be03.js",
+    "precache-manifest.1d58fff9057a407e874bcafc1d8d67e4.js": "/website/precache-manifest.1d58fff9057a407e874bcafc1d8d67e4.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/2.2d5719bc.chunk.css.map": "/website/static/css/2.2d5719bc.chunk.css.map",
     "static/css/main.65721679.chunk.css.map": "/website/static/css/main.65721679.chunk.css.map",
-    "static/js/2.a2c4a5b4.chunk.js.LICENSE.txt": "/website/static/js/2.a2c4a5b4.chunk.js.LICENSE.txt",
+    "static/js/2.70f3a2e3.chunk.js.LICENSE.txt": "/website/static/js/2.70f3a2e3.chunk.js.LICENSE.txt",
     "static/media/2003-02-04.pdf": "/website/static/media/2003-02-04.84f8a038.pdf",
     "static/media/2003-04-29.pdf": "/website/static/media/2003-04-29.d4621252.pdf",
     "static/media/2003-05-05.pdf": "/website/static/media/2003-05-05.878b2cf4.pdf",
@@ -282,9 +282,9 @@
     "static/media/UrLab.jpg": "/website/static/media/UrLab.dd65a005.jpg",
     "static/media/app.png": "/website/static/media/app.8f26b897.png",
     "static/media/banner.png": "/website/static/media/banner.199c4e3a.png",
-    "static/media/beer.svg": "/website/static/media/beer.0319d930.svg",
+    "static/media/beer.svg": "/website/static/media/beer.3de4d092.svg",
     "static/media/candle.svg": "/website/static/media/candle.75a766a5.svg",
-    "static/media/cantux.svg": "/website/static/media/cantux.4d98580c.svg",
+    "static/media/cantux.svg": "/website/static/media/cantux.30713fa0.svg",
     "static/media/cantux.jpg": "/website/static/media/cantux.f4221148.jpg",
     "static/media/cerkinfo_logo.png": "/website/static/media/cerkinfo_logo.707786c2.png",
     "static/media/chants.md": "/website/static/media/chants.512ab52e.md",
@@ -294,6 +294,7 @@
     "static/media/forum.jpg": "/website/static/media/forum.12cb929a.jpg",
     "static/media/guide.md": "/website/static/media/guide.158a51a4.md",
     "static/media/history.jpg": "/website/static/media/history.1803e000.jpg",
+    "static/media/landing.png": "/website/static/media/landing.0734f24c.png",
     "static/media/landing1.png": "/website/static/media/landing1.199c4e3a.png",
     "static/media/local.jpg": "/website/static/media/local.d837fd8e.jpg",
     "static/media/logo.png": "/website/static/media/logo.0588bd89.png",
@@ -313,8 +314,8 @@
   "entrypoints": [
     "static/js/runtime-main.a639dc9a.js",
     "static/css/2.2d5719bc.chunk.css",
-    "static/js/2.a2c4a5b4.chunk.js",
+    "static/js/2.70f3a2e3.chunk.js",
     "static/css/main.65721679.chunk.css",
-    "static/js/main.06650c91.chunk.js"
+    "static/js/main.4c3eb214.chunk.js"
   ]
 }

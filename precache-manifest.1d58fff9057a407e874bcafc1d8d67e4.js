@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1db91db01e3abcbf9a2fa36cba6e073",
+    "revision": "f6a5a259f195a1cda74d81f3ea99656f",
     "url": "/website/index.html"
   },
   {
-    "revision": "011fcea86350e224df33",
+    "revision": "c524494ee9fd136577f1",
     "url": "/website/static/css/2.2d5719bc.chunk.css"
   },
   {
-    "revision": "391a3fdd2cb5cf6b5050",
+    "revision": "5731d63ee3accfe210be",
     "url": "/website/static/css/main.65721679.chunk.css"
   },
   {
-    "revision": "011fcea86350e224df33",
-    "url": "/website/static/js/2.a2c4a5b4.chunk.js"
+    "revision": "c524494ee9fd136577f1",
+    "url": "/website/static/js/2.70f3a2e3.chunk.js"
   },
   {
     "revision": "c252fe9cf1ed82d21a64fae0719cd036",
-    "url": "/website/static/js/2.a2c4a5b4.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.70f3a2e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "391a3fdd2cb5cf6b5050",
-    "url": "/website/static/js/main.06650c91.chunk.js"
+    "revision": "5731d63ee3accfe210be",
+    "url": "/website/static/js/main.4c3eb214.chunk.js"
   },
   {
     "revision": "940726f327d172b0c43e",
@@ -1100,16 +1100,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/banner.199c4e3a.png"
   },
   {
-    "revision": "0319d9303e6a4a13ccf2f81195cbef89",
-    "url": "/website/static/media/beer.0319d930.svg"
+    "revision": "3de4d092c67ff62f4385b822f3d4caa2",
+    "url": "/website/static/media/beer.3de4d092.svg"
   },
   {
     "revision": "75a766a53770bb68a4ac0c05b73d6d13",
     "url": "/website/static/media/candle.75a766a5.svg"
   },
   {
-    "revision": "4d98580c324f615e7e2d74cf79441eb0",
-    "url": "/website/static/media/cantux.4d98580c.svg"
+    "revision": "30713fa0cc51935ac0932d0531904599",
+    "url": "/website/static/media/cantux.30713fa0.svg"
   },
   {
     "revision": "f422114804edddf02ef41123c6fef8a5",
@@ -1146,6 +1146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1803e0000555177a8655f15567918d1a",
     "url": "/website/static/media/history.1803e000.jpg"
+  },
+  {
+    "revision": "0734f24c7ef50e65d6ed65e986f42e18",
+    "url": "/website/static/media/landing.0734f24c.png"
   },
   {
     "revision": "199c4e3a52a0837f13cf36528dec80c3",
