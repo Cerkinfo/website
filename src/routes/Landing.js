@@ -75,8 +75,8 @@ export default () => {
                 <Text>
                   <p>
                     Le Cercle est une <i>ASBL</i> qui a pour but de promouvoir
-                    le <b>folklore</b> et l'informatique auprès des
-                    étudiant.e.s.
+                    le <b>folklore</b> et l'informatique auprès des étudiant.e.s
+                    de l'ULB.
                   </p>
                   <p>
                     Il organise diverses soirées (dont les fameux TDs)
@@ -215,10 +215,17 @@ export default () => {
               </Center>
             </Col>
             <Col lg="6">
-              <Floating>
-                <Container>
-                  <Quote>Le folklore chantant a aussi sa place au CI</Quote>
-                </Container>
+              <Floating className="w-100">
+                <img
+                  style={{
+                    position: "absolute",
+                    top: "50%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)"
+                  }}
+                  className="w-75"
+                  src={require("../assets/img/cantux.svg")}
+                />
               </Floating>
               <Overlay>
                 <img
