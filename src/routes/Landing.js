@@ -5,22 +5,7 @@ import { H3, Text, Center, Quote, Cite } from "../components/Titles";
 import { Overlay, Floating } from "../components/Images";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { filterPosts } from "../utils/content";
-import {
-  Button,
-  Card,
-  CardTitle,
-  CardText,
-  Container,
-  Col,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  FormText,
-  Row,
-  NavLink
-} from "reactstrap";
-import SETTINGS from "../settings";
+import { Button, Container, Col, Row } from "reactstrap";
 try {
   var SUMMARY_JSON = require("../assets/posts/summary.json");
 } catch (e) {
