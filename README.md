@@ -16,3 +16,12 @@ created using [create-react-app](https://github.com/facebook/create-react-app "c
 
 ### question/problem/ideas:
 contact: `webmaster@cercle-informatique.be`
+
+### troubleshooting:
+1. 404 on special pages (post, statut, ROI, ...):
+run `$npm run build` or `$npm run build:[folders]`
+the different folders are:
+* admin
+* content
+* folklore
+* post
