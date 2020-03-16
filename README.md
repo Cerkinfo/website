@@ -8,8 +8,8 @@ created using [create-react-app](https://github.com/facebook/create-react-app "c
 
 install npm:
 
-Debian based distro: [follow this link](https://github.com/nodesource/distributions/blob/master/README.md "nodejs on Github")
-Arch based distro: `pacman -S nodejs npm`
+- Debian based distro: [follow this link](https://github.com/nodesource/distributions/blob/master/README.md "nodejs on Github")
+- Arch based distro: `pacman -S nodejs npm`
 
 ### install dev instance on your laptop:
 1. download the repo
