@@ -64,19 +64,20 @@ Foxugly
 ### A. Des classes
 
 1. La Guilde Gates possède les 5 classes suivantes ordonnées chronologiquement:
-    * La classe de Candidat.
-    * La classe de Postulant.
-    * La classe d'Impétrant.
-    * La classe de Membre de la Guilde Gates.
-    * La classe de Membre du Conseil du Kernel.
+
+    * La classe de Candidat.
+    * La classe de Postulant.
+    * La classe d'Impétrant.
+    * La classe de Membre de la Guilde Gates.
+    * La classe de Membre du Conseil du Kernel.
 2. Les membres d'une même classe sont égaux entre eux et les membres d'une classe donnée prévalent sur les membres d'une classe inférieure.
 
 ### B. Des instances
 
 1. La Guilde Gates est composée des 2 instances permanentes suivantes:
 
-    * le Collège des Prévôts.
-    * le Conseil du Kernel.
+    * le Collège des Prévôts.
+    * le Conseil du Kernel.
 
 2. Le Collège des Prévôts est en charge de l'organisation et du bon déroulement des CantuX ainsi que de la gestion quotidienne de la Guilde Gates.
 
@@ -86,10 +87,10 @@ Foxugly
 
 Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
-1. Conditions d'accès à l'épreuve de la classe courante.
-2. L'épreuve à accomplir accéder à cette classe.
-3. Une définition de cette classe.
-4. Une description des droits et devoirs de cette classe.
+1. Conditions d'accès à l'épreuve de la classe courante.
+2. L'épreuve à accomplir accéder à cette classe.
+3. Une définition de cette classe.
+4. Une description des droits et devoirs de cette classe.
 
 ### A. Candidat
 
@@ -115,10 +116,10 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
     Au terme de la période d'apprentissage, le savoir du Postulant devra comprendre:
 
-    * une connaissance passive du Codex et active de la Guilde.
-    * une connaissance relative de l'histoire du Folklore Estudiantin.
-    * une connaissance approfondie des chants couramment entonnés dans les séances ordinaires (liste de chant mineure).
-    * une connaissance suffisante du «savoir vivre» en CantuX et des formules latines généralement utilisées.
+    * une connaissance passive du Codex et active de la Guilde.
+    * une connaissance relative de l'histoire du Folklore Estudiantin.
+    * une connaissance approfondie des chants couramment entonnés dans les séances ordinaires (liste de chant mineure).
+    * une connaissance suffisante du «savoir vivre» en CantuX et des formules latines généralement utilisées.
 
 5. Au lendemain du Dies Natalis tout postulant qui n'était pas présent se voit retirer ce titre à moins que lui et son parrain fassent part à la guilde de leur souhait de continuer le processus.
 
@@ -153,11 +154,11 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
     Entrent en ligne de compte:
 
-    * l'implication du Postulants dans la vie guindaillesque de la Guilde.
-    * la qualité de l'Impénétration du Postulant, déduite de son examen de connaissances.
-    * les résultats du Postulants au test bibitif et guindaillesque.
-    * l'évaluation du savoir-vivre en CantuX du Postulant, effectuée tout au long de l'Instruction.
-    * la connaissance des chants présents sur la liste de chant mineure fournie par le Cantor Primus.
+    * l'implication du Postulants dans la vie guindaillesque de la Guilde.
+    * la qualité de l'Impénétration du Postulant, déduite de son examen de connaissances.
+    * les résultats du Postulants au test bibitif et guindaillesque.
+    * l'évaluation du savoir-vivre en CantuX du Postulant, effectuée tout au long de l'Instruction.
+    * la connaissance des chants présents sur la liste de chant mineure fournie par le Cantor Primus.
 
     Lors de la reprise de la cérémonie, le Grand Senior reprendra la direction de la réunion et il proclamera les résultats, s'en suivra la Prise d'Habit Mineure pour les Postulants acceptés. Les Postulants qui auraient échoué restent Postulants jusqu'à la session d'Impénétration suivante.
 
@@ -165,9 +166,9 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
 4. On attend d'un Impétrant de participer activement à l'organisation des activités de la Guilde. Par ailleurs, l'Impétrant devra acquérir:
 
-    * une connaissance active du Codex.
-    * une connaissance approfondie des chants (liste de chant majeure).
-    * une connaissance complète du «savoir vivre» en CantuX et des formules latines généralement utilisées.
+    * une connaissance active du Codex.
+    * une connaissance approfondie des chants (liste de chant majeure).
+    * une connaissance complète du «savoir vivre» en CantuX et des formules latines généralement utilisées.
 
 ### D. Membre de la Guilde Gates
 
@@ -230,8 +231,8 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
 2. Le Conseil du Kernel est compétent pour:
 
-    * la modification du Codex.
-    * l'inclusion de nouveaux Membres au Conseil du Kernel.
+    * la modification du Codex.
+    * l'inclusion de nouveaux Membres au Conseil du Kernel.
 
 3. Le Grand Senior préside toutes les réunions internes. Le Grand Senior est responsable des relations tant internes qu'externes. Il devient automatiquement Membre du Conseil du Kernel au début de son mandat. Il est invité à entretenir et à valoriser les relations avec les autres associations estudiantines.
 
@@ -259,13 +260,13 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
 3. Les insignes des fonctions sont:
 
-    * Grand Senior: Couronne au-dessus d'une palme.
-    * Senior: Couronne.
-    * Cantor Primus et Secundus: Lyre.
-    * Censor: Glaive.
-    * Fuchs: Chope.
-    * Quaestor: Bourse.
-    * Scribe: @.
+    * Grand Senior: Couronne au-dessus d'une palme.
+    * Senior: Couronne.
+    * Cantor Primus et Secundus: Lyre.
+    * Censor: Glaive.
+    * Fuchs: Chope.
+    * Quaestor: Bourse.
+    * Scribe: @.
 
 4. Le prévôt portera ses insignes de fonction à hauteur de poitrine (au dessus du blason le cas échéant), et ceux de ses fonctions passées légèrement en retrait (en dessous du blason le cas échéant).
 
@@ -287,8 +288,8 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
 2. La structure de gestion idéale a été définie comme suit:
 
-    * le __codex__: document de référence le plus à jour possible.
-    * les __archives__: contiennent le Codex originel, tous les décrets édictés (La notion de décret a été abrogée lors de la réunion interne du 2 avril 2008.) et toutes les versions réactualisées du Codex.
+    * le __codex__: document de référence le plus à jour possible.
+    * les __archives__: contiennent le Codex originel, tous les décrets édictés (La notion de décret a été abrogée lors de la réunion interne du 2 avril 2008.) et toutes les versions réactualisées du Codex.
 
 3. La fonction d'Archiviste est confié au Grand Senior, sans pour autant que les deux fonctions soient confondues. De plus, la transmission de la fonction d'Archiviste entraîne obligatoirement la transmission des archives.
 
@@ -321,32 +322,32 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
     Première partie
     ---------------
 
-    * Ouverture de la séance.
-    * « Gaudeamus Igitur ».
-    * Allocutions de bienvenue.
-    * Chants des associations présentes.
-    * « Ode à la Guilde Gates ».
-    * Présentation de chants et de guindailles.
-    * Tempus Commune.
+    * Ouverture de la séance.
+    * « Gaudeamus Igitur ».
+    * Allocutions de bienvenue.
+    * Chants des associations présentes.
+    * « Ode à la Guilde Gates ».
+    * Présentation de chants et de guindailles.
+    * Tempus Commune.
 
     Deuxième partie
     ---------------
 
-    * « La Bière ».
-    * Présentation d'autres chants et d'autres guindailles.
-    * Tempus Commune.
+    * « La Bière ».
+    * Présentation d'autres chants et d'autres guindailles.
+    * Tempus Commune.
 
     Troisième partie
     ----------------
 
-    * A minuit: « La femme du Roulier ».
-    * Présentation de chants et de guindailles.
-    * Dernières communications.
-    * Clôture de Séance.
-    * « Le chant des étudiants ».
-    * « Het Lied van geen taal ».
-    * « Le Semeur ».
-    * « La mère Gaspard».
+    * A minuit: « La femme du Roulier ».
+    * Présentation de chants et de guindailles.
+    * Dernières communications.
+    * Clôture de Séance.
+    * « Le chant des étudiants ».
+    * « Het Lied van geen taal ».
+    * « Le Semeur ».
+    * « La mère Gaspard».
     ```
 
 2. Les CantuX sont ouverts à tous.
@@ -355,12 +356,12 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
 1. Les réunions internes reprennent le déroulement standard des CantuX, à l'exception de la première partie qui se déroulera comme suit:
 
-    * Ouverture de la séance.
-    * « Gaudeamus Igitur ».
-    * Allocutions de bienvenue.
-    * « Ode à la Guilde Gates ».
-    * Ordre du jour.
-    * Tempus Commune.
+    * Ouverture de la séance.
+    * « Gaudeamus Igitur ».
+    * Allocutions de bienvenue.
+    * « Ode à la Guilde Gates ».
+    * Ordre du jour.
+    * Tempus Commune.
 
 2. L'ordre du jour sera établi et communiqué à l'avance par le Grand Senior. Toutefois, chaque Membre, Postulant ou Impétrant pourra contacter le Grand Senior afin de proposer un point à l'ordre du jour.
 
@@ -372,34 +373,34 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
 2. La première partie sera ponctuée de questions de connaissance par rapport aux devoir des Postulants et des Impétrants et se déroulera comme suit:
 
-    * Ouverture de la séance.
-    * « Gaudeamus Igitur ».
-    * Allocutions de bienvenue.
-    * « Ode à la Guilde Gates ».
-    * Prise d'Habit Majeure dans les formes prescrites par le présent Codex.
-    * Ordre du jour.
-    * Tempus Commune.
+    * Ouverture de la séance.
+    * « Gaudeamus Igitur ».
+    * Allocutions de bienvenue.
+    * « Ode à la Guilde Gates ».
+    * Prise d'Habit Majeure dans les formes prescrites par le présent Codex.
+    * Ordre du jour.
+    * Tempus Commune.
 
 3. La seconde partie se déroulera principalement comme suit:
 
-    * « La Bière ».
-    * Présentation des guindailles des Postulants.
-    * Présentation des affonds spéciaux des Postulants.
-    * Affond litre.
-    * Un affond spécial proposé par le Grand Senior.
-    * Tempus Commune pour les Postulants/ Vote puis Tempus Commune pour les Membres.
+    * « La Bière ».
+    * Présentation des guindailles des Postulants.
+    * Présentation des affonds spéciaux des Postulants.
+    * Affond litre.
+    * Un affond spécial proposé par le Grand Senior.
+    * Tempus Commune pour les Postulants/ Vote puis Tempus Commune pour les Membres.
 
 4. La troisième partie clôture le Dies Natalis et se déroule comme suit:
 
-    * A minuit: « La femme du Roulier ».
-    * Résultat du vote.
-    * Prise d'Habit Mineure dans les formes prescrites par le présent Codex.
-    * Rite secret.
-    * Clôture de Séance.
-    * « Le chant des étudiants ».
-    * « Het Lied van geen taal ».
-    * « Le Semeur ».
-    * « La mère Gaspard».
+    * A minuit: « La femme du Roulier ».
+    * Résultat du vote.
+    * Prise d'Habit Mineure dans les formes prescrites par le présent Codex.
+    * Rite secret.
+    * Clôture de Séance.
+    * « Le chant des étudiants ».
+    * « Het Lied van geen taal ».
+    * « Le Semeur ».
+    * « La mère Gaspard ».
 
 5. Le Dies Natalis comportera la lecture d'un extrait du Porno Sacré.
 
@@ -411,12 +412,12 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
 3. La seconde partie se déroulera comme suit:
 
-    * « La Bière ».
-    * Elections du nouveaux Grand Senior et des nouveaux prévôts dans l'ordre suivant: Grand Senior, Senior, Cantor I, Cantor II, Censor, Quaestor, Fuchs, Scribe.
-    * Investiture du grand Senior entrant dans les formes prescrites par le présent Codex.
-    * Serment d'engagement des Prévôts entrants dans les formes prescrites par le présent Codex.
-    * L'investiture et les Serments terminés, les nouveaux élu prendront leurs fonctions immédiatement.
-    * Tempus Commune.
+    * « La Bière ».
+    * Élections du nouveaux Grand Senior et des nouveaux prévôts dans l'ordre suivant: Grand Senior, Senior, Cantor I, Cantor II, Censor, Quaestor, Fuchs, Scribe.
+    * Investiture du grand Senior entrant dans les formes prescrites par le présent Codex.
+    * Serment d'engagement des Prévôts entrants dans les formes prescrites par le présent Codex.
+    * L'investiture et les Serments terminés, les nouveaux élu prendront leurs fonctions immédiatement.
+    * Tempus Commune.
 
 4. La troisième partie suivra le déroulement standard de la troisième partie d'un CantuX, si ce n'est qu'elle sera hautement guindaillesque en ce sens qu'elle sera l'occasion pour les élus entrants et sortants de fêter leur nouveau statut.
 
@@ -438,19 +439,19 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
 2. Les bancs où prennent place les membres de la corona sont disposés en U, l'ouverture regardant vers le monde extérieur. Ils sont aux nombre de trois:
 
-    * Banc du Bureau.
-    * Corona de gauche.
-    * Corona de droite.
+    * Banc du Bureau.
+    * Corona de gauche.
+    * Corona de droite.
 
 3. Les prévôts se placeront comme suit:
 
-    * Le Senior se tient à la base du U.
-    * Le Cantor Primus siège à la droite du Senior.
-    * Le Cantor Secundus siège à gauche du Senior.
-    * Le Censor siège à l'opposé du bureau sur le banc de la corona de droite ou de gauche. Cette position stratégique lui permettra d'avoir une visibilité maximale sur la corona. Elle lui permettra également de se déplacer rapidement au centre de la corona en cas de besoin.
-    * Le Fuchs siège à la place lui permettant d'optimiser la gestion de son office.
-    * Le Qaestor siège à la place la plus proche de l'entrée des lieux, afin d'exécuter au plus tôt son office.
-    * Le Scribe siège à la place lui permettant de réunir les meilleurs conditions possibles afin d'effectuer son office.
+    * Le Senior se tient à la base du U.
+    * Le Cantor Primus siège à la droite du Senior.
+    * Le Cantor Secundus siège à gauche du Senior.
+    * Le Censor siège à l'opposé du bureau sur le banc de la corona de droite ou de gauche. Cette position stratégique lui permettra d'avoir une visibilité maximale sur la corona. Elle lui permettra également de se déplacer rapidement au centre de la corona en cas de besoin.
+    * Le Fuchs siège à la place lui permettant d'optimiser la gestion de son office.
+    * Le Qaestor siège à la place la plus proche de l'entrée des lieux, afin d'exécuter au plus tôt son office.
+    * Le Scribe siège à la place lui permettant de réunir les meilleurs conditions possibles afin d'effectuer son office.
 
 4. L'ensemble des personnes présentes, en dehors des prévôts, prend place sur les deux branches du U. Il appartient au Senior d'éventuellement réarranger la disposition des membres de la corona afin qu'elle soit symétrique et permette au CantuX de se dérouler au mieux.
 
@@ -482,8 +483,8 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
 1. Outre le non-respect ou l'oubli d'une règle ou d'une formule de ce chapitre, les actes suivants sont punissables:
 
-    *   Non respect de l'habit pour les Membres de la Guilde Gates (3 affonds d'office).
-    *   Sonneries ou bruits intempestifs émanant d'un quelconque objet (5 affonds d'office).
+    *   Non respect de l'habit pour les Membres de la Guilde Gates (3 affonds d'office).
+    *   Sonneries ou bruits intempestifs émanant d'un quelconque objet (5 affonds d'office).
 
 2. Quand un participant est sanctionné d'une pénitence avec formule par le Senior ou le Censor, il se lève, se découvre et prononce « Paenitet me pecasse cive pecavisse ». Il exécute ensuite sa pénitence puis s'assied.
 
@@ -500,9 +501,9 @@ Les sous-chapitres de ce chapitre sont structurées de la façon suivante:
 
 1. Lorsqu'un participant franchi la limite de perturbation tolérée par le Senior et/ou le Censor, il sera durement sanctionné selon la gradation suivante:
 
-    * Affond(s) à l'eau.
-    * Ejection de la corona pendant 5 minutes.
-    * Ejection définitive de la corona (« Ad siberiam »).
+    * Affond(s) à l'eau.
+    * Ejection de la corona pendant 5 minutes.
+    * Ejection définitive de la corona (« Ad siberiam »).
 
 2. Les perturbations sont des fautes graves et leurs sanctions sont sans appel.
 
@@ -571,56 +572,56 @@ de pouvoir lui éviter de sentir la boisson houblonnée.
 
 #### La gestion des mouvements de la Corona
 
-* __Omnes ad loca:__ _Tout le monde à l'intérieur_.
-* __Omnes ad sedes:__ _Tout le monde s'assied_.
-* __Incipit sodalicii nostri sessio prima (secunda,...). Het clublied!:__ _Début du premier (second,...) tempus._
-* __Opto ut tempus commune (secundum) multisecularem traditionem pissandi sit:__ _Déclaration du tempus général._
-* __Optamus:__ _Participation à un tempus général._
-* __Ordinem dimitto usque ad proximam sessionem:__ _Clôture définitive du CantuX._
-* __Corona gratias:__ _la Corona se remercie pour le CantuX passé._
+* __Omnes ad loca:__ _Tout le monde à l'intérieur_.
+* __Omnes ad sedes:__ _Tout le monde s'assied_.
+* __Incipit sodalicii nostri sessio prima (secunda,...). Het clublied!:__ _Début du premier (second,...) tempus._
+* __Opto ut tempus commune (secundum) multisecularem traditionem pissandi sit:__ _Déclaration du tempus général._
+* __Optamus:__ _Participation à un tempus général._
+* __Ordinem dimitto usque ad proximam sessionem:__ _Clôture définitive du CantuX._
+* __Corona gratias:__ _la Corona se remercie pour le CantuX passé._
 
 #### La gestion des mouvements des personnes
 
-* **Ad pistum:** _Invitation à s'approcher en face du bureau, au milieu de la corona._
-* **Decat me castigare propter moram:** _Il convient de me châtier pour mon retard._
-* **Quod erat demonstrandum:** _Ce qui était à démontrer._
-* **Peto tempus pissendi personnalis (dualis):** _Demande d’autorisation pour aller uriner (à deux)._
-* **Ad siberiam:** _Exclusion définitive du CantuX._
+* **Ad pistum:** _Invitation à s'approcher en face du bureau, au milieu de la corona._
+* **Decat me castigare propter moram:** _Il convient de me châtier pour mon retard._
+* **Quod erat demonstrandum:** _Ce qui était à démontrer._
+* **Peto tempus pissendi personnalis (dualis):** _Demande d’autorisation pour aller uriner (à deux)._
+* **Ad siberiam:** _Exclusion définitive du CantuX._
 
 #### La Parole
 
-* **Silentium:** _Tout le monde se tait._
-* **Peto verbum:** _Demande de la parole._
-* **Habes:** _Invitation à la parole._
-* **Non habes:** _Refus de la parole._
-* **Non habes pro tempore:** _Refus de la parole pour quelques instants._
-* **Ergo habeo:** _Pour commencer l'allocution._
-* **Dixi:** _Pour terminer l'allocution._
-* **Peto delationum:** _Pour dénoncer un membre de la corona ou du bureau d'un acte fautif._
-* **Peto respondum:** _Pour répondre à une allocution/accusation._
-* **Prime bibere, deinde philosophare:** _D'abords tu bois, ensuite on verra!_
+* **Silentium:** _Tout le monde se tait._
+* **Peto verbum:** _Demande de la parole._
+* **Habes:** _Invitation à la parole._
+* **Non habes:** _Refus de la parole._
+* **Non habes pro tempore:** _Refus de la parole pour quelques instants._
+* **Ergo habeo:** _Pour commencer l'allocution._
+* **Dixi:** _Pour terminer l'allocution._
+* **Peto delationum:** _Pour dénoncer un membre de la corona ou du bureau d'un acte fautif._
+* **Peto respondum:** _Pour répondre à une allocution/accusation._
+* **Prime bibere, deinde philosophare:** _D'abords tu bois, ensuite on verra!_
   
 #### La Chanson
 
-* **Peto cantum:** _Demande de la parole pour chanter._
-* **Habes:** _Autorisation à lancer le chant proposé après y avoir été invité._
-* **Non habes:** _Refus du chant._
-* **Non habes pro tempore:** _Refus temporaire du chant._
-* **Ad cantadum verbum habes:** _Invitation à lancer le chant proposé._
-* **Ad ultimam (primam, secundam, tertiam, quartam, quintam, sextam, septam, octavam, nonam, decimam, ...):** _On chante le dernier couplet (le 1er, le 2e, le 3e, le 4e, le 5e, le 6e, le 7e, le 8e, le 9e, le 10e, ...)._
-* **Cantus ex:** _Pour terminer l'acte chantant._
+* **Peto cantum:** _Demande de la parole pour chanter._
+* **Habes:** _Autorisation à lancer le chant proposé après y avoir été invité._
+* **Non habes:** _Refus du chant._
+* **Non habes pro tempore:** _Refus temporaire du chant._
+* **Ad cantadum verbum habes:** _Invitation à lancer le chant proposé._
+* **Ad ultimam (primam, secundam, tertiam, quartam, quintam, sextam, septam, octavam, nonam, decimam, ...):** _On chante le dernier couplet (le 1er, le 2e, le 3e, le 4e, le 5e, le 6e, le 7e, le 8e, le 9e, le 10e, ...)._
+* **Cantus ex:** _Pour terminer l'acte chantant._
 
 #### La Boisson
 
-* **Prosit Cantoribus:** _Santé au lanceur du chant!_
-* **Prosit Senior:** _Santé Senior!_
-* **Prosit Corona:** _Santé tout le monde!_
-* **Ad fundum:** _Affond!_
-* **Ad diagonalem:** _Affond diagonale._
-* **Ad libitum:** _On boit ce qu'on veut._
-* **Gaudeao quod non pecaui et illum pocculum merui:** _Formule de récompense._
-* **Penitaet me pecasse siue pecauisse:** _Formule de pénitence._
-* **Peto impotentiam minorem:** _Demande d'impotence mineure._
-* **Peto impotentiam maiorem:** _Demande d'impotence moyenne._
-* **Peto impotentiam planem:** _Demande d'impotence complète._
+* **Prosit Cantoribus:** _Santé au lanceur du chant!_
+* **Prosit Senior:** _Santé Senior!_
+* **Prosit Corona:** _Santé tout le monde!_
+* **Ad fundum:** _Affond!_
+* **Ad diagonalem:** _Affond diagonale._
+* **Ad libitum:** _On boit ce qu'on veut._
+* **Gaudeao quod non pecaui et illum pocculum merui:** _Formule de récompense._
+* **Penitaet me pecasse siue pecauisse:** _Formule de pénitence._
+* **Peto impotentiam minorem:** _Demande d'impotence mineure._
+* **Peto impotentiam maiorem:** _Demande d'impotence moyenne._
+* **Peto impotentiam planem:** _Demande d'impotence complète._
 
