@@ -4,7 +4,12 @@ created using [create-react-app](https://github.com/facebook/create-react-app "c
 
 ### requirements
 
-`npm`
+`npm` and `node-js`
+
+install npm:
+
+Debian based distro: [follow this link](https://github.com/nodesource/distributions/blob/master/README.md "nodejs on Github")
+Arch based distro: `pacman -S nodejs npm`
 
 ### install dev instance on your laptop:
 1. download the repo
@@ -19,8 +24,9 @@ contact: `webmaster@cercle-informatique.be`
 
 ### troubleshooting:
 1. 404 on special pages (post, statut, ROI, ...):
-run `$npm run build` or `$npm run build:[folders]`
-the different folders are:
+run `$npm run build` or `$npm run build:[folders]`.
+
+The different folders are:
 * admin
 * content
 * folklore
