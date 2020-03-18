@@ -213,10 +213,29 @@ export default () => {
                 />
               </Floating>
               <Overlay>
-                <img
-                  src={require("../assets/img/landing1.png")}
-                  style={{ width: "100%" }}
-                />
+                <Slider
+                  infinite={true}
+                  slidesToShow={1}
+                  dots={false}
+                  speed={2500}
+                  autoplaySpeed={3500}
+                  fade={true}
+                  autoplay={true}
+                  arrows={false}
+                >
+                  <img
+                    src={require("../assets/img/cantux/1.jpg")}
+                    style={{ width: "100%" }}
+                  />
+                  <img
+                    src={require("../assets/img/cantux/2.jpg")}
+                    style={{ width: "100%" }}
+                  />
+                  <img
+                    src={require("../assets/img/cantux/3.jpg")}
+                    style={{ width: "100%" }}
+                  />
+                </Slider>
               </Overlay>
             </Col>
           </Row>
