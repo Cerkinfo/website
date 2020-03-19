@@ -44,7 +44,7 @@ export default ({ color }) => (
         <NavLink
           className="nav-link-icon"
           style={{ color: color }}
-          href={SETTINGS.contact.instagram}
+          href={SETTINGS.contact.discord}
           id="instagramtooltip"
           target="_blank"
         >
