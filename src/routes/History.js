@@ -225,8 +225,7 @@ const history = [
   },
   {
     date: "2013",
-    title: "Dernière édition de la Glotte d'Or",
-    image: require("../assets/img/history/glottedor.jpg")
+    title: "Dernière édition de la Glotte d'Or"
   },
   {
     date: "2018",
