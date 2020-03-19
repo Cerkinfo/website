@@ -200,18 +200,15 @@ export default () => {
               </Center>
             </Col>
             <Col lg="6">
-              <Floating className="w-100">
-                <img
-                  style={{
-                    position: "absolute",
-                    top: "50%",
-                    left: "50%",
-                    transform: "translate(-50%, -50%)"
-                  }}
-                  className="w-75"
-                  src={require("../assets/img/cantux.svg")}
-                />
-              </Floating>
+              <img
+                style={{
+                  zIndex: 1,
+                  left: "25%",
+                  position: "absolute"
+                }}
+                className="w-50"
+                src={require("../assets/img/cantux.svg")}
+              />
               <Overlay>
                 <Slider
                   infinite={true}
