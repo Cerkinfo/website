@@ -182,7 +182,7 @@ export default () => {
           <Row className="align-items-center">
             <Col lg="6">
               <Center>
-                <H3>La Guilde Gate</H3>
+                <H3>La Guilde Gates</H3>
                 <Text>
                   <p>
                     La Guilde Gates, fondée en 2003, est une corporation
