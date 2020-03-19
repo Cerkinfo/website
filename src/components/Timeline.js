@@ -1,17 +1,7 @@
 import React from "react";
-import { H2, H3, Text, Center, Quote, Cite } from "../components/Titles";
-import {
-  Button,
-  Container,
-  Col,
-  Row,
-  Card,
-  CardTitle,
-  CardSubtitle,
-  CardText,
-  CardImg,
-  CardLink
-} from "reactstrap";
+import Slider from "react-slick";
+import { H2, H3, Text } from "../components/Titles";
+import { Row, Card, CardTitle, CardText } from "reactstrap";
 
 export default ({ timeline }) => {
   return (
@@ -27,10 +17,35 @@ export default ({ timeline }) => {
                 <CardTitle className="text-center">
                   <H2>{e.title}</H2>
                 </CardTitle>
-                <CardText>
-                  <Text>{e.content}</Text>
-                  {e.image ? <img className="w-100" src={e.image} /> : null}
-                </CardText>
+                {e.content || e.image ? (
+                  <CardText>
+                    {typeof e.content == "string" ? (
+                      <Text>{e.content}</Text>
+                    ) : (
+                      e.content
+                    )}
+                    <div style={{ padding: "0px 20px" }}>
+                      {e.image ? (
+                        Array.isArray(e.image) ? (
+                          <Slider
+                            infinite={true}
+                            slidesToShow={1}
+                            arrows={true}
+                            dots={false}
+                            speed={2500}
+                            autoplaySpeed={3500}
+                          >
+                            {e.image.map(x => (
+                              <img className="w-100" src={x} />
+                            ))}
+                          </Slider>
+                        ) : (
+                          <img className="w-100" src={e.image} />
+                        )
+                      ) : null}
+                    </div>
+                  </CardText>
+                ) : null}
               </Card>
             </Row>
           </div>

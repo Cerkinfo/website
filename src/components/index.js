@@ -6,4 +6,5 @@ export { default as Navbar } from "./Navbar";
 export { default as Preview } from "./Preview";
 export { default as Separator } from "./Separator";
 export { default as Timeline } from "./Timeline";
+export { default as Pdf } from "./Pdf";
 // export { default as Post } from "./Post"
