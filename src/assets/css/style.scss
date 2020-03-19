@@ -39,6 +39,11 @@ html {
   background-color: $light;
 }
 
+.slick-prev:before,
+.slick-next:before {
+    color: $color-main !important;
+  }
+
 .headroom--unfixed {
   background-color: $primary;
 }
