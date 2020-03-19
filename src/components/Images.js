@@ -82,7 +82,7 @@ export const Overlay = styled.span`
 
 export const Floating = styled.span`
   position: absolute;
-  margin: 0 15%;
+  padding: 0 15%;
   z-index: 1;
   top: 50%;
 `;

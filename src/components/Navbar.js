@@ -68,7 +68,7 @@ export default () => {
             <NavItem>
               <NavLink to="/#contact">Contacter</NavLink>
             </NavItem>
-            <NavSocial />
+            <NavSocial color="white" />
           </Nav>
         </UncontrolledCollapse>
       </Navbar>
