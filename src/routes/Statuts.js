@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row, Spinner, Badge } from "reactstrap";
-import { H3, Subtitle } from "../components/Titles";
-import { formatDate } from "../utils/date";
+import { H3 } from "../components/Titles";
 import { withRouter, Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 export default withRouter(props => {
   const [page, setPage] = useState(null);
@@ -18,28 +18,33 @@ export default withRouter(props => {
 
   if (page) {
     return (
-      <div className="h-100">
-        <Row className="w-100">
-          <Col
-            style={{ paddingTop: "300px", paddingBottom: "100px" }}
-            lg="4"
-            className="text-center color-main font-white"
-          >
-            <H3>{page.title} du Cercle Informatique</H3>
-            <Link to="/admin/statuts">
-              <Badge>Statuts</Badge>
-            </Link>
-            <Link to="/admin/roi">
-              <Badge>ROI</Badge>
-            </Link>
-          </Col>
-          <Col style={{ marginTop: "100px" }} lg="8">
-            <Container>
-              <div dangerouslySetInnerHTML={{ __html: page.bodyHtml }}></div>
-            </Container>
-          </Col>
-        </Row>
-      </div>
+      <>
+        <Helmet>
+          <title>{page.title}</title>
+        </Helmet>
+        <div className="h-100">
+          <Row className="w-100">
+            <Col
+              style={{ paddingTop: "300px", paddingBottom: "100px" }}
+              lg="4"
+              className="text-center color-main font-white"
+            >
+              <H3>{page.title} du Cercle Informatique</H3>
+              <Link to="/admin/statuts">
+                <Badge>Statuts</Badge>
+              </Link>
+              <Link to="/admin/roi">
+                <Badge>ROI</Badge>
+              </Link>
+            </Col>
+            <Col style={{ marginTop: "100px" }} lg="8">
+              <Container>
+                <div dangerouslySetInnerHTML={{ __html: page.bodyHtml }}></div>
+              </Container>
+            </Col>
+          </Row>
+        </div>
+      </>
     );
   } else {
     return (

@@ -6,6 +6,7 @@ import { Overlay, Floating } from "../components/Images";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { filterPosts } from "../utils/content";
 import { Button, Container, Col, Row } from "reactstrap";
+import { Helmet } from "react-helmet";
 try {
   var SUMMARY_JSON = require("../assets/posts/summary.json");
 } catch (e) {
@@ -17,6 +18,9 @@ export default () => {
 
   return (
     <span>
+      <Helmet>
+        <title>Cercle Informatique - Accueil</title>
+      </Helmet>
       <Banner />
       <Separator title={"News"} />
       <div id="news">
