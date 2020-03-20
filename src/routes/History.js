@@ -84,7 +84,7 @@ const history = [
       "Le Cercle voit l'intégration des nouveaux étudiants d'une matière différente et organise pour la première fois son baptême. Le nombre d'informaticiens baptisé au sein de la section était très faible le Cercle s'est donné pour objectif de faire revivre le folklore en son sein."
   },
   {
-    date: "1984",
+    date: "1985",
     title: "Déménagement à la Plaine",
     content:
       "Suite au nombre croissant de personnes qui fréquentent le cercle, le centre de calcul interdit l'accès au Cercle à cause de ses activités qui ne conviennent pas à celle du Centre de calcul. Le Cercle va se voir attribuer son local actuel qui était anciennement utilisé par Radio Campus.",
@@ -166,6 +166,22 @@ const history = [
         />
       </>
     )
+  },
+  {
+    date: "1999",
+    title: "Un OS de rentrée de l'époque",
+    content: (
+      <>
+        <p>
+          Un petit aperçu de ce à quoi ressemblait l'OS pour la rentrée 1999
+        </p>
+        <Pdf
+          title={"Consulter l'OS de rentrée de 1990"}
+          file={require("../assets/pdf/history/1999_OS.pdf")}
+        />
+      </>
+    ),
+    image: require("../assets/img/history/osdem.png")
   },
   {
     date: "2001",
