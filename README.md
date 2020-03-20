@@ -1,33 +1,56 @@
-# New Cerkinfo website
+# Cerkinfo Website
 
-created using [create-react-app](https://github.com/facebook/create-react-app "create react app")
+The website is created using [create-react-app](https://github.com/facebook/create-react-app "create react app") and was made to run as a statical website requiring little to no maintenance through the years.
 
-### requirements
+## Requirements
 
-`npm` and `node-js`
-
-install npm:
+### NPM
 
 - Debian based distro: [follow this link](https://github.com/nodesource/distributions/blob/master/README.md "nodejs on Github")
 - Arch based distro: `pacman -S nodejs npm`
 
-### install dev instance on your laptop:
-1. download the repo
-2. download `npm`
-3. go into the project directory
-4. run `npm install`
-5. run `npm start`
-6. It's functionnal! (if not, we are really sorry :'( )
+### Project
 
-### question/problem/ideas:
-contact: `webmaster@cercle-informatique.be`
+```txt
+> git clone "https://github.com/Cerkinfo/website"
+> cd website
+> npm install # or yarn install if you prefer
+```
 
-### troubleshooting:
+## Run Dev Instance
+
+```txt
+> npm run start
+```
+
+To create the index for the statical assets (pdf, markdown files and make them
+visible for the website you should also run these commands once.
+
+```txt
+> npm run build:folklore
+> npm run build:admin
+> npm run build:content
+```
+
+## Deploying
+
+To deploy the website you need the 'write' rights on this repository.
+
+```txt
+> npm run deploy
+```
+
+## Troubleshooting
+
 1. 404 on special pages (post, statut, ROI, ...):
 run `$npm run build` or `$npm run build:[folders]`.
 
 The different folders are:
-* admin
-* content
-* folklore
-* post
+
+- admin
+- content
+- folklore
+
+## Any Question Problem or Ideas
+
+Contact: `webmaster@cercle-informatique.be`
