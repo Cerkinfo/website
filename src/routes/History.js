@@ -112,6 +112,16 @@ const history = [
     )
   },
   {
+    date: "1988",
+    title: "Baptême 1988: La Guerre des Genes",
+    content: (
+      <>
+        <p>Une anciènne affiche d'un baptême CI de l'époque.</p>
+      </>
+    ),
+    image: require("../assets/img/history/1988_bapteme.png")
+  },
+  {
     date: "1990",
     title: "Première édition de la MTSM (Miss T-Shirt Mouillé)",
     content: (
