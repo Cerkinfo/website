@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { H2, H3, Text } from "../components/Titles";
+import { H2, Text } from "../components/Titles";
 import { Row, Card, CardTitle, CardText } from "reactstrap";
 
 export default ({ timeline }) => {
