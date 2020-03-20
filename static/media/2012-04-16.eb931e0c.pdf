@@ -1,6 +1,0 @@
-
-\input{structure/tex_header.tex}
-\input{content/header.tex}
-\input{structure/tab.tex}
-\input{content/content.tex}
-\end{document}
