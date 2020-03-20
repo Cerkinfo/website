@@ -190,8 +190,7 @@ const history = [
           file={require("../assets/pdf/history/1999_OS.pdf")}
         />
       </>
-    ),
-    image: require("../assets/img/history/osdem.png")
+    )
   },
   {
     date: "2001",
