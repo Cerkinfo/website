@@ -1,22 +1,18 @@
 import React from "react";
-import { Separator, Timeline } from "../components/";
-import { H1, H3, Text, Center, Quote, Cite } from "../components/Titles";
-import { Skew, Overlay } from "../components/Images";
-import {
-  Button,
-  Card,
-  CardTitle,
-  CardText,
-  Container,
-  Col,
-  Row
-} from "reactstrap";
-import * as moment from "moment";
+import { Separator } from "../components/";
+import { H1 } from "../components/Titles";
+import { Skew } from "../components/Images";
+import { Col, Row } from "reactstrap";
+import moment from "moment";
 import PV from "../assets/pv/pv.json";
+import { Helmet } from "react-helmet";
 
 export default () => {
   return (
     <>
+      <Helmet>
+        <title>Procès Verbaux</title>
+      </Helmet>
       <section className="section section-lg section-shaped pg-250 color-main">
         <Row className="align-items-center h-100 color-main">
           <Col lg="6">
