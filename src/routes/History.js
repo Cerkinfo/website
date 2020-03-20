@@ -134,7 +134,8 @@ const history = [
     image: [
       require("../assets/img/history/1992_mtsm.png"),
       require("../assets/img/history/mtsm.jpg"),
-      require("../assets/img/history/mtsm3.jpg")
+      require("../assets/img/history/mtsm3.jpg"),
+      require("../assets/img/history/2006_mtsm.png")
     ]
   },
   {
