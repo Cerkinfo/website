@@ -11,6 +11,7 @@ import {
   Col,
   Row
 } from "reactstrap";
+import * as moment from "moment";
 import PV from "../assets/pv/pv.json";
 
 export default () => {
@@ -27,7 +28,12 @@ export default () => {
         </Row>
       </section>
       <Separator title={"Procès Verbaux"} />
-      {PV.map(x => (
+      {PV.sort((a, b) => {
+        if (a.year > b.year) return -1;
+        if (a.year < b.year) return 1;
+
+        return 0;
+      }).map(x => (
         <>
           <Separator title={x.year} />
           <section
@@ -35,11 +41,21 @@ export default () => {
             className="section section-lg section-shaped pg-250"
           >
             <ul>
-              {x.content.map(x => (
-                <li>
-                  <a href={require("../assets/" + x.url)}>{x.date}</a>
-                </li>
-              ))}
+              {x.content
+                .sort((a, b) => {
+                  if (a.date > b.date) return -1;
+                  if (a.date < b.date) return 1;
+
+                  return 0;
+                })
+                .map(x => ({ ...x, ...{ date: moment(x.date) } }))
+                .map(x => (
+                  <li>
+                    <a href={require("../assets/" + x.url)}>
+                      {x.date.format("dddd, DD/MM/YYYY")}
+                    </a>
+                  </li>
+                ))}
             </ul>
           </section>
         </>
