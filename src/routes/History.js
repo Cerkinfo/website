@@ -333,6 +333,57 @@ const history = [
     title: "Dernière édition de la Glotte d'Or"
   },
   {
+    date: "2015",
+    title: "Un nouveau logo pour le Cercle Informatique",
+    content: (
+      <>
+        <p>
+          Un nouveau et logo actuel du cercle change encore une fois, pour
+          remplacer l'ancien, qui représentait un ordinateur occupé de boire une
+          bière.
+        </p>
+        <h3>Symboles</h3>
+        <ul>
+          <li>
+            Le bug (dessiné par les coubes sur le noeud central du graphe) voir
+            l'icône du site web
+          </li>
+          <li>
+            <a href="http://fr.wikipedia.org/wiki/Lambda-calcul">Lambda</a> (en
+            majuscule sous le ruban)
+          </li>
+          <li>
+            La ruche ( héxagone dans le noeud inférieur droit) l'attribut de{" "}
+            <a href="http://fr.wikipedia.org/wiki/Isidore_de_S%C3%A9ville">
+              Saint Isidore
+            </a>
+            . Saint, entre autres, des informaticiens. La ruche peut elle même
+            être représentée par un hexagone.
+          </li>
+          <li>En binaire il est écrit "Computer science rules the world"</li>
+          <li>
+            Le ruban, représente le ruban infini de la machine de{" "}
+            <a href="http://fr.wikipedia.org/wiki/Machine_de_Turing">Turing</a>
+          </li>
+          <li>
+            La date de création du cercle, (séparation du CdS) dans le ruban
+          </li>
+          <li>Le réseau, sur le noeud principal</li>
+          <li>Le graphe, formé par les noeuds</li>
+          <li>
+            Phi majuscule, le CI dans le noeud en bas à gauche qui a une forme
+            de Phi majuscule (le nombre d'or)
+          </li>
+          <li>L'état final d'un automate à état (noeud doublement cerclé)</li>
+        </ul>
+      </>
+    ),
+    image: [
+      require("../assets/img/cerkinfo_logo.png"),
+      require("../assets/img/history/logos/4/Logo5.png")
+    ]
+  },
+  {
     date: "2018",
     title: "Un jeu vidéo pour la StV",
     content:
