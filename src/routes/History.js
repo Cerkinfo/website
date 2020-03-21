@@ -139,6 +139,75 @@ const history = [
     ]
   },
   {
+    date: "1992",
+    title: "Un logo à la pointe de la technologie",
+    content: (
+      <>
+        <p>Un témoignage d'époque qui explique l'historique de ce logo</p>
+        <h3>Un logo pour le Cercle Informatique</h3>
+        <p>
+          Le Cercle Informatique possède un logo à la gloire de sa grandeur.
+          Toujours à la pointe de la technologie informatique, ce logo à été
+          réalisé en utilisant des techniques de pointes en matière d'images de
+          synthèse.
+        </p>
+        <h3>Historique </h3>
+        <p>
+          Le logo du Cercle Informatique vraisemblablement à été réalisé au
+          début de l'année académique 1992-1993. La première version de ce logo
+          était destinée à la création d'annimation et constituait pour moi un
+          exercice d'utilisation du programme de Raytracing POV-Ray. Il n'a pas
+          fallu longtemps pour que John Rizzo s'empare de mes sources et
+          expérimente différentes textures pour le logo. A l'époque le Cercle
+          Informatique disposait sans doute déjà de son ordinateur et c'est sur
+          celui-ci que furent réaliser les premiers logos utilisés ensuite pour
+          des lettres ou pour des affiches. Parallèlement à cela, je développait
+          mon propre format d'animation utilisant la delta-compression et je
+          mettait au point un programme faissant tourner le logo du Cercle
+          Informatique sur un écrant en mode VGA. Longtemps après, en 1997, les
+          sources pour le programme POV-Ray du logo du Cercle Informatique ont
+          sans doute été perdue. C'est avec horreur que j'ai apeçu les
+          tentatives de rotation du logo du Cercle Informatique sur les
+          premières versions du site officiel du Cercle Informatique. Peu de
+          temps après, j'ai commencé à être contacté à plusieurs reprises pour
+          me demander de retrouver les fichiers originaux. Apparement, le Cercle
+          Informatique utilisait une version plate du logo, ce qui ne permettait
+          plus de l'animé en trois dimention, ni de l'imprimer en haute
+          résolution. Finalement, après de longue recherche dans mes piles de
+          disquettes, j'ai retrouvé mes sources. Afin de les remettres au goût
+          du jour et de les offrir au Cercle Informatique, j'ai retravaillé les
+          sources pour les adapter à la syntaxe de la version 2 de POV-Ray. J'en
+          ai égallement profité pour réaliser une animation capable de remplacer
+          au pied levé celle utilisée sur le site officiel de Cercle
+          Informatique. Afin d'assurer que le logo ne soit plus perdu, j'ai
+          assorti le don des sources du logo à quelques conditions qui je
+          l'espère permetteront que celui-ci d'être amélioré tout en concervant
+          son histoire.
+        </p>
+        <h3>Un peu de technique </h3>
+        <p>
+          Le programme POV-Ray est un programme de Raytracing. Il permet de
+          réaliser des images de synthèse photoréalistes. Pour cela il faut
+          décrire la scène que l'on veut représenter en utilisant des objets, ou
+          forme, géométrique. Le programme POV-Ray permet ainsi de décrire un
+          univers complexe et tridimentionnel à partir d'un simple fichier
+          texte. La lettre I est consitué de l'union de trois cylindres, deux
+          horizontaux et un vertical, pour réaliser le corps et de quatres
+          sphères pour réaliser les bouts arrondis. La lettre C est formé à
+          partir d'une tore. Cette tore est limité par de plan afin de créer
+          l'ouverture sur la droite. Le C est également terminé par une union
+          avec deux sphères pour former les bouts arrondis.
+        </p>
+      </>
+    ),
+    image: [
+      require("../assets/img/history/logos/2/logoanim.gif"),
+      require("../assets/img/history/logos/2/logocercle.gif"),
+      require("../assets/img/history/logos/2/logosynthese.jpg"),
+      require("../assets/img/history/logos/2/logosynthese2.jpg")
+    ]
+  },
+  {
     date: "1993",
     title: "Création du Département Informatique",
     content:
@@ -192,6 +261,23 @@ const history = [
     content:
       "Première édition de la conférence aujourd'hui connue sous le nom de 'FOSDEM' organisé avec la collaboration des étudiants du Cercle Informatique.",
     image: require("../assets/img/history/osdem.png")
+  },
+  {
+    date: "2002",
+    title: "Logo du Site en 2002",
+    content: "Le logo utilisé sur le site 'cerkinfo' de l'époque",
+    image: [
+      require("../assets/img/history/logos/3/logo.jpg"),
+      require("../assets/img/history/2002_site.png")
+    ]
+  },
+  {
+    date: "2003",
+    title: "Nouveau logo",
+    image: [
+      require("../assets/img/history/logos/3/logo.png"),
+      require("../assets/img/history/logos/3/noel.png")
+    ]
   },
   {
     date: "2003",
