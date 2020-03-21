@@ -2,7 +2,7 @@
   "name": "ci",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cerkinfo.github.io/website/",
+  "homepage": "https://cercle-informatique.be",
   "license": "mit",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
