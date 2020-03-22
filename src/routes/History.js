@@ -16,7 +16,7 @@ const history = [
           distinct du Cercle des Sciences est créé.
         </p>
         <p>
-          Les activités de l'époque étaient les suivantes
+          Les activités de l'époque étaient les suivantes:
           <ul>
             <li>Des thé-dansants (29 avril, 26 octobre , 2 décembre 1976)</li>
             <li>
@@ -109,7 +109,7 @@ const history = [
     title: "Baptême 1988: La Guerre des Genes",
     content: (
       <>
-        <p>Une anciènne affiche d'un baptême CI de l'époque.</p>
+        <p>Une ancienne affiche d'un baptême CI de l'époque.</p>
       </>
     ),
     image: require("../assets/img/history/1988_bapteme.png")
@@ -122,7 +122,7 @@ const history = [
         <p>
           Cet évènement qui aujourd'hui n'existe heureusement plus consistait
           comme son titre l'indique à renversé des seaux d'eau fraiche sur les
-          participant.e.s et ainsi rendre leur T-Shirt transparant.
+          participant.e.s et ainsi rendre leur T-Shirt transparent.
         </p>
         <p>
           L'évènement a d'abord eu lieu au premier quadrimestre pendant le mois
@@ -147,7 +147,7 @@ const history = [
         <h3>Un logo pour le Cercle Informatique</h3>
         <p>
           Le Cercle Informatique possède un logo à la gloire de sa grandeur.
-          Toujours à la pointe de la technologie informatique, ce logo à été
+          Toujours à la pointe de la technologie informatique, ce logo a été
           réalisé en utilisant des techniques de pointes en matière d'images de
           synthèse.
         </p>
@@ -155,33 +155,33 @@ const history = [
         <p>
           Le logo du Cercle Informatique vraisemblablement à été réalisé au
           début de l'année académique 1992-1993. La première version de ce logo
-          était destinée à la création d'annimation et constituait pour moi un
+          était destinée à la création d'animation et constituait pour moi un
           exercice d'utilisation du programme de Raytracing POV-Ray. Il n'a pas
           fallu longtemps pour que John Rizzo s'empare de mes sources et
           expérimente différentes textures pour le logo. A l'époque le Cercle
           Informatique disposait sans doute déjà de son ordinateur et c'est sur
           celui-ci que furent réaliser les premiers logos utilisés ensuite pour
-          des lettres ou pour des affiches. Parallèlement à cela, je développait
+          des lettres ou pour des affiches. Parallèlement à cela, je développais
           mon propre format d'animation utilisant la delta-compression et je
-          mettait au point un programme faissant tourner le logo du Cercle
-          Informatique sur un écrant en mode VGA. Longtemps après, en 1997, les
+          mettait au point un programme faisant tourner le logo du Cercle
+          Informatique sur un écran en mode VGA. Longtemps après, en 1997, les
           sources pour le programme POV-Ray du logo du Cercle Informatique ont
-          sans doute été perdue. C'est avec horreur que j'ai apeçu les
+          sans doute été perdues. C'est avec horreur que j'ai aperçu les
           tentatives de rotation du logo du Cercle Informatique sur les
           premières versions du site officiel du Cercle Informatique. Peu de
           temps après, j'ai commencé à être contacté à plusieurs reprises pour
           me demander de retrouver les fichiers originaux. Apparement, le Cercle
           Informatique utilisait une version plate du logo, ce qui ne permettait
-          plus de l'animé en trois dimention, ni de l'imprimer en haute
-          résolution. Finalement, après de longue recherche dans mes piles de
-          disquettes, j'ai retrouvé mes sources. Afin de les remettres au goût
+          plus de l'animé en trois dimension, ni de l'imprimer en haute
+          résolution. Finalement, après de longues recherches dans mes piles de
+          disquettes, j'ai retrouvé mes sources. Afin de les remettre au goût
           du jour et de les offrir au Cercle Informatique, j'ai retravaillé les
           sources pour les adapter à la syntaxe de la version 2 de POV-Ray. J'en
-          ai égallement profité pour réaliser une animation capable de remplacer
+          ai également profité pour réaliser une animation capable de remplacer
           au pied levé celle utilisée sur le site officiel de Cercle
           Informatique. Afin d'assurer que le logo ne soit plus perdu, j'ai
           assorti le don des sources du logo à quelques conditions qui je
-          l'espère permetteront que celui-ci d'être amélioré tout en concervant
+          l'espère permetteront à celui-ci d'être amélioré tout en conservant
           son histoire.
         </p>
         <h3>Un peu de technique </h3>
@@ -189,12 +189,12 @@ const history = [
           Le programme POV-Ray est un programme de Raytracing. Il permet de
           réaliser des images de synthèse photoréalistes. Pour cela il faut
           décrire la scène que l'on veut représenter en utilisant des objets, ou
-          forme, géométrique. Le programme POV-Ray permet ainsi de décrire un
-          univers complexe et tridimentionnel à partir d'un simple fichier
-          texte. La lettre I est consitué de l'union de trois cylindres, deux
-          horizontaux et un vertical, pour réaliser le corps et de quatres
-          sphères pour réaliser les bouts arrondis. La lettre C est formé à
-          partir d'une tore. Cette tore est limité par de plan afin de créer
+          formes, géométriques. Le programme POV-Ray permet ainsi de décrire un
+          univers complexe et tridimensionnel à partir d'un simple fichier
+          texte. La lettre I est consituée de l'union de trois cylindres, deux
+          horizontaux et un vertical, pour réaliser le corps et de quatre
+          sphères pour réaliser les bouts arrondis. La lettre C est formée à
+          partir d'un tore. Ce tore est limité par deux plans afin de créer
           l'ouverture sur la droite. Le C est également terminé par une union
           avec deux sphères pour former les bouts arrondis.
         </p>
@@ -211,13 +211,13 @@ const history = [
     date: "1993",
     title: "Création du Département Informatique",
     content:
-      "La section se détache du département de Mathématique et le Département Informatique est crée (DI)."
+      "La section se détache du département de Mathématiques et le Département Informatique est crée (DI)."
   },
   {
     date: "1997",
     title: "Création de l'ordre Babbage",
     content:
-      "Avec une allusion évidente à un des pionnier de l'informatique, l'Ordre veut rassembler les anciens étudiants et étudiants d'informatique ayant oeuvré pour le cercle ou le département."
+      "Avec une allusion évidente à un des pionnier de l'informatique, l'Ordre veut rassembler les ancien.nes étudiant.e.s et étudiant.e.s d'informatique ayant oeuvré pour le cercle ou le département."
   },
   {
     date: "1997",
@@ -225,13 +225,13 @@ const history = [
     content: (
       <>
         <p>
-          Ce premier bal organisé pour le 20ème anniversaire du cercle était
+          Ce premier bal, organisé pour le 20ème anniversaire du cercle, était
           précédé à l'époque d'un forum de l'emploi qui mettait en relation les
-          étudiants d'informatique avec les entreprises. Cet évènement a été par
+          étudiant.e.s d'informatique avec les entreprises. Cet évènement a été par
           la suite séparé en deux évènements distincts. Aujourd'hui le forum de
           l'emploi n'existe plus sous sa forme original mais a été repris par le
           Cercle des Sciences pour offrir une Jobfair pour l'ensemble de la
-          facultée.",
+          faculté.",
         </p>
         <Pdf
           title={"Consulter le 'Carnet de bal' de l'époque"}
@@ -259,7 +259,7 @@ const history = [
     date: "2001",
     title: "Première édition du OSDEM",
     content:
-      "Première édition de la conférence aujourd'hui connue sous le nom de 'FOSDEM' organisé avec la collaboration des étudiants du Cercle Informatique.",
+      "Première édition de la conférence aujourd'hui connue sous le nom de 'FOSDEM' organisé avec la collaboration des étudiant.e.s du Cercle Informatique.",
     image: require("../assets/img/history/osdem.png")
   },
   {
@@ -303,20 +303,20 @@ const history = [
           locaux du cercle des étudiants étrangers.
         </p>
         <p>
-          Le 131 Avenue Buyl a habrité à partir de 1991 les Cercle de Philo et
-          Lettre au rez-de-chaussée, le Cercle de Psychologie au Premier étage
-          ainsi que le Cercle de Médecine, Aggro et Science-Éco dans les étages
-          supérieures. Déjà à l'époque des discussions était en cours pour
+          Le 131 Avenue Buyl a abrité à partir de 1991 les Cercle de Philo et
+          Lettre au rez-de-chaussée, le Cercle de Psychologie au premier étage
+          ainsi que le Cercle de Médecine, Agro et Sciences-Éco dans les étages
+          supérieurs. Déjà à l'époque des discussions étaient en cours pour
           fermer le bâtiment et y faire des rénovations.
         </p>
         <p>
-          Ce local inoccupé a été trouvé après beaucoups de recherches, d'autres
-          locaux notamment au NO ont été proposé mais ne convenait pas à pour
+          Ce local inoccupé a été trouvé après beaucoup de recherches, d'autres
+          locaux notamment au NO ont été proposés mais ne convenaient pas pour
           l'usage d'un Hackerspace.
         </p>
         <p>
-          Dés sa création le Hackerspace offre des soirées avec des mini
-          conférences appelées 'SmartMonday' et des 'Workshops' aux étudiants
+          Dès sa création le Hackerspace offre des soirées avec des mini
+          conférences appelées 'SmartMonday' et des 'Workshops' aux étudiant.e.s
           d'informatique.
         </p>
       </>
@@ -338,14 +338,14 @@ const history = [
     content: (
       <>
         <p>
-          Un nouveau et logo actuel du cercle change encore une fois, pour
-          remplacer l'ancien, qui représentait un ordinateur occupé de boire une
+          Le logo du CI s'offre une nouvelle jeunesse! Il 
+          remplace l'ancien logo qui représentait un ordinateur buvant une
           bière.
         </p>
         <h3>Symboles</h3>
         <ul>
           <li>
-            Le bug (dessiné par les coubes sur le noeud central du graphe) voir
+            Le bug (dessiné par les courbes sur le noeud central du graphe) voir
             l'icône du site web
           </li>
           <li>
@@ -387,7 +387,7 @@ const history = [
     date: "2018",
     title: "Un jeu vidéo pour la StV",
     content:
-      "Visant à offrir une alternative aux classiques banderole et mettre en avant leur compétance en programmation le CI développe un jeu mobile pour la StV 2018 pour parler du thème de cette année: 'Librex bafoué, université engagés'.",
+      "Visant à offrir une alternative aux classiques banderole et mettre en avant leur compétence en programmation le CI développe un jeu mobile pour la StV 2018 pour parler du thème de cette année: 'Librex bafoué, universités engagées'.",
     image: require("../assets/img/history/app.png")
   }
 ];
