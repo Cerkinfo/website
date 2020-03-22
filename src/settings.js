@@ -26,7 +26,7 @@ export default {
     formspree: "https://formspree.io/maybwabo",
     facebook: "https://www.facebook.com/cerkinfo",
     instagram: "https://www.instagram.com/cercleinformatique/",
-    discord: "https://discord.gg/XYJV8Qf",
+    discord: "https://discord.gg/BW3mpTA",
     email: "contact@cercle-informatique.be"
   }
 };
