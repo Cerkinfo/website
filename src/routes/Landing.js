@@ -69,7 +69,7 @@ export default () => {
                   </p>
                   <p>
                     Il organise diverses soirées (dont les fameux TDs)
-                    permettant de rencontrer d'autres étudiants ainsi qu'un{" "}
+                    permettant de rencontrer d'autres étudiant.e.s ainsi qu'un{" "}
                     <b>baptême</b>. Ce dernier, entouré de mystères, permet de
                     créer des liens forts entre les étudiant.e.s y participant
                     et de découvrir le folklore estudiantin!
@@ -163,13 +163,13 @@ export default () => {
                 <Text>
                   <p>
                     Dochub est le site de partage de résumés, anciens examens,
-                    corrigés, ... créer par le Cercle Informatique et utiliser
-                    par plusieurs milliers d'étudiants de toutes les facultés de
+                    corrigés, ... créer par le Cercle Informatique et utilisé
+                    par plusieurs milliers d'étudiant.e.s de toutes les facultés de
                     l'ULB.
                   </p>
                   <p>
-                    C'est un outil indispensable a la réussite qui est développé
-                    en accord avec nos valeurs, de manière totallement{" "}
+                    C'est un outil indispensable à la réussite qui est développé
+                    en accord avec nos valeurs, de manière totalement{" "}
                     <a href="https://github.com/urlab/dochub">open source</a>.
                   </p>
                   <Button href="http://dochub.be/" block>
@@ -190,7 +190,7 @@ export default () => {
                 <Text>
                   <p>
                     La Guilde Gates, fondée en 2003, est une corporation
-                    d'étudiants, anciens étudiants et amis du Cercle
+                    d'étudiant.e.s, ancien.ne.s étudiant.e.s et amis du Cercle
                     Informatique, organisant régulièrement des soirées appelées
                     « CantuX » au cours desquelles les participants entonnent
                     des chants traditionnels tout en buvant de la bière.
@@ -258,18 +258,18 @@ export default () => {
                 <H3>Babbage</H3>
                 <Text>
                   <p>
-                    L’Ordre de Babbage est l’association des anciens étudiants
+                    L’Ordre de Babbage est l’association des ancien.ne.s étudiant.e.s
                     du Département d’Informatique de la Faculté des Sciences de
                     l’Université libre de Bruxelles.
                   </p>
                   <p>
                     L’Ordre de Babbage organise des activités à destination des
-                    anciens étudiants, décerne son double prix Babbage, et
+                    ancien.e.s étudiant.e.s, décerne son double prix Babbage, et
                     s'occupe aussi des archives du département.
                   </p>
                   <p>
                     L’Ordre de Babbage décerne aussi des décorations appelées «
-                    vleks » aux étudiants ou anciens étudiants en sciences
+                    vleks » aux étudiant.e.s ou ancien.ne.s étudiant.e.s en sciences
                     informatiques qui ont eu un rôle d’exception dans
                     l’organisation du Cercle ou au sein du Département
                     d’Informatique.
