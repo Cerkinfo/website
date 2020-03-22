@@ -25,7 +25,7 @@
     "react-leaflet": "^2.6.1",
     "react-router-dom": "^5.1.2",
     "react-router-hash-link": "^1.2.2",
-    "react-scripts": "3.3.1",
+    "react-scripts": "3.4.1",
     "react-slick": "^0.25.2",
     "reactstrap": "^8.4.1",
     "slick-carousel": "^1.8.1",
@@ -35,21 +35,32 @@
     "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "processmd": "^4.5.0",
+    "react-app-rewired": "^2.1.5",
+    "react-snap": "^1.23.0",
     "sass-extract": "^2.1.0",
     "sass-extract-js": "^0.4.0",
     "sass-extract-loader": "^1.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "build:folklore": "processmd src/assets/folklore/*.md --outputDir src/assets/folklore --preview 110 --summaryOutput src/assets/folklore/summary.json",
     "build:admin": "processmd src/assets/admin/*.md --outputDir src/assets/admin --preview 110 --summaryOutput src/assets/admin/summary.json",
     "build:content": "processmd src/assets/posts/**/*.md --outputDir src/assets/posts --preview 110 --summaryOutput src/assets/posts/summary.json",
     "build:content:watch": "processmd src/assets/posts/**/*.md --outputDir src/assets/posts --preview 110 --summaryOutput src/assets/posts/summary.json --watch",
+    "postbuild": "react-snap",
     "predeploy": "npm run build:content && npm run build:folklore && npm run build:admin && npm run build",
     "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
+  },
+  "reactSnap": {
+    "source": "build",
+    "fixWebpackChunksIssue": false,
+    "minifyHtml": {
+      "collapseWhitespace": false,
+      "removeComments": true
+    }
   },
   "eslintConfig": {
     "extends": "react-app"
