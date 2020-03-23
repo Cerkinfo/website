@@ -70,7 +70,7 @@ export default () => {
                   <p>
                     Il organise diverses soirées (dont les fameux TDs)
                     permettant de rencontrer d'autres étudiant.e.s ainsi qu'un{" "}
-                    <b>baptême</b>. Ce dernier, entouré de mystères, permet de
+                    <b>baptême</b>. Ce dernier, entouré de mystère, permet de
                     créer des liens forts entre les étudiant.e.s y participant
                     et de découvrir le folklore estudiantin!
                   </p>
@@ -259,8 +259,8 @@ export default () => {
                 <Text>
                   <p>
                     L’Ordre de Babbage est l’association des ancien.ne.s étudiant.e.s
-                    du Département d’Informatique de la Faculté des Sciences de
-                    l’Université libre de Bruxelles.
+                    du département d’informatique de la faculté des sciences de
+                    l’Université Libre de Bruxelles.
                   </p>
                   <p>
                     L’Ordre de Babbage organise des activités à destination des
@@ -271,8 +271,8 @@ export default () => {
                     L’Ordre de Babbage décerne aussi des décorations appelées «
                     vleks » aux étudiant.e.s ou ancien.ne.s étudiant.e.s en sciences
                     informatiques qui ont eu un rôle d’exception dans
-                    l’organisation du Cercle ou au sein du Département
-                    d’Informatique.
+                    l’organisation du cercle ou au sein du département
+                    d’informatique.
                   </p>
                   <Button href="http://babbage.ulb.be/" block>
                     Leur site
