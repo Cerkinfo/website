@@ -2,7 +2,7 @@ import React from "react";
 import { Separator, Timeline, Pdf } from "../components/";
 import { H1 } from "../components/Titles";
 import { Skew } from "../components/Images";
-import { Row, Col } from "reactstrap";
+import { Button, Row, Col } from "reactstrap";
 import { Helmet } from "react-helmet";
 
 const history = [
