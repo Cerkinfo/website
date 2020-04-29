@@ -268,7 +268,7 @@ const history = [
           Un petit aperçu de ce à quoi ressemblait l'OS pour la rentrée 1999
         </p>
         <Pdf
-          title={"Consulter l'OS de rentrée de 1990"}
+          title={"Consulter l'OS de rentrée de 1999"}
           file={require("../assets/pdf/history/1999_OS.pdf")}
         />
       </>
