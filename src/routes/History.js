@@ -18,33 +18,33 @@ const history = [
         <p>
           Les activités de l'époque étaient les suivantes:
           <ul>
-            <li>Des thé-dansants (29 avril, 26 octobre , 2 décembre 1976)</li>
+            <li>Des thé-dansants (29 avril, 26 octobre, 2 décembre 1976).</li>
             <li>
               Un concert de jazz-rock en collaboration avec le CP dans
               l'auditoire Janson (15 décembre 1976).
             </li>
             <li>
               Exposition de dessins faits par ordinateur dans le cadre de la
-              journée des 'Sciences du CdS (20 janvier 1977).
+              journée des 'Sciences du CdS' (20 janvier 1977).
             </li>
             <li>
-              Des activités pour les nouveaux élèves (faux cours, rallye café,
-              parrainage facultaire, édition de notes de cours).
+              Des activités pour les nouveaux étudiant.e.s (faux cours, rallye
+              café, parrainage facultaire, édition de notes de cours).
             </li>
-            <li>Descente à Binche (2 mars 1976)</li>
-            <li>Visite du centre de Calcul (septembre)</li>
+            <li>Descente à Binche (2 mars 1976).</li>
+            <li>Visite du centre de calcul (septembre).</li>
             <li>
-              De l'information sur les études d'informatique au près des
-              étudiants en rhéto
+              De l'information sur les études d'informatique auprès des
+              étudiants en rhéto.
             </li>
             <li>
-              De l'aide aux utilisateurs du Centre de Calcul et l'édition un
-              manuel d'utilisation pour les utilisateurs du Centre de Calcul
+              De l'aide aux utilisateurs du centre de calcul et l'édition d'un
+              manuel d'utilisation pour les utilisateurs du centre de calcul.
             </li>
-            <li>Projection de films</li>
+            <li>Projection de films.</li>
             <li>
               Des activités sportives (belote, tennis de table, descente de la
-              Lesse)
+              Lesse).
             </li>
           </ul>
         </p>
@@ -54,17 +54,17 @@ const history = [
   },
   {
     date: "1978",
-    title: "Officialisation du Cercle",
+    title: "Officialisation du cercle",
     content: (
       <>
         <p>
           L'association des cercles facultaires et la commission culturelle
           officialise l'association sous la présidence de Michèle Descy et
           Evelyne Engels. Le Cercle se situe alors à l'époque au deuxième étage
-          du Centre de calcul de l'ULB au Solbosch.
+          du centre de calcul de l'ULB sur le campus du Solbosch.
         </p>
         <Pdf
-          title={"Consulter le document qui acte la reconnaissance du Cercle"}
+          title={"Consulter le document qui acte la reconnaissance du cercle"}
           file={require("../assets/pdf/history/1978_reconnaissance.pdf")}
         />
       </>
@@ -74,13 +74,13 @@ const history = [
     date: "1979",
     title: "Premier Baptême du Cercle Informatique",
     content:
-      "Le Cercle voit l'intégration des nouveaux étudiants d'une manière différente et organise pour la première fois son baptême. Le nombre d'informaticiens baptisé au sein de la section était très faible le Cercle s'est donné pour objectif de faire revivre le folklore en son sein.",
+      "Le Cercle voit l'intégration des nouveaux.elles étudiant.e.s d'une manière différente et organise pour la première fois son baptême. Le nombre d'informaticien.ne.s baptisé.e.s au sein de la section était très faible le Cercle s'est donné pour objectif de faire revivre le folklore en son sein.",
   },
   {
     date: "1985",
     title: "Déménagement à la Plaine",
     content:
-      "Suite au nombre croissant de personnes qui fréquentent le cercle, le centre de calcul interdit l'accès au Cercle à cause de ses activités qui ne conviennent pas à celle du Centre de calcul. Le Cercle va se voir attribuer son local actuel qui était anciennement utilisé par Radio Campus.",
+      "Suite au nombre croissant de personnes qui fréquentent le Cercle, le centre de calcul en interdit son accès à cause de ses activités qui ne conviennent pas à celle du centre de calcul. Le Cercle va se voir attribuer son local actuel qui était anciennement utilisé par Radio Campus.",
     image: require("../assets/img/history/local.jpg"),
   },
   {
@@ -89,8 +89,8 @@ const history = [
     content: (
       <>
         <p>
-          Appelé 'canal 69', puis 'le clou', ou 'Canard Ile hareng', l'O.S à
-          Moelle l'Organe Officiel du Cercle Informatique nait et prend son nom
+          Appelé 'Canal 69', puis 'Le Clou', ou 'Canard Ile hareng', l'O.S à
+          Moelle l'organe officiel du Cercle Informatique nait et prend son nom
           actuel.
         </p>
         <p>
@@ -106,27 +106,27 @@ const history = [
   },
   {
     date: "1988",
-    title: "Baptême 1988: La Guerre des Genes",
+    title: "Baptême 1988: La Guerre des Gènes",
     content: (
       <>
-        <p>Une ancienne affiche d'un baptême CI de l'époque.</p>
+        <p>Une affiche d'un baptême CI de l'époque.</p>
       </>
     ),
     image: require("../assets/img/history/1988_bapteme.png"),
   },
   {
     date: "1990",
-    title: "Première édition de la MTSM (Miss T-Shirt Mouillé)",
+    title: "Première édition du concours MTSM (Miss T-Shirt Mouillé)",
     content: (
       <>
         <p>
           Cet évènement qui aujourd'hui n'existe heureusement plus consistait
-          comme son titre l'indique à renversé des seaux d'eau fraiche sur les
+          comme son titre l'indique à renverser des seaux d'eau fraiche sur les
           participant.e.s et ainsi rendre leur T-Shirt transparent.
         </p>
         <p>
           L'évènement a d'abord eu lieu au premier quadrimestre pendant le mois
-          de Décembre et a ensuite pendant la semaine folklorique au second
+          de décembre et a ensuite pendant la semaine folklorique au second
           quadrimestre.
         </p>
       </>
@@ -153,14 +153,14 @@ const history = [
         </p>
         <h3>Historique </h3>
         <p>
-          Le logo du Cercle Informatique vraisemblablement à été réalisé au
+          Le logo du Cercle Informatique vraisemblablement a été réalisé au
           début de l'année académique 1992-1993. La première version de ce logo
-          était destinée à la création d'animation et constituait pour moi un
+          était destinée à la création d'animations et constituait pour moi un
           exercice d'utilisation du programme de Raytracing POV-Ray. Il n'a pas
           fallu longtemps pour que John Rizzo s'empare de mes sources et
           expérimente différentes textures pour le logo. A l'époque le Cercle
           Informatique disposait sans doute déjà de son ordinateur et c'est sur
-          celui-ci que furent réaliser les premiers logos utilisés ensuite pour
+          celui-ci que furent réalisés les premiers logos utilisés ensuite pour
           des lettres ou pour des affiches. Parallèlement à cela, je développais
           mon propre format d'animation utilisant la delta-compression et je
           mettait au point un programme faisant tourner le logo du Cercle
@@ -209,15 +209,15 @@ const history = [
   },
   {
     date: "1993",
-    title: "Création du Département Informatique",
+    title: "Création du département informatique",
     content:
-      "La section se détache du département de Mathématiques et le Département Informatique est crée (DI).",
+      "La section se détache du département de mathématiques et le département informatique est crée (DI).",
   },
   {
     date: "1997",
     title: "Création de l'ordre Babbage",
     content:
-      "Avec une allusion évidente à un des pionnier de l'informatique, l'Ordre veut rassembler les ancien.nes étudiant.e.s et étudiant.e.s d'informatique ayant oeuvré pour le cercle ou le département.",
+      "Avec une allusion évidente à un des pionnier de l'informatique, l'Ordre veut rassembler les ancien.nes étudiant.e.s d'informatique ayant oeuvré pour le cercle ou le département.",
   },
   {
     date: "1997",
@@ -336,7 +336,7 @@ const history = [
     date: "2005",
     title: "Première édition de la Glotte d'Or",
     content:
-      "Évenement qui consiste à être le meilleur affoneur tout simplement",
+      "Évènement qui consiste à être le meilleur affoneur tout simplement",
     image: require("../assets/img/history/glottedor.jpg"),
   },
   {
@@ -345,12 +345,12 @@ const history = [
     content: (
       <>
         <p>
-          le premier hackerspace de l'ulb est créé par des étudiants du cercle
-          et prend place dans un local vide du 131 avenue buyl, dans les anciens
+          le premier hackerspace de l'ULB est créé par des étudiants du cercle
+          et prend place dans un local vide du 131 avenue Buyl, dans les anciens
           locaux du cercle des étudiants étrangers.
         </p>
         <p>
-          Le 131 Avenue Buyl a abrité à partir de 1991 les Cercle de Philo et
+          Le 131 avenue Buyl a abrité ,à partir de 1991, le Cercle de Philo et
           Lettre au rez-de-chaussée, le Cercle de Psychologie au premier étage
           ainsi que le Cercle de Médecine, Agro et Sciences-Éco dans les étages
           supérieurs. Déjà à l'époque des discussions étaient en cours pour
@@ -388,39 +388,39 @@ const history = [
           Le logo du CI s'offre une nouvelle jeunesse! Il remplace l'ancien logo
           qui représentait un ordinateur buvant une bière.
         </p>
-        <h3>Symboles</h3>
+        <h3>Symboles:</h3>
         <ul>
           <li>
             Le bug (dessiné par les courbes sur le noeud central du graphe) voir
-            l'icône du site web
+            l'icône du site web.
           </li>
           <li>
             <a href="http://fr.wikipedia.org/wiki/Lambda-calcul">Lambda</a> (en
-            majuscule sous le ruban)
+            majuscule sous le ruban).
           </li>
           <li>
-            La ruche ( héxagone dans le noeud inférieur droit) l'attribut de{" "}
+            La ruche ( hexagone dans le noeud inférieur droit) l'attribut de{" "}
             <a href="http://fr.wikipedia.org/wiki/Isidore_de_S%C3%A9ville">
               Saint Isidore
             </a>
-            . Saint, entre autres, des informaticiens. La ruche peut elle même
+            . Saint, entre autres, des informaticiens. La ruche peut elle-même
             être représentée par un hexagone.
           </li>
-          <li>En binaire il est écrit "Computer science rules the world"</li>
+          <li>En binaire il est écrit "Computer science rules the world".</li>
           <li>
             Le ruban, représente le ruban infini de la machine de{" "}
-            <a href="http://fr.wikipedia.org/wiki/Machine_de_Turing">Turing</a>
+            <a href="http://fr.wikipedia.org/wiki/Machine_de_Turing">Turing</a>.
           </li>
           <li>
             La date de création du cercle, (séparation du CdS) dans le ruban
           </li>
-          <li>Le réseau, sur le noeud principal</li>
-          <li>Le graphe, formé par les noeuds</li>
+          <li>Le réseau, sur le noeud principal.</li>
+          <li>Le graphe, formé par les noeuds.</li>
           <li>
             Phi majuscule, le CI dans le noeud en bas à gauche qui a une forme
-            de Phi majuscule (le nombre d'or)
+            de Phi majuscule (le nombre d'or).
           </li>
-          <li>L'état final d'un automate à état (noeud doublement cerclé)</li>
+          <li>L'état final d'un automate à états (noeud doublement cerclé).</li>
         </ul>
       </>
     ),
@@ -431,9 +431,9 @@ const history = [
   },
   {
     date: "2018",
-    title: "Un jeu vidéo pour la StV",
+    title: "Un jeu vidéo pour la St-V",
     content:
-      "Visant à offrir une alternative aux classiques banderole et mettre en avant leur compétence en programmation le CI développe un jeu mobile pour la StV 2018 pour parler du thème de cette année: 'Librex bafoué, universités engagées'.",
+      "Visant à offrir une alternative aux classiques banderoles et mettre en avant leur compétence en programmation le CI développe un jeu mobile pour parler du thème de cette année: 'Librex bafoué, universités engagées'.",
     image: require("../assets/img/history/app.png"),
   },
 ];
