@@ -50,7 +50,7 @@ const history = [
         </p>
       </>
     ),
-    image: require("../assets/img/history/og_logo.png")
+    image: require("../assets/img/history/og_logo.png"),
   },
   {
     date: "1978",
@@ -68,20 +68,20 @@ const history = [
           file={require("../assets/pdf/history/1978_reconnaissance.pdf")}
         />
       </>
-    )
+    ),
   },
   {
     date: "1979",
     title: "Premier Baptême du Cercle Informatique",
     content:
-      "Le Cercle voit l'intégration des nouveaux étudiants d'une matière différente et organise pour la première fois son baptême. Le nombre d'informaticiens baptisé au sein de la section était très faible le Cercle s'est donné pour objectif de faire revivre le folklore en son sein."
+      "Le Cercle voit l'intégration des nouveaux étudiants d'une manière différente et organise pour la première fois son baptême. Le nombre d'informaticiens baptisé au sein de la section était très faible le Cercle s'est donné pour objectif de faire revivre le folklore en son sein.",
   },
   {
     date: "1985",
     title: "Déménagement à la Plaine",
     content:
       "Suite au nombre croissant de personnes qui fréquentent le cercle, le centre de calcul interdit l'accès au Cercle à cause de ses activités qui ne conviennent pas à celle du Centre de calcul. Le Cercle va se voir attribuer son local actuel qui était anciennement utilisé par Radio Campus.",
-    image: require("../assets/img/history/local.jpg")
+    image: require("../assets/img/history/local.jpg"),
   },
   {
     date: "1985",
@@ -102,7 +102,7 @@ const history = [
           file={require("../assets/pdf/history/1983_canard_ile.pdf")}
         />
       </>
-    )
+    ),
   },
   {
     date: "1988",
@@ -112,7 +112,7 @@ const history = [
         <p>Une ancienne affiche d'un baptême CI de l'époque.</p>
       </>
     ),
-    image: require("../assets/img/history/1988_bapteme.png")
+    image: require("../assets/img/history/1988_bapteme.png"),
   },
   {
     date: "1990",
@@ -135,8 +135,8 @@ const history = [
       require("../assets/img/history/1992_mtsm.png"),
       require("../assets/img/history/mtsm.jpg"),
       require("../assets/img/history/mtsm3.jpg"),
-      require("../assets/img/history/2006_mtsm.png")
-    ]
+      require("../assets/img/history/2006_mtsm.png"),
+    ],
   },
   {
     date: "1992",
@@ -174,8 +174,8 @@ const history = [
           Informatique utilisait une version plate du logo, ce qui ne permettait
           plus de l'animé en trois dimension, ni de l'imprimer en haute
           résolution. Finalement, après de longues recherches dans mes piles de
-          disquettes, j'ai retrouvé mes sources. Afin de les remettre au goût
-          du jour et de les offrir au Cercle Informatique, j'ai retravaillé les
+          disquettes, j'ai retrouvé mes sources. Afin de les remettre au goût du
+          jour et de les offrir au Cercle Informatique, j'ai retravaillé les
           sources pour les adapter à la syntaxe de la version 2 de POV-Ray. J'en
           ai également profité pour réaliser une animation capable de remplacer
           au pied levé celle utilisée sur le site officiel de Cercle
@@ -204,20 +204,20 @@ const history = [
       require("../assets/img/history/logos/2/logoanim.gif"),
       require("../assets/img/history/logos/2/logocercle.gif"),
       require("../assets/img/history/logos/2/logosynthese.jpg"),
-      require("../assets/img/history/logos/2/logosynthese2.jpg")
-    ]
+      require("../assets/img/history/logos/2/logosynthese2.jpg"),
+    ],
   },
   {
     date: "1993",
     title: "Création du Département Informatique",
     content:
-      "La section se détache du département de Mathématiques et le Département Informatique est crée (DI)."
+      "La section se détache du département de Mathématiques et le Département Informatique est crée (DI).",
   },
   {
     date: "1997",
     title: "Création de l'ordre Babbage",
     content:
-      "Avec une allusion évidente à un des pionnier de l'informatique, l'Ordre veut rassembler les ancien.nes étudiant.e.s et étudiant.e.s d'informatique ayant oeuvré pour le cercle ou le département."
+      "Avec une allusion évidente à un des pionnier de l'informatique, l'Ordre veut rassembler les ancien.nes étudiant.e.s et étudiant.e.s d'informatique ayant oeuvré pour le cercle ou le département.",
   },
   {
     date: "1997",
@@ -227,10 +227,10 @@ const history = [
         <p>
           Ce premier bal, organisé pour le 20ème anniversaire du cercle, était
           précédé à l'époque d'un forum de l'emploi qui mettait en relation les
-          étudiant.e.s d'informatique avec les entreprises. Cet évènement a été par
-          la suite séparé en deux évènements distincts. Aujourd'hui le forum de
-          l'emploi n'existe plus sous sa forme original mais a été repris par le
-          Cercle des Sciences pour offrir une Jobfair pour l'ensemble de la
+          étudiant.e.s d'informatique avec les entreprises. Cet évènement a été
+          par la suite séparé en deux évènements distincts. Aujourd'hui le forum
+          de l'emploi n'existe plus sous sa forme original mais a été repris par
+          le Cercle des Sciences pour offrir une Jobfair pour l'ensemble de la
           faculté.",
         </p>
         <Pdf
@@ -238,7 +238,26 @@ const history = [
           file={require("../assets/pdf/history/1997_bal.pdf")}
         />
       </>
-    )
+    ),
+  },
+  {
+    date: "1997",
+    title: "Un Site WEB pour le Cercle Informatique",
+    content: (
+      <>
+        <p>
+          Le CI met en ligne son premier site web en suivant le pas du Cercle de
+          Médecine, du Cercle Polytechnique et du Cercle Solvay. Le site était
+          hébergé sur le site de l'ULB à l'adresse 'ulb.ac.be/students/ci/'.
+        </p>
+        <Button
+          block
+          href="https://web.archive.org/web/19971115003741/http://www.ulb.ac.be/students/ci/divise1.html"
+        >
+          Consulter sur le web.archive
+        </Button>
+      </>
+    ),
   },
   {
     date: "1999",
@@ -253,44 +272,72 @@ const history = [
           file={require("../assets/pdf/history/1999_OS.pdf")}
         />
       </>
-    )
+    ),
   },
   {
     date: "2001",
     title: "Première édition du OSDEM",
-    content:
-      "Première édition de la conférence aujourd'hui connue sous le nom de 'FOSDEM' organisé avec la collaboration des étudiant.e.s du Cercle Informatique.",
-    image: require("../assets/img/history/osdem.png")
+    content: (
+      <>
+        <p>
+          En 2000, Raphael Bauduin, décide d'organiser une rencontre pour les
+          développeurs Open Source sous le nom d'Open Source Developers European
+          Meeting (OSDEM). La première édition va accueillir 25 speakers et 1200
+          visiteurs le 3 et 4 février 2001.
+        </p>
+        <p>
+          Cette édition de la conférence est déjà organisée avec la
+          collaboration des étudiant.e.s du Cercle Informatique. Ils s'occupent
+          de servir des boissons pendant l'évènements et de la location des
+          locaux de la plaine.
+        </p>
+        <p>
+          La conférence va prendre le nom 'FOSDEM' et se dérouler au Solbosch à
+          partir de 2002.
+        </p>
+      </>
+    ),
+    image: require("../assets/img/history/osdem.png"),
   },
   {
     date: "2002",
-    title: "Logo du Site en 2002",
-    content: "Le logo utilisé sur le site 'cerkinfo' de l'époque",
-    image: [
-      require("../assets/img/history/logos/3/logo.jpg"),
-      require("../assets/img/history/2002_site.png")
-    ]
+    title: "Le Cercle Informatique s'offre cerkinfo.be",
+    content: (
+      <>
+        <p>
+          Après avoir utilisé le nom de domaine de l'ULB pour son site, le CI
+          s'offre son propre nom de domaine toujours utilisé aujourd'hui.
+        </p>
+        <Button
+          block
+          href="https://web.archive.org/web/20030427151618/http://www.cerkinfo.be/"
+        >
+          Consulter sur le web.archive
+        </Button>
+      </>
+    ),
+    image: require("../assets/img/history/logos/3/logo.jpg"),
   },
   {
     date: "2003",
     title: "Nouveau logo",
     image: [
       require("../assets/img/history/logos/3/logo.png"),
-      require("../assets/img/history/logos/3/noel.png")
-    ]
+      require("../assets/img/history/logos/3/noel.png"),
+    ],
   },
   {
     date: "2003",
     title: "Création de la Guilde Gates",
     content: "",
-    image: require("../assets/img/history/cantux.png")
+    image: require("../assets/img/history/cantux.png"),
   },
   {
     date: "2005",
     title: "Première édition de la Glotte d'Or",
     content:
       "Évenement qui consiste à être le meilleur affoneur tout simplement",
-    image: require("../assets/img/history/glottedor.jpg")
+    image: require("../assets/img/history/glottedor.jpg"),
   },
   {
     date: "2012",
@@ -321,16 +368,16 @@ const history = [
         </p>
       </>
     ),
-    image: require("../assets/img/history/urlab.png")
+    image: require("../assets/img/history/urlab.png"),
   },
   {
     date: "2013",
     title: "Dernière édition de la MTSM",
-    image: require("../assets/img/history/mtsm2.jpg")
+    image: require("../assets/img/history/mtsm2.jpg"),
   },
   {
     date: "2013",
-    title: "Dernière édition de la Glotte d'Or"
+    title: "Dernière édition de la Glotte d'Or",
   },
   {
     date: "2015",
@@ -338,9 +385,8 @@ const history = [
     content: (
       <>
         <p>
-          Le logo du CI s'offre une nouvelle jeunesse! Il 
-          remplace l'ancien logo qui représentait un ordinateur buvant une
-          bière.
+          Le logo du CI s'offre une nouvelle jeunesse! Il remplace l'ancien logo
+          qui représentait un ordinateur buvant une bière.
         </p>
         <h3>Symboles</h3>
         <ul>
@@ -380,16 +426,16 @@ const history = [
     ),
     image: [
       require("../assets/img/cerkinfo_logo.png"),
-      require("../assets/img/history/logos/4/Logo5.png")
-    ]
+      require("../assets/img/history/logos/4/Logo5.png"),
+    ],
   },
   {
     date: "2018",
     title: "Un jeu vidéo pour la StV",
     content:
       "Visant à offrir une alternative aux classiques banderole et mettre en avant leur compétence en programmation le CI développe un jeu mobile pour la StV 2018 pour parler du thème de cette année: 'Librex bafoué, universités engagées'.",
-    image: require("../assets/img/history/app.png")
-  }
+    image: require("../assets/img/history/app.png"),
+  },
 ];
 
 export default () => {
