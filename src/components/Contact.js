@@ -31,7 +31,14 @@ export default () => {
             placeholder="Contenu"
           />
         </FormGroup>
-        <Button block>Envoyer</Button>
+        <Button
+          className="g-recaptcha"
+          data-sitekey="6LcbW_EUAAAAALKdxfpxDKA59WL8vYJFoMHvJRwj"
+          data-callback="onSubmit"
+          block
+        >
+          Envoyer
+        </Button>
       </Form>
     </Center>
   );
