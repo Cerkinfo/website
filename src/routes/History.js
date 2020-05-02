@@ -250,6 +250,11 @@ const history = [
           Médecine, du Cercle Polytechnique et du Cercle Solvay. Le site était
           hébergé sur le site de l'ULB à l'adresse 'ulb.ac.be/students/ci/'.
         </p>
+        <p>
+          Avec le site voit aussi le jour un nouveau logo pour le cercle.
+          L'ordinateur qui boit une bière va être adapté en format
+          'triangulaire' pour être porté sur les pennes des membres du CI.
+        </p>
         <Button
           block
           href="https://web.archive.org/web/19971115003741/http://www.ulb.ac.be/students/ci/divise1.html"
@@ -258,6 +263,10 @@ const history = [
         </Button>
       </>
     ),
+    image: [
+      require("../assets/img/history/logos/3/logo.png"),
+      require("../assets/img/history/logos/3/noel.png"),
+    ],
   },
   {
     date: "1999",
@@ -317,14 +326,6 @@ const history = [
       </>
     ),
     image: require("../assets/img/history/logos/3/logo.jpg"),
-  },
-  {
-    date: "2003",
-    title: "Nouveau logo",
-    image: [
-      require("../assets/img/history/logos/3/logo.png"),
-      require("../assets/img/history/logos/3/noel.png"),
-    ],
   },
   {
     date: "2003",
