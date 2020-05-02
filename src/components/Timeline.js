@@ -1,7 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import { H2, Text } from "../components/Titles";
-import { Row, Card, CardTitle, CardText } from "reactstrap";
+import {
+  Button,
+  Card,
+  CardTitle,
+  CardText,
+  Modal,
+  ModalBody,
+  ModalFooter,
+  Row,
+} from "reactstrap";
+
+const Enhance = ({ src }) => {
+  const [modal, setModal] = useState(false);
+
+  const toggle = () => setModal(!modal);
+
+  return (
+    <div>
+      <img className="w-100" onClick={toggle} src={src} />
+      <Modal isOpen={modal} toggle={toggle}>
+        <ModalBody>
+          <img className="w-100" onClick={toggle} src={src} />
+        </ModalBody>
+        <ModalFooter>
+          <Button onClick={toggle}>Fermer</Button>
+        </ModalFooter>
+      </Modal>
+    </div>
+  );
+};
 
 export default ({ timeline }) => {
   return (
@@ -24,7 +53,7 @@ export default ({ timeline }) => {
                     ) : (
                       e.content
                     )}
-                    <div style={{ padding: "0px 20px" }}>
+                    <div style={{ padding: "0px 20px", paddingTop: "10px" }}>
                       {e.image ? (
                         Array.isArray(e.image) ? (
                           <Slider
@@ -32,15 +61,19 @@ export default ({ timeline }) => {
                             slidesToShow={1}
                             arrows={true}
                             dots={false}
-                            speed={2500}
-                            autoplaySpeed={3500}
+                            fade={true}
+                            centerMode={true}
+                            draggable={false}
+                            swipe={false}
+                            touchMove={false}
+                            speed={1000}
                           >
-                            {e.image.map(x => (
+                            {e.image.map((x) => (
                               <img className="w-100" src={x} />
                             ))}
                           </Slider>
                         ) : (
-                          <img className="w-100" src={e.image} />
+                          <Enhance src={e.image} />
                         )
                       ) : null}
                     </div>
