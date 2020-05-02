@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.d0b50e1f.chunk.css",
-    "main.js": "/static/js/main.bf9383e0.chunk.js",
-    "main.js.map": "/static/js/main.bf9383e0.chunk.js.map",
+    "main.js": "/static/js/main.a051a97a.chunk.js",
+    "main.js.map": "/static/js/main.a051a97a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7c5de2ff.js",
     "runtime-main.js.map": "/static/js/runtime-main.7c5de2ff.js.map",
     "static/css/2.18b7928a.chunk.css": "/static/css/2.18b7928a.chunk.css",
-    "static/js/2.2f44cfa4.chunk.js": "/static/js/2.2f44cfa4.chunk.js",
-    "static/js/2.2f44cfa4.chunk.js.map": "/static/js/2.2f44cfa4.chunk.js.map",
+    "static/js/2.0af0f923.chunk.js": "/static/js/2.0af0f923.chunk.js",
+    "static/js/2.0af0f923.chunk.js.map": "/static/js/2.0af0f923.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.00ab96ecff288be1666fc33e9c656cf7.js": "/precache-manifest.00ab96ecff288be1666fc33e9c656cf7.js",
+    "precache-manifest.967ab96bdd1104642907d5c55cd83244.js": "/precache-manifest.967ab96bdd1104642907d5c55cd83244.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.18b7928a.chunk.css.map": "/static/css/2.18b7928a.chunk.css.map",
     "static/css/main.d0b50e1f.chunk.css.map": "/static/css/main.d0b50e1f.chunk.css.map",
-    "static/js/2.2f44cfa4.chunk.js.LICENSE.txt": "/static/js/2.2f44cfa4.chunk.js.LICENSE.txt",
+    "static/js/2.0af0f923.chunk.js.LICENSE.txt": "/static/js/2.0af0f923.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/static/media/1.c8af4851.jpg",
     "static/media/1976-02-05.pdf": "/static/media/1976-02-05.c6a29c21.pdf",
     "static/media/1978_reconnaissance.pdf": "/static/media/1978_reconnaissance.56974d64.pdf",
@@ -322,6 +322,9 @@
     "static/media/og_logo.png": "/static/media/og_logo.700cd28a.png",
     "static/media/og_logo.jpg": "/static/media/og_logo.a28408e5.jpg",
     "static/media/osdem.png": "/static/media/osdem.5f5f25ca.png",
+    "static/media/p402.png": "/static/media/p402.2e46735b.png",
+    "static/media/p402look.png": "/static/media/p402look.f260f71f.png",
+    "static/media/p402look2.png": "/static/media/p402look2.eeff1e43.png",
     "static/media/penne.svg": "/static/media/penne.13edced5.svg",
     "static/media/poil.svg": "/static/media/poil.a9b50887.svg",
     "static/media/pv.jpg": "/static/media/pv.7cc92f50.jpg",
@@ -333,8 +336,8 @@
   "entrypoints": [
     "static/js/runtime-main.7c5de2ff.js",
     "static/css/2.18b7928a.chunk.css",
-    "static/js/2.2f44cfa4.chunk.js",
+    "static/js/2.0af0f923.chunk.js",
     "static/css/main.d0b50e1f.chunk.css",
-    "static/js/main.bf9383e0.chunk.js"
+    "static/js/main.a051a97a.chunk.js"
   ]
 }
