@@ -341,6 +341,17 @@ const history = [
     image: require("../assets/img/history/glottedor.jpg"),
   },
   {
+    date: "2011",
+    title: "Création proj402, ancien Dochub",
+    content:
+      "Dans le cadre de ses cours Hastake crée un site web de partage de documents pour les étudiants d'informatique. Aujourd'hui il a été renomé Dochub et est disponible pour toutes les facultés de l'ULB.",
+    image: [
+      require("../assets/img/history/p402.png"),
+      require("../assets/img/history/p402look.png"),
+      require("../assets/img/history/p402look2.png"),
+    ],
+  },
+  {
     date: "2012",
     title: "Création du hackerspace",
     content: (
