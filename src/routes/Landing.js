@@ -29,7 +29,7 @@ export default () => {
           slidesToShow={posts.length > 3 ? 3 : posts.length}
           dots={true}
         >
-          {posts.map(post => (
+          {posts.map((post) => (
             <Preview {...post} />
           ))}
         </Slider>
@@ -45,7 +45,7 @@ export default () => {
                     position: "absolute",
                     top: "50%",
                     left: "50%",
-                    transform: "translate(-50%, -50%)"
+                    transform: "translate(-50%, -50%)",
                   }}
                   className="w-75"
                   src={require("../assets/img/poil.svg")}
@@ -164,8 +164,8 @@ export default () => {
                   <p>
                     Dochub est le site de partage de résumés, anciens examens,
                     corrigés, ... créer par le Cercle Informatique et utilisé
-                    par plusieurs milliers d'étudiant.e.s de toutes les facultés de
-                    l'ULB.
+                    par plusieurs milliers d'étudiant.e.s de toutes les facultés
+                    de l'ULB.
                   </p>
                   <p>
                     C'est un outil indispensable à la réussite qui est développé
@@ -208,7 +208,7 @@ export default () => {
                 style={{
                   zIndex: 1,
                   left: "25%",
-                  position: "absolute"
+                  position: "absolute",
                 }}
                 className="w-50"
                 src={require("../assets/img/cantux.svg")}
@@ -258,9 +258,9 @@ export default () => {
                 <H3>Babbage</H3>
                 <Text>
                   <p>
-                    L’Ordre de Babbage est l’association des ancien.ne.s étudiant.e.s
-                    du département d’informatique de la faculté des sciences de
-                    l’Université Libre de Bruxelles.
+                    L’Ordre de Babbage est l’association des ancien.ne.s
+                    étudiant.e.s du département d’informatique de la faculté des
+                    sciences de l’Université Libre de Bruxelles.
                   </p>
                   <p>
                     L’Ordre de Babbage organise des activités à destination des
@@ -269,8 +269,8 @@ export default () => {
                   </p>
                   <p>
                     L’Ordre de Babbage décerne aussi des décorations appelées «
-                    vleks » aux étudiant.e.s ou ancien.ne.s étudiant.e.s en sciences
-                    informatiques qui ont eu un rôle d’exception dans
+                    vleks » aux étudiant.e.s ou ancien.ne.s étudiant.e.s en
+                    sciences informatiques qui ont eu un rôle d’exception dans
                     l’organisation du cercle ou au sein du département
                     d’informatique.
                   </p>
@@ -283,7 +283,7 @@ export default () => {
           </Row>
         </div>
       </section>
-      <Map />
+      <Map id="location" />
       <section className="section section-lg section-shaped pg-250 color-main">
         <div id="contact" className="h-100">
           <Row className="align-items-center">
