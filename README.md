@@ -32,6 +32,14 @@ visible for the website you should also run these commands once.
 > npm run build:content
 ```
 
+## Uploading new PV
+
+Run this command in the root folder.
+
+```txt
+node utils/listpdf.mjs src/assets/pv/ > ./src/assets/pv/pv.json
+```
+
 ## Deploying
 
 To deploy the website you need the 'write' rights on this repository.
