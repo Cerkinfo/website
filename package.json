@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "processmd": "^4.5.0",
     "react-app-rewired": "^2.1.5",
     "react-snap": "^1.23.0",
