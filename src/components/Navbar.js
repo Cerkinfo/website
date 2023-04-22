@@ -13,6 +13,7 @@ import {
 import { Link } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 import NavSocial from "./NavSocial";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SETTINGS from "../settings";
 
 const NavLink = ({ to, children }) => (
@@ -46,7 +47,7 @@ export default () => {
         <UncontrolledCollapse navbar toggler="#navbar_global">
           <Nav className="align-items-lg-center ml-lg-auto" navbar>
             <UncontrolledDropdown>
-              <DropdownToggle>Le Cercle</DropdownToggle>
+              <DropdownToggle caret="true" drop="down">Le Cercle </DropdownToggle>
               <DropdownMenu>
                 <NavLinkD to="/#news">News</NavLinkD>
                 <NavLinkD to="/#cercle">{"C'est quoi"}</NavLinkD>
@@ -64,9 +65,6 @@ export default () => {
             </NavItem>
             <NavItem>
               <NavLink to="/pv">PV</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/#contact">Contacter</NavLink>
             </NavItem>
             <NavSocial color="white" />
           </Nav>
