@@ -448,6 +448,18 @@ const history = [
       "Visant à offrir une alternative aux classiques banderoles et mettre en avant leur compétence en programmation le CI développe un jeu mobile pour parler du thème de cette année: 'Librex bafoué, universités engagées'.",
     image: require("../assets/img/history/app.png"),
   },
+  {
+    date: "2020",
+    title: "Saint-V Online"
+  },
+  {
+    date: "2022",
+    title: "Première édition de TomorrowPlaine"
+  },
+  {
+    date: "2023", 
+    title: "Renaissance du Hacker Space"
+  }
 ];
 
 export default () => {

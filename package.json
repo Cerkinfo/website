@@ -4,6 +4,16 @@
   "private": true,
   "homepage": "https://cercle-informatique.be",
   "license": "mit",
+  "babel": {
+    "plugins": [
+      [
+        "@babel/plugin-transform-react-jsx",
+        {
+          "throwIfNamespace": false
+        }
+      ]
+    ]
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
@@ -25,18 +35,19 @@
     "react-leaflet": "^2.6.1",
     "react-router-dom": "^5.1.2",
     "react-router-hash-link": "^1.2.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.25.2",
     "reactstrap": "^8.4.1",
+    "sass": "^1.60.0",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "node-sass": "^7.0.0",
     "processmd": "^4.5.0",
     "react-app-rewired": "^2.1.5",
-    "react-snap": "^1.23.0",
+    "react-snap": "^1.13.1",
     "sass-extract": "^2.1.0",
     "sass-extract-js": "^0.4.0",
     "sass-extract-loader": "^1.1.0"
