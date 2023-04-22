@@ -454,7 +454,37 @@ const history = [
   },
   {
     date: "2022",
-    title: "Première édition de TomorrowPlaine"
+    title: "Première édition de TomorrowPlaine",
+    content: (
+    <>
+      <p>
+        La 'semaine folklo' est une semaine (généralement vers mi-mars) consacrée au folklore qui, 
+        bien qu'omni-présent au premier quadrimestre, l'est beaucoup moins au deuxième. 
+        Quelques cercles ont alors leurs évènements phares qui sont ancrés depuis des années, 
+        comme le banquet gallo-romain du CdS et du CP, ou encore les PsychoAwards du CPsy.
+      </p>
+      <p>
+        En 2020, les premières annonces de confinement du au COVID-19 sont tombées lors de cette semaine.
+        Le comité de baptême du CI décide alors d'organiser une grosse soirée le jeudi (qui sera renommé "le bazaar"),
+        en invitant le plus d'étudiants possible, afin de fêter une dernière fois avant d'être confinés.
+      </p>
+      <p>
+        Deux ans plus tard, lors d'une discussion sur la terrasse de quelques membres du cercle, plusieurs
+        idées s'entremèlent: le CI n'a pas d'évènement lors de cette semaine folklo, pourtant on s'est très 
+        bien amusés lors du bazaar. Il n'en fallait pas plus pour que naisse un nouvel évenement: on veut des lumières, de
+        la mousse et des DJs, on veut faire comme un festival, comme TomorrowLand mais à la plaine ... TomorrowPlaine.
+      </p>
+      <p>
+        La premère édition qui s'est déroulée un jeudi, entre la "tournée Erasme" et le "TD Erasme" fut un succès, bien
+        qu'organisée en dernière minute (à 1 semaine de l'évènement). La deuxième édition (en 2023) eut droit à un peu
+        plus d'organisation, avec des barrières composant tout un complexe fermé à l'extérieur, et ramena plus de 500 personnes !
+      </p>
+    </>
+    ),
+    image: [
+      require("../assets/img/history/tmpl2022.jpg"),
+      require("../assets/img/history/tmpl2023.jpg"),
+    ],
   },
   {
     date: "2023", 
