@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.86effecf.css",
-    "main.js": "/static/js/main.77fd26a6.js",
+    "main.js": "/static/js/main.16640b5f.js",
     "pdfjsWorker.js": "/static/js/pdfjsWorker.a46a8a95.chunk.js",
     "static/media/poil_png.png": "/static/media/poil_png.d5f57efdaec20fc7a13e.png",
     "static/media/1985-04-17.pdf": "/static/media/1985-04-17.422bdad28043600ac9be.pdf",
@@ -135,6 +135,7 @@
     "static/media/poil.svg": "/static/media/poil.4f5c43ef74e512062a50.svg",
     "static/media/2015-04-30.pdf": "/static/media/2015-04-30.dcaa1d1e70a46f453f7c.pdf",
     "static/media/2014-10-28.pdf": "/static/media/2014-10-28.ed9c5f13a087e187f3c7.pdf",
+    "static/media/tmpl2022.jpg": "/static/media/tmpl2022.6f894cebb106d40da357.jpg",
     "static/media/2015-09-09.pdf": "/static/media/2015-09-09.a9ad40f87e9f15abcc0f.pdf",
     "static/media/2015-05-05.pdf": "/static/media/2015-05-05.be894569ef50bb00aac9.pdf",
     "static/media/p402look.png": "/static/media/p402look.c6bf3790e3628e4d178e.png",
@@ -143,6 +144,7 @@
     "static/media/2016-02-04.pdf": "/static/media/2016-02-04.ae2cbd3d0a9c5fe8ec0f.pdf",
     "static/media/manneken.jpg": "/static/media/manneken.46e3eee7f030c55ea6ed.jpg",
     "static/media/cantux.jpg": "/static/media/cantux.9bd32141bce625a71998.jpg",
+    "static/media/tmpl2023.jpg": "/static/media/tmpl2023.cd37d74070d88588622a.jpg",
     "static/media/2008-04-04.pdf": "/static/media/2008-04-04.a450a3796deeb7528146.pdf",
     "static/media/ag-2022-12-14.pdf": "/static/media/ag-2022-12-14.ba932ef84c913b14200d.pdf",
     "static/media/2020-03-23.pdf": "/static/media/2020-03-23.7e4e5d031b3cdf3479a0.pdf",
@@ -345,11 +347,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/custom-post.txt": "/static/media/custom-post.66d0de8e9c7f1690a460.txt",
     "main.86effecf.css.map": "/static/css/main.86effecf.css.map",
-    "main.77fd26a6.js.map": "/static/js/main.77fd26a6.js.map",
+    "main.16640b5f.js.map": "/static/js/main.16640b5f.js.map",
     "pdfjsWorker.a46a8a95.chunk.js.map": "/static/js/pdfjsWorker.a46a8a95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86effecf.css",
-    "static/js/main.77fd26a6.js"
+    "static/js/main.16640b5f.js"
   ]
 }
