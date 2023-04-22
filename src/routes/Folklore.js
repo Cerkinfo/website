@@ -32,7 +32,7 @@ export default withRouter(props => {
               className="text-center color-main font-white"
             >
               <H3>{page.title}</H3>
-              <img className="w-50" src={require("../assets/img/penne.svg")} />
+              <img className="w-50" src={require("../assets/img/penne_png.png")} />
             </Col>
             <Col style={{ marginTop: "100px" }} lg="8">
               <Container>
