@@ -48,7 +48,7 @@ export default () => {
                     transform: "translate(-50%, -50%)",
                   }}
                   className="w-75"
-                  src={require("../assets/img/poil.svg")}
+                  src={require("../assets/img/poil_png.png")}
                 />
               </Floating>
               <Overlay>
@@ -211,7 +211,7 @@ export default () => {
                   position: "absolute",
                 }}
                 className="w-50"
-                src={require("../assets/img/cantux.svg")}
+                src={require("../assets/img/cantux_png.png")}
               />
               <Overlay>
                 <Slider
@@ -284,33 +284,36 @@ export default () => {
         </div>
       </section>
       <Map id="location" />
-      <section className="section section-lg section-shaped pg-250 color-main">
-        <div id="contact" className="h-100">
-          <Row className="align-items-center">
-            <Col lg="6">
-              <Center className="font-white">
-                <H3 className="text-center">
-                  <FontAwesomeIcon icon={["fas", "address-card"]} /> Nous
-                  contacter
-                </H3>
-                <Text>
-                  <ul style={{ listStyleType: "none" }}>
-                    <li>Pour toutes vos questions sur ..</li>
-                  </ul>
-                  <ul>
-                    <li>le Cercle Informatique</li>
-                    <li>Nos activités</li>
-                    <li>Nos projets </li>
-                  </ul>
-                </Text>
-              </Center>
-            </Col>
-            <Col lg="6">
-              <Contact />
-            </Col>
-          </Row>
-        </div>
-      </section>
+
     </span>
+    /*
+        <section className="section section-lg section-shaped pg-250 color-main">
+          <div id="contact" className="h-100">
+            <Row className="align-items-center">
+              <Col lg="6">
+                <Center className="font-white">
+                  <H3 className="text-center">
+                    <FontAwesomeIcon icon={["fas", "address-card"]} /> Nous
+                    contacter
+                  </H3>
+                  <Text>
+                    <ul style={{ listStyleType: "none" }}>
+                      <li>Pour toutes vos questions sur ..</li>
+                    </ul>
+                    <ul>
+                      <li>le Cercle Informatique</li>
+                      <li>Nos activités</li>
+                      <li>Nos projets </li>
+                    </ul>
+                  </Text>
+                </Center>
+              </Col>
+              <Col lg="6">
+                <Contact />
+              </Col>
+            </Row>
+          </div>
+        </section> 
+    */
   );
 };
