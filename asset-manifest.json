@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.86effecf.css",
-    "main.js": "/static/js/main.16640b5f.js",
+    "main.js": "/static/js/main.f996adcb.js",
     "pdfjsWorker.js": "/static/js/pdfjsWorker.a46a8a95.chunk.js",
     "static/media/poil_png.png": "/static/media/poil_png.d5f57efdaec20fc7a13e.png",
     "static/media/1985-04-17.pdf": "/static/media/1985-04-17.422bdad28043600ac9be.pdf",
@@ -19,6 +19,7 @@
     "static/media/dochub.jpg": "/static/media/dochub.8b99e79165e3d136cf23.jpg",
     "static/media/cantux.png": "/static/media/cantux.9c882091785aa08e5ddb.png",
     "static/media/1987-12-01.pdf": "/static/media/1987-12-01.d3b73cbedfd25c2b5b44.pdf",
+    "static/media/2023-10-11.pdf": "/static/media/2023-10-11.aa32a29d4f8d5996064b.pdf",
     "static/media/logo.png": "/static/media/logo.feeca639d3318011aa79.png",
     "static/media/2006_mtsm.png": "/static/media/2006_mtsm.6a9d4e0094418cfd7bff.png",
     "static/media/1978_reconnaissance.pdf": "/static/media/1978_reconnaissance.17b192202c12a5eba2ef.pdf",
@@ -107,8 +108,11 @@
     "static/media/2011-04-30_AG.pdf": "/static/media/2011-04-30_AG.8839e7f1e5fd5abdd36b.pdf",
     "static/media/2011-03-14.pdf": "/static/media/2011-03-14.1a44fabe5b5d5f80099f.pdf",
     "static/media/2013-04-26_AG.pdf": "/static/media/2013-04-26_AG.65972294b89a134e7446.pdf",
+    "static/media/2024-03-05.pdf": "/static/media/2024-03-05.a89cb62dfa8e6c905f82.pdf",
+    "static/media/2024-03-27.pdf": "/static/media/2024-03-27.999249645379d8372602.pdf",
     "static/media/2017-04-21.pdf": "/static/media/2017-04-21.6b09e668666cbcf82970.pdf",
     "static/media/2016-10-20.pdf": "/static/media/2016-10-20.6b71ab9cc293d8c03a69.pdf",
+    "static/media/2024-02-28.pdf": "/static/media/2024-02-28.4f7a4aff2a9acf6a2b7e.pdf",
     "static/media/2016-06-20.pdf": "/static/media/2016-06-20.dedefd269d5d96296c42.pdf",
     "static/media/2016-09-14.pdf": "/static/media/2016-09-14.c68caa1059240bf33f75.pdf",
     "static/media/2016-11-08.pdf": "/static/media/2016-11-08.cb285704b75d0297ff89.pdf",
@@ -347,11 +351,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/custom-post.txt": "/static/media/custom-post.66d0de8e9c7f1690a460.txt",
     "main.86effecf.css.map": "/static/css/main.86effecf.css.map",
-    "main.16640b5f.js.map": "/static/js/main.16640b5f.js.map",
+    "main.f996adcb.js.map": "/static/js/main.f996adcb.js.map",
     "pdfjsWorker.a46a8a95.chunk.js.map": "/static/js/pdfjsWorker.a46a8a95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86effecf.css",
-    "static/js/main.16640b5f.js"
+    "static/js/main.f996adcb.js"
   ]
 }
