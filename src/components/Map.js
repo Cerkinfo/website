@@ -79,7 +79,7 @@ export default () => {
           <Col lg="6" >
             <Map style={{zIndex: -1, width: "100%", height: "500px"}} center={SETTINGS.location.position} zoom={16} zoomControl={false} attributionControl={false}>
               <TileLayer
-                url="https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
               <Marker position={SETTINGS.location.position} icon={MarkerIcon}/>
             </Map>
