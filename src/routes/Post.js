@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row, Spinner } from "reactstrap";
 import { H3 } from "../components/Titles";
-import { withRouter } from "react-router-dom";
+import { withRouter } from "../utils/withRouter.js";
 import { Helmet } from "react-helmet";
 
 export default withRouter(props => {
