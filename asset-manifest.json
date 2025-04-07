@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ec2f8220.css",
-    "main.js": "/static/js/main.1e80092e.js",
+    "main.js": "/static/js/main.932ed324.js",
     "pdfjsWorker.js": "/static/js/pdfjsWorker.a46a8a95.chunk.js",
     "static/media/poil_png.png": "/static/media/poil_png.d5f57efdaec20fc7a13e.png",
     "static/media/penne_png.png": "/static/media/penne_png.1154a96c639f1a005352.png",
@@ -51,10 +51,8 @@
     "static/media/beer.svg": "/static/media/beer.1e6de5b54dd51001f074.svg",
     "static/media/logoanim.gif": "/static/media/logoanim.35a38f71d8618c059345.gif",
     "static/media/candle.svg": "/static/media/candle.a0fa52ee44e5e31dc123.svg",
-    "static/media/statuts.md": "/static/media/statuts.44d42511de48d5877963.md",
     "static/media/penne.svg": "/static/media/penne.2b282b18005bf13922b2.svg",
     "static/media/noel.png": "/static/media/noel.4af6bcff9ab348aef0af.png",
-    "static/media/roi.md": "/static/media/roi.88b5240914e597f1c3cb.md",
     "static/media/guide.md": "/static/media/guide.e29e69ec964755df7126.md",
     "static/media/logosynthese.jpg": "/static/media/logosynthese.93e9627e54ab6ab0ac37.jpg",
     "static/media/logo.jpg": "/static/media/logo.c6ba6ebc5cb0c6b77ba4.jpg",
@@ -63,16 +61,18 @@
     "index.html": "/index.html",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/chants.md": "/static/media/chants.18bf1f392b0a11ae2439.md",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/chants.md": "/static/media/chants.32aa1635d9ecbed75a9f.md",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/custom-post.txt": "/static/media/custom-post.66d0de8e9c7f1690a460.txt",
+    "static/media/statuts.md": "/static/media/statuts.9fc854b6e0a0c43d3070.md",
+    "static/media/roi.md": "/static/media/roi.db9fbfbd56511f7b8f1c.md",
     "main.ec2f8220.css.map": "/static/css/main.ec2f8220.css.map",
-    "main.1e80092e.js.map": "/static/js/main.1e80092e.js.map",
+    "main.932ed324.js.map": "/static/js/main.932ed324.js.map",
     "pdfjsWorker.a46a8a95.chunk.js.map": "/static/js/pdfjsWorker.a46a8a95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec2f8220.css",
-    "static/js/main.1e80092e.js"
+    "static/js/main.932ed324.js"
   ]
 }
