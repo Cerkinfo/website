@@ -31,33 +31,8 @@ Sois informaticien!
 
 # Chant du Cercle Informatique
 
-_Air: Le zizi (Pierre Perret)_
-
-Afin du vous donner quelques complexes, oh gué, oh gué,
-On va vous parler de notre cercle, oh gué, oh gué…
-Car CI on vous l'dira,
-Ne rime pas avec Maccha,
-Mais avec ancien folklore et bleus multicolores!
-
-Tous ces mâles virils d'informatique,
-Donnent aux oeuvres gynécologiques!
-
-Leurs biroutes sont celle d'un minotaure, oh gué, oh gué,
-Leurs glands deviennent presque carnivores, oh gué, oh gué…
-Et quand il s'agit de boire,
-Pour eux, quel jeu dérisoire,
-Car tout informaticien a une choppe dans chaque main!
-
-Et toutes les gonzesses aiment leurs pines,
-Et le bon jus des deux orphelines!
-
-Ref. :
-Tout, tout, tout, vous saurez tout sur le CI!
-Le vrai, le beau, le fort, le gros,
-Le dur, celui qu'est le plus fou,
-Qui vous fera voir ses pines en fleur,
-Et ses femelles en chaleur…
-Tout, tout, tout, j'vous dirai tout sur le C.I.
+Le chant doit encore être réécrit. 
+Il ne convient plus aux valeurs prônées par le cercle aujourd'hui
 
 # Ode à la Guilde Gates
 
