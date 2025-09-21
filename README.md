@@ -34,12 +34,12 @@ visible for the website you should also run these commands once.
 
 ## Uploading new OS
 
-Add the new OS in `src/assets/os/`, then
+Add the new OS in `src/assets/os/<YEAR>`, then
 
 Run this command in the root folder.
 
 ```txt
-node utils/listpdf.mjs src/assets/os/ > ./src/assets/os/os.json
+node utils/listospdf.mjs src/assets/os/ > ./src/assets/os/os.json
 ```
 
 ## Uploading new PV (we don't do that anymore)
