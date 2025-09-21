@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec2f8220.css",
-    "main.js": "/static/js/main.932ed324.js",
+    "main.css": "/static/css/main.86effecf.css",
+    "main.js": "/static/js/main.9275daa2.js",
     "pdfjsWorker.js": "/static/js/pdfjsWorker.a46a8a95.chunk.js",
     "static/media/poil_png.png": "/static/media/poil_png.d5f57efdaec20fc7a13e.png",
     "static/media/penne_png.png": "/static/media/penne_png.1154a96c639f1a005352.png",
@@ -37,6 +37,7 @@
     "static/media/urlab.png": "/static/media/urlab.d2387a181aad9c7d58ac.png",
     "static/media/og_logo.jpg": "/static/media/og_logo.8823aed206c136ac0003.jpg",
     "static/media/2002_site.png": "/static/media/2002_site.7180e9effd00af64c1e9.png",
+    "static/media/os.jpg": "/static/media/os.9d3ed36f7275234d8712.jpg",
     "static/media/pv.jpg": "/static/media/pv.9d3ed36f7275234d8712.jpg",
     "static/media/Logo5.png": "/static/media/Logo5.1babec5c181c13cdc401.png",
     "static/media/history.jpg": "/static/media/history.c88f6fe21594985864a2.jpg",
@@ -67,12 +68,12 @@
     "static/media/custom-post.txt": "/static/media/custom-post.66d0de8e9c7f1690a460.txt",
     "static/media/statuts.md": "/static/media/statuts.9fc854b6e0a0c43d3070.md",
     "static/media/roi.md": "/static/media/roi.db9fbfbd56511f7b8f1c.md",
-    "main.ec2f8220.css.map": "/static/css/main.ec2f8220.css.map",
-    "main.932ed324.js.map": "/static/js/main.932ed324.js.map",
+    "main.86effecf.css.map": "/static/css/main.86effecf.css.map",
+    "main.9275daa2.js.map": "/static/js/main.9275daa2.js.map",
     "pdfjsWorker.a46a8a95.chunk.js.map": "/static/js/pdfjsWorker.a46a8a95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec2f8220.css",
-    "static/js/main.932ed324.js"
+    "static/css/main.86effecf.css",
+    "static/js/main.9275daa2.js"
   ]
 }
