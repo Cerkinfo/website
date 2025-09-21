@@ -63,6 +63,9 @@ export default () => {
             <NavItem>
               <NavLink to="/history">Historique</NavLink>
             </NavItem>
+	  		<NavItem>
+			  <NavLink to="/os">OS</NavLink>
+			</NavItem>
             <NavItem>
               <NavLink to="/pv">PV</NavLink>
             </NavItem>

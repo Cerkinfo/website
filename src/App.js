@@ -10,6 +10,7 @@ import {
   Landing,
   History,
   Pv,
+  Os,
   NotFound,
   Post,
   Statuts,
@@ -43,6 +44,9 @@ export default () => {
           <Route path="/pv" exact>
             <Pv />
           </Route>
+		  <Route path="/os" exact>
+			<Os />
+		  </Route>
           <Route path="/posts/:article">
             <Post />
           </Route>
