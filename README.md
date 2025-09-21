@@ -32,7 +32,17 @@ visible for the website you should also run these commands once.
 > npm run build:content
 ```
 
-## Uploading new PV
+## Uploading new OS
+
+Add the new OS in `src/assets/os/`, then
+
+Run this command in the root folder.
+
+```txt
+node utils/listpdf.mjs src/assets/os/ > ./src/assets/os/os.json
+```
+
+## Uploading new PV (we don't do that anymore)
 
 Run this command in the root folder.
 
