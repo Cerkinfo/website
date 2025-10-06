@@ -16,7 +16,8 @@ const result = dirs.map(x => {
     year: x,
     content: fs.readdirSync(process.argv[2] + x).map(file => {
       return {
-        date: file.split(".")[0].split("_")[0],
+		name: file.split("_")[1],
+        date: file.split("_")[0],
         url: "os/" + x + "/" + file
       };
     })

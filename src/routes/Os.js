@@ -48,7 +48,7 @@ export default () => {
                 .map(x => (
                   <li>
                     <a href={require("../assets/" + x.url)}>
-                      {x.date.format("dddd, DD/MM/YYYY")}
+                      {x.name}
                     </a>
                   </li>
                 ))}
