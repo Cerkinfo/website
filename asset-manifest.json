@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.86effecf.css",
-    "main.js": "/static/js/main.caeb19ec.js",
+    "main.js": "/static/js/main.a67d9fdd.js",
     "pdfjsWorker.js": "/static/js/pdfjsWorker.a46a8a95.chunk.js",
     "static/media/poil_png.png": "/static/media/poil_png.d5f57efdaec20fc7a13e.png",
     "static/media/2025-11-16_OS de novembre.pdf": "/static/media/2025-11-16_OS de novembre.a7afd971f6ca84968eb0.pdf",
     "static/media/2025-10-06_OS d'octobre.pdf": "/static/media/2025-10-06_OS d'octobre.abef350118f4c8e7588a.pdf",
     "static/media/penne_png.png": "/static/media/penne_png.1154a96c639f1a005352.png",
     "static/media/1999_OS.pdf": "/static/media/1999_OS.0595ea1a17a72a9a3e26.pdf",
+    "static/media/2026-01-29_OS de janvier.pdf": "/static/media/2026-01-29_OS de janvier.d9236d6435687d702b1f.pdf",
     "static/media/1988_bapteme.png": "/static/media/1988_bapteme.85ad4779903e5f599707.png",
     "static/media/1997_bal.pdf": "/static/media/1997_bal.fa407ce024bd4422d7e7.pdf",
     "static/media/2025-09-17_OS de rentrée.pdf": "/static/media/2025-09-17_OS de rentrée.8103e38f9bb710ac22a4.pdf",
@@ -72,11 +73,11 @@
     "static/media/statuts.md": "/static/media/statuts.9fc854b6e0a0c43d3070.md",
     "static/media/roi.md": "/static/media/roi.db9fbfbd56511f7b8f1c.md",
     "main.86effecf.css.map": "/static/css/main.86effecf.css.map",
-    "main.caeb19ec.js.map": "/static/js/main.caeb19ec.js.map",
+    "main.a67d9fdd.js.map": "/static/js/main.a67d9fdd.js.map",
     "pdfjsWorker.a46a8a95.chunk.js.map": "/static/js/pdfjsWorker.a46a8a95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86effecf.css",
-    "static/js/main.caeb19ec.js"
+    "static/js/main.a67d9fdd.js"
   ]
 }
