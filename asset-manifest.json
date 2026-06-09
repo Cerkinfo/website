@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.86effecf.css",
-    "main.js": "/static/js/main.c96dbfa1.js",
+    "main.js": "/static/js/main.c28db8fd.js",
     "pdfjsWorker.js": "/static/js/pdfjsWorker.a46a8a95.chunk.js",
     "static/media/poil_png.png": "/static/media/poil_png.d5f57efdaec20fc7a13e.png",
+    "static/media/2026-06-08_OS de mai-juin.pdf": "/static/media/2026-06-08_OS de mai-juin.128c902936495f1741bd.pdf",
     "static/media/2025-11-16_OS de novembre.pdf": "/static/media/2025-11-16_OS de novembre.a7afd971f6ca84968eb0.pdf",
     "static/media/2026-03-31_OS de mars.pdf": "/static/media/2026-03-31_OS de mars.df9367695bba62544a3d.pdf",
     "static/media/2025-10-06_OS d'octobre.pdf": "/static/media/2025-10-06_OS d'octobre.abef350118f4c8e7588a.pdf",
@@ -75,11 +76,11 @@
     "static/media/statuts.md": "/static/media/statuts.9fc854b6e0a0c43d3070.md",
     "static/media/roi.md": "/static/media/roi.db9fbfbd56511f7b8f1c.md",
     "main.86effecf.css.map": "/static/css/main.86effecf.css.map",
-    "main.c96dbfa1.js.map": "/static/js/main.c96dbfa1.js.map",
+    "main.c28db8fd.js.map": "/static/js/main.c28db8fd.js.map",
     "pdfjsWorker.a46a8a95.chunk.js.map": "/static/js/pdfjsWorker.a46a8a95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86effecf.css",
-    "static/js/main.c96dbfa1.js"
+    "static/js/main.c28db8fd.js"
   ]
 }
